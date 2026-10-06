@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "version": "2026-10-06.3",
+  "version": "2026-10-06.4",
   "updated": "2026-10-06",
   "title": "Düdingen im Blick",
   "release": "research-preview",
@@ -179,6 +179,105 @@
       "type": "Lokale Parteiwebsite (ergänzender Hinweis, kein Wert)",
       "publisher": "FDP Düdingen",
       "retrieved": "2026-10-06"
+    },
+    {
+      "id": "d-7052704",
+      "title": "Motion der FDP-Fraktion: Ampelversuch beim Bahnhofzentrum (16. Januar 2026)",
+      "date": "2026-01-16",
+      "url": "https://www.duedingen.ch/_doc/7052704",
+      "type": "Originalmotion",
+      "publisher": "FDP-Fraktion; amtlich publizierte Beilage",
+      "retrieved": "2026-10-06",
+      "published": "2026-06-11",
+      "pages": 5
+    },
+    {
+      "id": "d-7052701",
+      "title": "Botschaft vom 29. Juni 2026: Ampelversuch beim Bahnhofzentrum",
+      "date": "2026-06-29",
+      "url": "https://www.duedingen.ch/_doc/7052701",
+      "type": "Botschaft",
+      "publisher": "Gemeinde Düdingen",
+      "retrieved": "2026-10-06",
+      "published": "2026-06-11",
+      "pages": 3
+    },
+    {
+      "id": "d-5506873",
+      "title": "Originalmotion der SP: Mietzinsverbilligung",
+      "date": "2024-10-24",
+      "url": "https://www.duedingen.ch/_doc/5506873",
+      "type": "Originalmotion",
+      "publisher": "SP-Fraktion; amtlich publizierte Beilage",
+      "retrieved": "2026-10-06",
+      "published": "2025-02-06",
+      "pages": 4
+    },
+    {
+      "id": "d-5506870",
+      "title": "Botschaft vom 24. Februar 2025: Mietzinsverbilligung",
+      "date": "2025-02-24",
+      "url": "https://www.duedingen.ch/_doc/5506870",
+      "type": "Botschaft",
+      "publisher": "Gemeinde Düdingen",
+      "retrieved": "2026-10-06",
+      "published": "2025-02-06",
+      "pages": 4
+    },
+    {
+      "id": "d-5652190",
+      "title": "Botschaft vom 12. Mai 2025: Einführung der Basisstufe",
+      "date": "2025-05-12",
+      "url": "https://www.duedingen.ch/_doc/5652190",
+      "type": "Botschaft",
+      "publisher": "Gemeinde Düdingen",
+      "retrieved": "2026-10-06",
+      "published": "2025-04-24",
+      "pages": 3
+    },
+    {
+      "id": "d-5419264",
+      "title": "Motion der FDP-Fraktion: Volksrechte stärken (26. September 2024)",
+      "date": "2024-09-26",
+      "url": "https://www.duedingen.ch/_doc/5419264",
+      "type": "Originalmotion",
+      "publisher": "FDP-Fraktion; amtlich publizierte Beilage",
+      "retrieved": "2026-10-06",
+      "published": "2024-11-21",
+      "pages": 2
+    },
+    {
+      "id": "d-6372593",
+      "title": "Botschaft vom 15. Dezember 2025: Teilrevision Finanzreglement",
+      "date": "2025-12-15",
+      "url": "https://www.duedingen.ch/_doc/6372593",
+      "type": "Botschaft",
+      "publisher": "Gemeinde Düdingen",
+      "retrieved": "2026-10-06",
+      "published": "2025-11-27",
+      "pages": 2
+    },
+    {
+      "id": "d-5419237",
+      "title": "Botschaft vom 9. Dezember 2024: Neubauprojekt Wolfacker",
+      "date": "2024-12-09",
+      "url": "https://www.duedingen.ch/_doc/5419237",
+      "type": "Botschaft",
+      "publisher": "Gemeinde Düdingen",
+      "retrieved": "2026-10-06",
+      "published": "2024-11-21",
+      "pages": 3
+    },
+    {
+      "id": "d-6910852",
+      "title": "Botschaft vom 20. April 2026: Projektierungskredit Wolfacker",
+      "date": "2026-04-20",
+      "url": "https://www.duedingen.ch/_doc/6910852",
+      "type": "Botschaft",
+      "publisher": "Gemeinde Düdingen",
+      "retrieved": "2026-10-06",
+      "published": "2026-04-02",
+      "pages": 2
     }
   ],
   "questions": [
@@ -191,7 +290,9 @@
       "active": true,
       "weight": 1,
       "sources": [
-        "p-6933562"
+        "p-6933562",
+        "d-5506873",
+        "d-5506870"
       ],
       "positions": {
         "mitte": {
@@ -211,10 +312,14 @@
           "evidence": "none",
           "status": "checked",
           "scope": "unknown",
-          "sources": [],
-          "locator": "",
-          "pdfPage": null,
-          "reason": "Im ausgewerteten Geschäft fehlt eine eindeutig zuordenbare Fraktionsposition."
+          "sources": [
+            "p-6933562",
+            "d-5506870",
+            "d-5506873"
+          ],
+          "locator": "Protokoll 24.02.2025: S. 570–574, PDF-S. 14–18. Botschaft: PDF-S. 1–2. Originalmotion: PDF-S. 1–4.",
+          "pdfPage": 14,
+          "reason": "In der vollständigen Beratung und den zugehörigen Unterlagen ist keine ausdrückliche Fraktionsposition zu diesem Mietzuschuss belegt. Die Ablehnung durch den Gemeinderat und das Gesamtabstimmungsergebnis werden keiner einzelnen Partei zugerechnet. Die Unterstützung eines separaten Postulats zu bezahlbarem Wohnraum beantwortet diese Frage ebenfalls nicht."
         },
         "fwd": {
           "value": 0,
@@ -248,21 +353,27 @@
           "status": "checked",
           "scope": "party",
           "sources": [
-            "p-6933562"
+            "p-6933562",
+            "d-5506873",
+            "d-5506870"
           ],
-          "locator": "S. 570–572; PDF-S. 14–16; gemeinsame Motion und Einleitung Sandy Weder",
+          "locator": "Protokoll 24.02.2025: S. 570–572, PDF-S. 14–16; gemeinsame Motion und Einleitung Sandy Weder. Originalmotion: PDF-S. 1–2. Botschaft: PDF-S. 1–2.",
           "pdfPage": 14,
-          "reason": "Die acht SP-Mitglieder reichten die Motion gemeinsam ein; Sandy Weder begründete sie ausdrücklich für die SP."
+          "reason": "Die acht SP-Mitglieder reichten die Motion gemeinsam ein. Die Originalmotion und die Botschaft dokumentieren Urheberschaft und Bedingungen; Sandy Weder begründete die Forderung im Generalrat ausdrücklich für die SP."
         },
         "svp": {
           "value": null,
           "evidence": "none",
           "status": "checked",
           "scope": "unknown",
-          "sources": [],
-          "locator": "",
-          "pdfPage": null,
-          "reason": "Im ausgewerteten Geschäft fehlt eine eindeutig zuordenbare Fraktionsposition."
+          "sources": [
+            "p-6933562",
+            "d-5506870",
+            "d-5506873"
+          ],
+          "locator": "Protokoll 24.02.2025: S. 570–574, PDF-S. 14–18. Botschaft: PDF-S. 1–2. Originalmotion: PDF-S. 1–4.",
+          "pdfPage": 14,
+          "reason": "In der vollständigen Beratung und den zugehörigen Unterlagen ist keine ausdrückliche Fraktionsposition zu diesem Mietzuschuss belegt. Die Ablehnung durch den Gemeinderat und das Gesamtabstimmungsergebnis werden keiner einzelnen Partei zugerechnet. Die Unterstützung eines separaten Postulats zu bezahlbarem Wohnraum beantwortet diese Frage ebenfalls nicht."
         }
       },
       "shortLabel": "Mietzuschüsse"
@@ -276,7 +387,8 @@
       "active": true,
       "weight": 1,
       "sources": [
-        "p-6933574"
+        "p-6933574",
+        "d-5652190"
       ],
       "positions": {
         "mitte": {
@@ -313,7 +425,7 @@
           ],
           "locator": "S. 613; PDF-S. 29",
           "pdfPage": 29,
-          "reason": "Die gemeinsame Fraktion unterstützte die Einführung in ihrer Wortmeldung. Dieser Wert beschreibt die gemeinsame Fraktion, keine separat belegte Haltung der einzelnen Liste.",
+          "reason": "Lukas Hendry unterstützte für die gemeinsame Fraktion die Einführung der Basisstufe. Dieser Wert beschreibt die gemeinsame Fraktion, keine separat belegte Haltung der einzelnen Liste.",
           "jointGroup": "fwd-mitte-links"
         },
         "gemeinsam": {
@@ -326,7 +438,7 @@
           ],
           "locator": "S. 613; PDF-S. 29",
           "pdfPage": 29,
-          "reason": "Die gemeinsame Fraktion unterstützte die Einführung in ihrer Wortmeldung. Dieser Wert beschreibt die gemeinsame Fraktion, keine separat belegte Haltung der einzelnen Liste.",
+          "reason": "Lukas Hendry unterstützte für die gemeinsame Fraktion die Einführung der Basisstufe. Dieser Wert beschreibt die gemeinsame Fraktion, keine separat belegte Haltung der einzelnen Liste.",
           "jointGroup": "fwd-mitte-links"
         },
         "sp": {
@@ -360,11 +472,13 @@
       "id": "ampelversuch",
       "topic": "Verkehr",
       "text": "Zwischen Bahnhof und Bahnhofzentrum soll eine Fussgängerampel für mindestens sechs Monate getestet werden.",
-      "context": "Düdingen sollte diesen Versuch beim Kanton beantragen. Die Motion wurde im Juni 2026 beraten; der Versuch war vor der Umsetzung von VALTRALOC vorgesehen. Zur Debatte standen ein rascher Test, zusätzlicher Aufwand und die Abstimmung mit dem beschlossenen Verkehrsprojekt.",
+      "context": "Die FDP-Fraktion verlangte im Januar 2026, den Versuch beim Kanton zu veranlassen. Die Beratung wurde vom April auf Juni 2026 verschoben. Der Versuch war vor der Umsetzung von VALTRALOC vorgesehen. Umstritten waren Nutzen und Aufwand eines zusätzlichen Tests sowie die Abstimmung mit dem Verkehrsprojekt.",
       "business": "Geschäft 5, Ziffer 5.1 · Motion Ampeln beim Bahnhofzentrum",
       "active": true,
       "weight": 1,
       "sources": [
+        "d-7052704",
+        "d-7052701",
         "p-7272157"
       ],
       "positions": {
@@ -381,17 +495,18 @@
           "reason": "Kuno Werro kündigte eine mehrheitliche Ablehnung durch die Mitte an. Zuerst solle VALTRALOC umgesetzt und danach der Anpassungsbedarf geprüft werden."
         },
         "fdp": {
-          "value": null,
-          "evidence": "low",
+          "value": 100,
+          "evidence": "medium",
           "status": "checked",
-          "scope": "individual",
+          "scope": "party",
           "sources": [
+            "d-7052704",
             "p-7272157",
-            "fdp-programm-2026"
+            "d-7052701"
           ],
-          "locator": "S. 34–35 und 38; PDF-S. 19–20 und 23",
-          "pdfPage": 19,
-          "reason": "Herbert Stadler (FDP) reichte die Motion ein und begründete sie. Der Text weist diese inhaltliche Position jedoch nicht ausdrücklich als Beschluss der ganzen FDP-Fraktion aus. Der Verschiebungsantrag der Fraktion belegt keine Zustimmung zum Inhalt. Ergänzend fordert die lokale Parteiwebsite vom 2. September 2026, die Fussgängerampel weiterzuverfolgen. Sie legt sich jedoch nicht ausdrücklich auf den hier abgefragten sechsmonatigen Versuch vor VALTRALOC fest. Deshalb bleibt der konkrete Wert offen."
+          "locator": "Originalmotion vom 16.01.2026: PDF-S. 1 (Begehren) und 4 (Fraktionsauftrag). Protokoll 29.06.2026: S. 34–38, PDF-S. 19–23. Botschaft: PDF-S. 1–2.",
+          "pdfPage": 4,
+          "reason": "Die FDP-Fraktion ist Urheberin des Vorstosses. Herbert Stadler verfasste die Motion ausdrücklich «Im Namen der Fraktion FDP.Die Liberalen». Ihr Begehren verlangt mindestens sechs Monate Versuchsbetrieb mit Lichtsignalen. Das Protokoll dokumentiert die Begründung und bezeichnet den Vorstoss ebenfalls als Motion der FDP. Daher zählt die Position klar als «Dafür»."
         },
         "fwd": {
           "value": 0,
@@ -450,12 +565,15 @@
       "id": "referendum",
       "topic": "Mitbestimmung",
       "text": "Bei neuen Gemeindeausgaben soll ein Referendum bereits bei einem Nettobetrag über 250’000 Franken möglich sein.",
-      "context": "Im Dezember 2025 wurde die bisherige Grenze von 5 Millionen Franken diskutiert. Ein Referendum ermöglicht eine Volksabstimmung, wenn genügend gültige Unterschriften gesammelt werden. Es löst nicht automatisch eine Abstimmung aus. Gefragt ist hier der konkrete Schwellenwert von 250’000 Franken.",
-      "business": "Geschäft 174 · Teilrevision Finanzreglement, Artikel 13",
+      "context": "Die FDP schlug 2024 und in der Vernehmlassung 2025 eine Senkung von 5 Millionen auf 250’000 Franken vor. Im Dezember 2025 beschloss der Rat schliesslich 3 Millionen. Ein Referendum ermöglicht eine Volksabstimmung, wenn genügend gültige Unterschriften gesammelt werden. Gefragt ist hier die politische Haltung zur konkreten Schwelle von 250’000 Franken.",
+      "business": "Motion 2024 (Geschäft 141, Ziffer 8.1) und Teilrevision Finanzreglement 2025 (Geschäft 174, Artikel 13)",
       "active": true,
       "weight": 1,
       "sources": [
-        "p-6933583"
+        "p-6933583",
+        "p-6933559",
+        "d-5419264",
+        "d-6372593"
       ],
       "positions": {
         "mitte": {
@@ -476,11 +594,13 @@
           "status": "checked",
           "scope": "party",
           "sources": [
+            "d-5419264",
+            "d-6372593",
             "p-6933583"
           ],
-          "locator": "S. 674 und 677; PDF-S. 27 und 30; dokumentierte Vernehmlassung der FDP",
-          "pdfPage": 27,
-          "reason": "Die im Protokoll zusammengefasste Vernehmlassung nennt ausdrücklich den Vorschlag der FDP, die Schwelle auf 250’000 Franken zu senken. Die spätere Wortmeldung des Motionärs befürwortete als Kompromiss auch eine Million."
+          "locator": "Originalmotion vom 26.09.2024: PDF-S. 1 (Begehren und Fraktionsauftrag). Botschaft 15.12.2025: PDF-S. 2 (Vernehmlassung). Protokoll: S. 674 und 676–677, PDF-S. 27 und 29–30.",
+          "pdfPage": 1,
+          "reason": "Die Motion wurde ausdrücklich im Namen der FDP-Fraktion eingereicht und schlug die Abschaffung oder Senkung der Hürde auf 250’000 Franken vor. Die amtlich dokumentierte Vernehmlassung von 2025 bestätigt den FDP-Vorschlag von 250’000 Franken. Im Dezember unterstützte Herbert Stadler auch eine Million als Kompromiss, hielt aber an seiner Präferenz für die tiefere Grenze fest."
         },
         "fwd": {
           "value": 0,
@@ -489,9 +609,10 @@
           "scope": "joint-faction",
           "sources": [
             "p-6933559",
-            "p-6933583"
+            "p-6933583",
+            "d-6372593"
           ],
-          "locator": "09.12.2024: S. 551; PDF-S. 33; Fraktionswortmeldung Philippe Bossart. 15.12.2025: S. 674; PDF-S. 27; Vernehmlassung",
+          "locator": "09.12.2024: S. 551; PDF-S. 33; Fraktionswortmeldung Philippe Bossart. 15.12.2025: S. 674; PDF-S. 27; Vernehmlassung; ebenso Botschaft 15.12.2025, PDF-S. 2.",
           "pdfPage": 33,
           "reason": "Philippe Bossart hielt 2024 ausdrücklich die Einigkeit der gemeinsamen Fraktion gegen eine Grenze von 250’000 Franken fest. 2025 lag der Mehrheitsvorschlag weiterhin bei höheren Grenzen. Der Wert gilt für das gemeinsame Fraktionsprofil, nicht als separater Beschluss der einzelnen Liste.",
           "jointGroup": "fwd-mitte-links"
@@ -503,9 +624,10 @@
           "scope": "joint-faction",
           "sources": [
             "p-6933559",
-            "p-6933583"
+            "p-6933583",
+            "d-6372593"
           ],
-          "locator": "09.12.2024: S. 551; PDF-S. 33; Fraktionswortmeldung Philippe Bossart. 15.12.2025: S. 674; PDF-S. 27; Vernehmlassung",
+          "locator": "09.12.2024: S. 551; PDF-S. 33; Fraktionswortmeldung Philippe Bossart. 15.12.2025: S. 674; PDF-S. 27; Vernehmlassung; ebenso Botschaft 15.12.2025, PDF-S. 2.",
           "pdfPage": 33,
           "reason": "Philippe Bossart hielt 2024 ausdrücklich die Einigkeit der gemeinsamen Fraktion gegen eine Grenze von 250’000 Franken fest. 2025 lag der Mehrheitsvorschlag weiterhin bei höheren Grenzen. Der Wert gilt für das gemeinsame Fraktionsprofil, nicht als separater Beschluss der einzelnen Liste.",
           "jointGroup": "fwd-mitte-links"
@@ -516,21 +638,27 @@
           "status": "checked",
           "scope": "party",
           "sources": [
+            "p-6933559",
+            "d-6372593",
             "p-6933583"
           ],
-          "locator": "S. 674; PDF-S. 27; dokumentierte Vernehmlassung der SP",
-          "pdfPage": 27,
-          "reason": "Die dokumentierte Vernehmlassung der SP schlug 2,5 Millionen Franken vor und somit nicht die hier abgefragten 250’000 Franken. Der konkrete Schwellenwert ist eine redaktionelle Ja/Nein-Kodierung dieses Vorschlags."
+          "locator": "Protokoll 09.12.2024: S. 551–552, PDF-S. 33–34; Fraktionswortmeldung Patrick Schneuwly. Botschaft 15.12.2025: PDF-S. 2; Protokoll 15.12.2025: S. 674, PDF-S. 27.",
+          "pdfPage": 34,
+          "reason": "Patrick Schneuwly erklärte 2024 die grossmehrheitliche Ablehnung durch die SP und begründete ausdrücklich die Einwände gegen 250’000 Franken. In der Vernehmlassung 2025 schlug die SP stattdessen 2,5 Millionen Franken vor. Beide Belege stützen die Ablehnung der konkret abgefragten Grenze."
         },
         "svp": {
           "value": null,
           "evidence": "none",
           "status": "checked",
           "scope": "unknown",
-          "sources": [],
-          "locator": "",
-          "pdfPage": null,
-          "reason": "Im ausgewerteten Geschäft fehlt eine eindeutig zuordenbare Fraktionsposition."
+          "sources": [
+            "p-6933559",
+            "p-6933583",
+            "d-6372593"
+          ],
+          "locator": "Protokoll 09.12.2024: S. 549–554, PDF-S. 31–36. Protokoll 15.12.2025: S. 674–680, PDF-S. 27–33. Botschaft: PDF-S. 2.",
+          "pdfPage": 31,
+          "reason": "In beiden Beratungen ist keine ausdrückliche SVP-Fraktionsposition zur Grenze von 250’000 Franken dokumentiert; die Botschaft nennt auch keine SVP-Vernehmlassung. Die Sitzungsleitung und die Finanzkommission sprechen in ihrer jeweiligen Funktion. Daraus sowie aus den Gesamtresultaten lässt sich keine SVP-Parteiposition ableiten."
         }
       },
       "shortLabel": "Referendum"
@@ -545,7 +673,9 @@
       "weight": 1,
       "sources": [
         "p-7090243",
-        "p-6933559"
+        "p-6933559",
+        "d-6910852",
+        "d-5419237"
       ],
       "positions": {
         "mitte": {
@@ -569,7 +699,7 @@
             "p-7090243",
             "p-6933559"
           ],
-          "locator": "S. 750; PDF-S. 30",
+          "locator": "Protokoll 20.04.2026: S. 750–751, PDF-S. 30–31; David Bossart. Protokoll 09.12.2024: S. 534–535, PDF-S. 16–17; Herbert Stadler, Stimmfreigabe.",
           "pdfPage": 30,
           "reason": "David Bossart äusserte Vorbehalte der FDP zum Umfang des Neubaus, aber keine eindeutige Position der Fraktion zur Rückweisung wegen der Sporthallenstrategie. Im Dezember 2024 galt Stimmfreigabe zum damaligen Projekt. Diese wird nicht als politische Mittelposition gewertet."
         },
@@ -605,11 +735,12 @@
           "status": "checked",
           "scope": "party",
           "sources": [
-            "p-6933559"
+            "p-6933559",
+            "p-7090243"
           ],
-          "locator": "S. 533–534; PDF-S. 15–16; Eliane Aebischer ausdrücklich im Namen der SP",
+          "locator": "Protokoll 09.12.2024: S. 533–534, PDF-S. 15–16; Eliane Aebischer ausdrücklich im Namen der SP. Ergänzend 20.04.2026: S. 749–750, PDF-S. 29–30.",
           "pdfPage": 15,
-          "reason": "Bereits am 9. Dezember 2024 erklärte Eliane Aebischer ausdrücklich für die SP die Ablehnung der Rückweisung und die geschlossene Unterstützung der Weiterplanung. Die Sporthallenstrategie sollte den Schulneubau nicht verzögern. Das ist ein belegter früherer Fraktionsstandpunkt, kein Nachweis einer namentlichen Abstimmung 2026."
+          "reason": "Am 9. Dezember 2024 erklärte Eliane Aebischer ausdrücklich für die SP die Ablehnung der Rückweisung und die geschlossene Unterstützung der Weiterplanung. Die Sporthallenstrategie sollte den Schulneubau nicht verzögern. Im April 2026 wandte sie sich erneut gegen die Rückweisung. Der Wert beruht auf der klaren Fraktionsaussage von 2024, nicht auf einer namentlichen Abstimmung 2026."
         },
         "svp": {
           "value": 100,

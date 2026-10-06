@@ -15,7 +15,7 @@ test('ranking cannot depend on party order',()=>{const d=fixture();const a={q0:2
 test('weights affect all parties identically',()=>{const d=fixture();d.questions[0].weight=3;const r=calculate(d,{q0:100,q1:0});assert.equal(r.rows[0].score,75);assert.equal(r.rows[1].score,25);});
 test('decimal weights cannot create a value above 100 or remove its rating',()=>{const d=fixture();d.questions.forEach(q=>q.weight=.3);const r=calculate(d,{q0:100,q1:100,q2:100});assert.equal(r.rows[0].score,100);assert.equal(r.rows[0].rating.label,'Sehr gut passend');assert.deepEqual(r.rows[0].range,{min:100,max:100});});
 test('partial coverage and excluded parties are never promoted to a total score',()=>{const d=fixture();d.parties.push({id:'c',name:'Gamma',comparable:false});const r=calculate(d,{q0:100,q1:100});assert.equal(r.rows.at(-1).score,null);assert.equal(r.rows.at(-1).coverage,0);});
-test('seed rates all six lists while preserving five open cells and shared provenance',()=>{assert.deepEqual(validateData(seed),[]);assert.equal(seed.questions.length,5);assert.equal(seed.parties.length,6);const r=calculate(seed,Object.fromEntries(seed.questions.map(q=>[q.id,100])));assert.equal(r.ready,true);assert.ok(r.rows.every(p=>p.score!==null));assert.equal(r.rows.reduce((n,p)=>n+p.coverage,0),25);assert.equal(r.rows.find(p=>p.id==='fwd').joint,5);assert.equal(r.rows.find(p=>p.id==='fwd').score,r.rows.find(p=>p.id==='gemeinsam').score);assert.equal(seed.questions.find(q=>q.id==='ampelversuch').positions.fdp.scope,'individual');});
+test('seed rates all six lists while preserving four open cells and shared provenance',()=>{assert.deepEqual(validateData(seed),[]);assert.equal(seed.questions.length,5);assert.equal(seed.parties.length,6);const r=calculate(seed,Object.fromEntries(seed.questions.map(q=>[q.id,100])));assert.equal(r.ready,true);assert.ok(r.rows.every(p=>p.score!==null));assert.equal(r.rows.reduce((n,p)=>n+p.coverage,0),26);assert.equal(r.rows.find(p=>p.id==='fwd').joint,5);assert.equal(r.rows.find(p=>p.id==='fwd').score,r.rows.find(p=>p.id==='gemeinsam').score);assert.equal(seed.questions.find(q=>q.id==='ampelversuch').positions.fdp.scope,'party');});
 test('rejects malformed imports without throwing',()=>{const cases=[null,[],{}, {schemaVersion:1,title:'x',version:'x',updated:'x',parties:[null],sources:[null],questions:[null]}];for(const item of cases)assert.ok(validateData(item).length);for(const field of ['sources','value','evidence','status','scope']){const d=fixture();d.questions[0].positions.a[field]=undefined;assert.ok(validateData(d).length);}const d=fixture();d.questions[0].positions.a.sources=['missing'];assert.ok(validateData(d).length);d.questions[0].weight=NaN;assert.ok(validateData(d).length);});
 test('active questions need contrasting evidence, not two agreeing positions',()=>{const d=fixture();d.questions[0].positions.b.value=100;assert.ok(validateData(d).some(s=>s.includes('unterschiedliche')));});
 test('unsafe links and content cannot produce markup',()=>{assert.equal(safeUrl('javascript:alert(1)'),false);assert.equal(safeUrl('https://user:secret@example.org'),false);assert.equal(safeUrl('https://www.duedingen.ch/_doc/6933574#page=27'),true);assert.equal(esc('<script>"&'), '&lt;script&gt;&quot;&amp;');});
@@ -44,4 +44,16 @@ test('shared profiles cannot be recoded differently or assigned to an unrelated 
   const d=structuredClone(seed);mutate(d);assert.ok(validateData(d).length);
  }
 });
-test('exports carry rating, shared attribution, coverage and missing-evidence range',()=>{const text=resultText(seed,Object.fromEntries(seed.questions.map(q=>[q.id,100])));assert.ok(text.includes('gemeinsame Fraktionspositionen'));assert.ok(text.includes('2/5'));assert.ok(text.includes('mögliche Spanne'));assert.ok(text.includes('passend'));assert.ok(!text.includes('mietzuschuss'));});
+test('exports carry rating, shared attribution, coverage and missing-evidence range',()=>{const text=resultText(seed,Object.fromEntries(seed.questions.map(q=>[q.id,100])));assert.ok(text.includes('gemeinsame Fraktionspositionen'));assert.ok(text.includes('3/5'));assert.ok(text.includes('mögliche Spanne'));assert.ok(text.includes('passend'));assert.ok(!text.includes('mietzuschuss'));});
+
+test('documented FDP traffic-light motion contributes to the rating in both directions',()=>{
+ const motion=seed.questions.find(q=>q.id==='ampelversuch').positions.fdp;
+ assert.equal(motion.value,100);
+ assert.equal(motion.scope,'party');
+ assert.equal(seed.sources.find(s=>s.id===motion.sources[0]).url,'https://www.duedingen.ch/_doc/7052704');
+ assert.equal(motion.pdfPage,4);
+ for(const [answer,expected] of [[100,100],[0,50]]){
+  const fdp=calculate(seed,{basisstufe:100,ampelversuch:answer}).rows.find(p=>p.id==='fdp');
+  assert.equal(fdp.coverage,2);assert.equal(fdp.score,expected);
+ }
+});

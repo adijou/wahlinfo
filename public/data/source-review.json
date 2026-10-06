@@ -1,0 +1,1847 @@
+{
+  "version": "2026-10-06.4",
+  "updated": "2026-10-06",
+  "note": "74 PDF-Dokumente (28 Protokolle, 46 ausgewählte Botschaften, Originalvorstösse, Einladungen und Beilagen), 1’031 Seiten textlich erschlossen und nach den fünf Themen durchsucht. readPages bezeichnet vertieft gelesene Seiten. Suchtreffer oder die Erfassung eines Dokuments allein belegen keine Parteiposition. Nicht alle Seiten sind inhaltlich ausgewertet; die Auswahl ist kein vollständiges Beilagenarchiv. Datumsfeld published = Publikationsdatum des Registers.",
+  "searchTerms": {
+    "mietzuschuss": "Mietzinsverbilligung|Mietzuschuss",
+    "basisstufe": "Basisstufe",
+    "ampelversuch": "Ampel|Lichtsignal",
+    "referendum": "Referend|Volksrechte",
+    "schulplanung": "Wolfacker|Sporthallenstrategie|Turnhallenstrategie"
+  },
+  "documents": [
+    {
+      "id": "3027617",
+      "title": "Protokoll der Sitzung des Generalrates vom 7. Dezember 2020",
+      "url": "https://www.duedingen.ch/_doc/3027617",
+      "publicationUrl": "https://www.duedingen.ch/_rte/publikation/307054",
+      "pages": 26,
+      "sha256": "4c8d0ba2b12ac42656cdb1d18a16e39c7f5eaaa8488a33f0d925a37786772fbb",
+      "kind": "protocol",
+      "topicPages": {
+        "mietzuschuss": [],
+        "basisstufe": [],
+        "ampelversuch": [],
+        "referendum": [],
+        "schulplanung": [
+          8
+        ]
+      },
+      "published": "2021-03-23",
+      "keywordScreened": true,
+      "readPages": [],
+      "readingNote": "Stichwortsuche zur Vorauswahl; keine vollständige Inhaltsprüfung."
+    },
+    {
+      "id": "3088625",
+      "title": "Protokoll der Sitzung des Generalrates vom 22. März 2021",
+      "url": "https://www.duedingen.ch/_doc/3088625",
+      "publicationUrl": "https://www.duedingen.ch/_rte/publikation/321947",
+      "pages": 23,
+      "sha256": "15794531d2f2faa8c6e08aba46a7a8a51310b4c86db70c823984df37095cc19a",
+      "kind": "protocol",
+      "topicPages": {
+        "mietzuschuss": [],
+        "basisstufe": [],
+        "ampelversuch": [],
+        "referendum": [],
+        "schulplanung": []
+      },
+      "published": "2021-04-27",
+      "keywordScreened": true,
+      "readPages": [],
+      "readingNote": "Stichwortsuche zur Vorauswahl; keine vollständige Inhaltsprüfung."
+    },
+    {
+      "id": "3310766",
+      "title": "Protokoll der Sitzung des Generalrates vom 26. April 2021",
+      "url": "https://www.duedingen.ch/_doc/3310766",
+      "publicationUrl": "https://www.duedingen.ch/_rte/publikation/327122",
+      "pages": 34,
+      "sha256": "d9888c69ff3ecfa677e53c6e7711654704692730a2e5cbbfc9e7e2cd733e3361",
+      "kind": "protocol",
+      "topicPages": {
+        "mietzuschuss": [],
+        "basisstufe": [],
+        "ampelversuch": [],
+        "referendum": [],
+        "schulplanung": [
+          31
+        ]
+      },
+      "published": "2021-10-05",
+      "keywordScreened": true,
+      "readPages": [],
+      "readingNote": "Stichwortsuche zur Vorauswahl; keine vollständige Inhaltsprüfung."
+    },
+    {
+      "id": "3310769",
+      "title": "Protokoll der Sitzung des Generalrates vom 17. Mai 2021",
+      "url": "https://www.duedingen.ch/_doc/3310769",
+      "publicationUrl": "https://www.duedingen.ch/_rte/publikation/329825",
+      "pages": 25,
+      "sha256": "1c1371afbf9377dd4de93aa4af0a124292f8044e757d280ac9a1248e1f9b1ea7",
+      "kind": "protocol",
+      "topicPages": {
+        "mietzuschuss": [],
+        "basisstufe": [],
+        "ampelversuch": [],
+        "referendum": [],
+        "schulplanung": []
+      },
+      "published": "2021-10-06",
+      "keywordScreened": true,
+      "readPages": [],
+      "readingNote": "Stichwortsuche zur Vorauswahl; keine vollständige Inhaltsprüfung."
+    },
+    {
+      "id": "3427366",
+      "title": "Protokoll der Sitzung des Generalrates vom 4. Oktober 2021",
+      "url": "https://www.duedingen.ch/_doc/3427366",
+      "publicationUrl": "https://www.duedingen.ch/_rte/publikation/350692",
+      "pages": 27,
+      "sha256": "7b15a1ed9f7efa96684c52699b29733516d8b8e542d673db75bed5975b0a3d7e",
+      "kind": "protocol",
+      "topicPages": {
+        "mietzuschuss": [],
+        "basisstufe": [],
+        "ampelversuch": [],
+        "referendum": [],
+        "schulplanung": []
+      },
+      "published": "2021-12-10",
+      "keywordScreened": true,
+      "readPages": [],
+      "readingNote": "Stichwortsuche zur Vorauswahl; keine vollständige Inhaltsprüfung."
+    },
+    {
+      "id": "3600392",
+      "title": "Protokoll der Sitzung des Generalrates vom 9. Dezember 2021",
+      "url": "https://www.duedingen.ch/_doc/3600392",
+      "publicationUrl": "https://www.duedingen.ch/_rte/publikation/363307",
+      "pages": 29,
+      "sha256": "77c23ba7b437988fad504db6c947733cff0fac11c075a5e977e5067c94321c02",
+      "kind": "protocol",
+      "topicPages": {
+        "mietzuschuss": [],
+        "basisstufe": [],
+        "ampelversuch": [],
+        "referendum": [],
+        "schulplanung": []
+      },
+      "published": "2022-03-15",
+      "keywordScreened": true,
+      "readPages": [],
+      "readingNote": "Stichwortsuche zur Vorauswahl; keine vollständige Inhaltsprüfung."
+    },
+    {
+      "id": "3702698",
+      "title": "Protokoll der Sitzung des Generalrates vom 14. März 2022",
+      "url": "https://www.duedingen.ch/_doc/3702698",
+      "publicationUrl": "https://www.duedingen.ch/_rte/publikation/377501",
+      "pages": 23,
+      "sha256": "a8f06ef9a9368bd3675377cc9382f112dbaa7778787cb032623188b511e1d27e",
+      "kind": "protocol",
+      "topicPages": {
+        "mietzuschuss": [],
+        "basisstufe": [],
+        "ampelversuch": [],
+        "referendum": [],
+        "schulplanung": [
+          7
+        ]
+      },
+      "published": "2022-05-10",
+      "keywordScreened": true,
+      "readPages": [],
+      "readingNote": "Stichwortsuche zur Vorauswahl; keine vollständige Inhaltsprüfung."
+    },
+    {
+      "id": "4008905",
+      "title": "Protokoll der Sitzung des Generalrates vom 9. Mai 2022",
+      "url": "https://www.duedingen.ch/_doc/4008905",
+      "publicationUrl": "https://www.duedingen.ch/_rte/publikation/385873",
+      "pages": 51,
+      "sha256": "1549a27535a748571b0793a42b1db969070784afa677cf8eae45cb5b3c876937",
+      "kind": "protocol",
+      "topicPages": {
+        "mietzuschuss": [],
+        "basisstufe": [],
+        "ampelversuch": [],
+        "referendum": [],
+        "schulplanung": []
+      },
+      "published": "2022-10-06",
+      "keywordScreened": true,
+      "readPages": [],
+      "readingNote": "Stichwortsuche zur Vorauswahl; keine vollständige Inhaltsprüfung."
+    },
+    {
+      "id": "4164833",
+      "title": "Protokoll der Sitzung des Generalrates vom 3. Oktober 2022",
+      "url": "https://www.duedingen.ch/_doc/4164833",
+      "publicationUrl": "https://www.duedingen.ch/_rte/publikation/410612",
+      "pages": 40,
+      "sha256": "a9e332b806f7efc4ea07ea37dd69af093f5f11487782a6ffdba862e060d2c536",
+      "kind": "protocol",
+      "topicPages": {
+        "mietzuschuss": [],
+        "basisstufe": [
+          21
+        ],
+        "ampelversuch": [],
+        "referendum": [],
+        "schulplanung": [
+          10,
+          21,
+          22,
+          24
+        ]
+      },
+      "published": "2022-12-06",
+      "keywordScreened": true,
+      "readPages": [],
+      "readingNote": "Stichwortsuche zur Vorauswahl; keine vollständige Inhaltsprüfung."
+    },
+    {
+      "id": "4317308",
+      "title": "Protokoll der Sitzung des Generalrates vom 5. Dezember 2022",
+      "url": "https://www.duedingen.ch/_doc/4317308",
+      "publicationUrl": "https://www.duedingen.ch/_rte/publikation/421772",
+      "pages": 44,
+      "sha256": "7ec914f70e9090a4aa91ccf2b54378acaf6373466d548eb38e1c7a3f91d7bc68",
+      "kind": "protocol",
+      "topicPages": {
+        "mietzuschuss": [],
+        "basisstufe": [],
+        "ampelversuch": [],
+        "referendum": [
+          40
+        ],
+        "schulplanung": []
+      },
+      "published": "2023-03-07",
+      "keywordScreened": true,
+      "readPages": [],
+      "readingNote": "Stichwortsuche zur Vorauswahl; keine vollständige Inhaltsprüfung."
+    },
+    {
+      "id": "4448657",
+      "title": "Protokoll der Sitzung des Generalrates vom 6. März 2023",
+      "url": "https://www.duedingen.ch/_doc/4448657",
+      "publicationUrl": "https://www.duedingen.ch/_rte/publikation/432742",
+      "pages": 23,
+      "sha256": "c2487ddc8112a22e1971c37c213e15bf70f0a06242149d5dac6a919de3f93232",
+      "kind": "protocol",
+      "topicPages": {
+        "mietzuschuss": [],
+        "basisstufe": [],
+        "ampelversuch": [],
+        "referendum": [],
+        "schulplanung": []
+      },
+      "published": "2023-05-09",
+      "keywordScreened": true,
+      "readPages": [],
+      "readingNote": "Stichwortsuche zur Vorauswahl; keine vollständige Inhaltsprüfung."
+    },
+    {
+      "id": "4570105",
+      "title": "Protokoll der Sitzung des Generalrates vom 8. Mai 2023",
+      "url": "https://www.duedingen.ch/_doc/4570105",
+      "publicationUrl": "https://www.duedingen.ch/_rte/publikation/443131",
+      "pages": 31,
+      "sha256": "b026f4553bd1799504d8528d074881aa3b0cee267d8d1ff018c1d74262a931d1",
+      "kind": "protocol",
+      "topicPages": {
+        "mietzuschuss": [],
+        "basisstufe": [],
+        "ampelversuch": [
+          10
+        ],
+        "referendum": [],
+        "schulplanung": []
+      },
+      "published": "2023-07-04",
+      "keywordScreened": true,
+      "readPages": [],
+      "readingNote": "Stichwortsuche zur Vorauswahl; keine vollständige Inhaltsprüfung."
+    },
+    {
+      "id": "5068195",
+      "title": "Protokoll der Sitzung des Generalrates vom 3. Juli 2023",
+      "url": "https://www.duedingen.ch/_doc/5068195",
+      "publicationUrl": "https://www.duedingen.ch/_rte/publikation/450620",
+      "pages": 32,
+      "sha256": "b91dc72f37a71623e71857fa5ddd19cb7583f87ad5270282bc409d6f33e3a0e7",
+      "kind": "protocol",
+      "topicPages": {
+        "mietzuschuss": [],
+        "basisstufe": [
+          17
+        ],
+        "ampelversuch": [],
+        "referendum": [],
+        "schulplanung": [
+          11,
+          13,
+          15,
+          16,
+          17
+        ]
+      },
+      "published": "2023-10-03",
+      "keywordScreened": true,
+      "readPages": [],
+      "readingNote": "Stichwortsuche zur Vorauswahl; keine vollständige Inhaltsprüfung."
+    },
+    {
+      "id": "4892614",
+      "title": "Protokoll der Sitzung des Generalrates vom 2. Oktober 2023",
+      "url": "https://www.duedingen.ch/_doc/4892614",
+      "publicationUrl": "https://www.duedingen.ch/_rte/publikation/463684",
+      "pages": 46,
+      "sha256": "9c6e12b91c2f2b755692a3101fd84b7eb2825f7312c6cbe6eeadb74502700de7",
+      "kind": "protocol",
+      "topicPages": {
+        "mietzuschuss": [],
+        "basisstufe": [],
+        "ampelversuch": [
+          10,
+          12
+        ],
+        "referendum": [
+          13
+        ],
+        "schulplanung": []
+      },
+      "published": "2023-12-12",
+      "keywordScreened": true,
+      "readPages": [
+        13
+      ],
+      "readingNote": "SVP-Aussage zu VALTRALOC/Referendum, keine Position zur späteren konkreten Schwelle."
+    },
+    {
+      "id": "5004979",
+      "title": "Protokoll der Sitzung des Generalrates vom 11. Dezember 2023",
+      "url": "https://www.duedingen.ch/_doc/5004979",
+      "publicationUrl": "https://www.duedingen.ch/_rte/publikation/472834",
+      "pages": 40,
+      "sha256": "cf7df48784312929c21bb450e41948bdd87cbc2d45c1e0d77254c55ab8035c30",
+      "kind": "protocol",
+      "topicPages": {
+        "mietzuschuss": [],
+        "basisstufe": [],
+        "ampelversuch": [
+          26
+        ],
+        "referendum": [
+          26
+        ],
+        "schulplanung": []
+      },
+      "published": "2024-03-05",
+      "keywordScreened": true,
+      "readPages": [],
+      "readingNote": "Stichwortsuche zur Vorauswahl; keine vollständige Inhaltsprüfung."
+    },
+    {
+      "id": "5098819",
+      "title": "Protokoll der Sitzung des Generalrates vom 4. März 2024",
+      "url": "https://www.duedingen.ch/_doc/5098819",
+      "publicationUrl": "https://www.duedingen.ch/_rte/publikation/483805",
+      "pages": 24,
+      "sha256": "a2fde980762bd091e5d3f129c5df3a9c3445169020ed30da2cef903ce8c79aa4",
+      "kind": "protocol",
+      "topicPages": {
+        "mietzuschuss": [],
+        "basisstufe": [],
+        "ampelversuch": [],
+        "referendum": [],
+        "schulplanung": [
+          4,
+          7
+        ]
+      },
+      "published": "2024-05-07",
+      "keywordScreened": true,
+      "readPages": [],
+      "readingNote": "Stichwortsuche zur Vorauswahl; keine vollständige Inhaltsprüfung."
+    },
+    {
+      "id": "5176852",
+      "title": "Protokoll der Sitzung des Generalrates vom 6. Mai 2024",
+      "url": "https://www.duedingen.ch/_doc/5176852",
+      "publicationUrl": "https://www.duedingen.ch/_rte/publikation/492409",
+      "pages": 30,
+      "sha256": "baf02f5fa61765411d143e6f5a84e915f621423cb4f3427c8f2b347436e46401",
+      "kind": "protocol",
+      "topicPages": {
+        "mietzuschuss": [],
+        "basisstufe": [],
+        "ampelversuch": [],
+        "referendum": [],
+        "schulplanung": [
+          16,
+          20,
+          29
+        ]
+      },
+      "published": "2024-06-25",
+      "keywordScreened": true,
+      "readPages": [],
+      "readingNote": "Stichwortsuche zur Vorauswahl; keine vollständige Inhaltsprüfung."
+    },
+    {
+      "id": "5309377",
+      "title": "Protokoll der Sitzung des Generalrates vom 24. Juni 2024",
+      "url": "https://www.duedingen.ch/_doc/5309377",
+      "publicationUrl": "https://www.duedingen.ch/_rte/publikation/499930",
+      "pages": 18,
+      "sha256": "df2703174d377ecfb34b32aa22a1cb883269cd31fb6d0cce71c8d9967da153e5",
+      "kind": "protocol",
+      "topicPages": {
+        "mietzuschuss": [],
+        "basisstufe": [],
+        "ampelversuch": [],
+        "referendum": [],
+        "schulplanung": [
+          3,
+          13,
+          15
+        ]
+      },
+      "published": "2024-10-01",
+      "keywordScreened": true,
+      "readPages": [],
+      "readingNote": "Stichwortsuche zur Vorauswahl; keine vollständige Inhaltsprüfung."
+    },
+    {
+      "id": "6933547",
+      "title": "Protokoll der Sitzung des Generalrates vom 30. September 2024",
+      "url": "https://www.duedingen.ch/_doc/6933547",
+      "publicationUrl": "https://www.duedingen.ch/_rte/publikation/518641",
+      "pages": 42,
+      "sha256": "1cd739c2753a0d53343b4d0a840d39ede0c212aac43faea2bfd3c3489facd5c8",
+      "kind": "protocol",
+      "topicPages": {
+        "mietzuschuss": [],
+        "basisstufe": [],
+        "ampelversuch": [],
+        "referendum": [
+          3,
+          9,
+          12,
+          13,
+          41,
+          42
+        ],
+        "schulplanung": []
+      },
+      "published": "2024-12-10",
+      "keywordScreened": true,
+      "readPages": [
+        41,
+        42
+      ],
+      "readingNote": "Ankündigung der FDP-Fraktionsmotion zur Referendumshürde."
+    },
+    {
+      "id": "6933559",
+      "title": "Protokoll der Sitzung des Generalrates vom 9. Dezember 2024",
+      "url": "https://www.duedingen.ch/_doc/6933559",
+      "publicationUrl": "https://www.duedingen.ch/_rte/publikation/530806",
+      "pages": 38,
+      "sha256": "de2ee8c7484144e0c158aeda8b1e4db214df9175c6b286c34f46c022ce9c4db4",
+      "kind": "protocol",
+      "topicPages": {
+        "mietzuschuss": [],
+        "basisstufe": [],
+        "ampelversuch": [],
+        "referendum": [
+          31,
+          32,
+          33,
+          34,
+          35
+        ],
+        "schulplanung": [
+          3,
+          9,
+          10,
+          11,
+          12,
+          13,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20
+        ]
+      },
+      "published": "2025-02-25",
+      "keywordScreened": true,
+      "readPages": [
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36
+      ],
+      "readingNote": "Schulplanung und Volksrechte: Fraktionsrollen, Stimmfreigabe, Mehrheits- und Teilfraktionsaussagen."
+    },
+    {
+      "id": "6933562",
+      "title": "Protokoll der Sitzung des Generalrates vom 24. Februar 2025",
+      "url": "https://www.duedingen.ch/_doc/6933562",
+      "publicationUrl": "https://www.duedingen.ch/_rte/publikation/547582",
+      "pages": 28,
+      "sha256": "83a8c00f033351878c8234a4f2e57229ece515a5c4d4912ed93ef535fd7421e7",
+      "kind": "protocol",
+      "topicPages": {
+        "mietzuschuss": [
+          14,
+          15,
+          16,
+          17
+        ],
+        "basisstufe": [],
+        "ampelversuch": [],
+        "referendum": [],
+        "schulplanung": [
+          25
+        ]
+      },
+      "published": "2025-05-13",
+      "keywordScreened": true,
+      "readPages": [
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "readingNote": "Mietzuschuss vollständig; separates Wohnraum-Postulat und persönliche Wortmeldung abgegrenzt."
+    },
+    {
+      "id": "6933574",
+      "title": "Protokoll der Sitzung des Generalrates vom 12. Mai 2025",
+      "url": "https://www.duedingen.ch/_doc/6933574",
+      "publicationUrl": "https://www.duedingen.ch/_rte/publikation/560314",
+      "pages": 40,
+      "sha256": "689e12e4b080cdaa7fb06fd1a0b55ae4e6dec6308897e22595edcd33c2450fb0",
+      "kind": "protocol",
+      "topicPages": {
+        "mietzuschuss": [],
+        "basisstufe": [
+          3,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29
+        ],
+        "ampelversuch": [],
+        "referendum": [],
+        "schulplanung": [
+          8,
+          39
+        ]
+      },
+      "published": "2025-07-01",
+      "keywordScreened": true,
+      "readPages": [
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29
+      ],
+      "readingNote": "Basisstufe: Vorlage, Fraktionswortmeldungen und Beschluss zu vier Klassen."
+    },
+    {
+      "id": "6933577",
+      "title": "Protokoll der Sitzung des Generalrates vom 30. Juni 2025",
+      "url": "https://www.duedingen.ch/_doc/6933577",
+      "publicationUrl": "https://www.duedingen.ch/_rte/publikation/573013",
+      "pages": 23,
+      "sha256": "7fe2aded1521d80c3b8ce74bf46f6c1339035da5c45202134dfb77d2c252ab69",
+      "kind": "protocol",
+      "topicPages": {
+        "mietzuschuss": [],
+        "basisstufe": [],
+        "ampelversuch": [],
+        "referendum": [],
+        "schulplanung": [
+          4
+        ]
+      },
+      "published": "2025-12-16",
+      "keywordScreened": true,
+      "readPages": [],
+      "readingNote": "Stichwortsuche zur Vorauswahl; keine vollständige Inhaltsprüfung."
+    },
+    {
+      "id": "6933583",
+      "title": "Protokoll der Sitzung des Generalrates vom 15. Dezember 2025",
+      "url": "https://www.duedingen.ch/_doc/6933583",
+      "publicationUrl": "https://www.duedingen.ch/_rte/publikation/603626",
+      "pages": 53,
+      "sha256": "2513dfe79fc17b7a172762a83c4ae1698e8aa4442a6c542bfe1cecbcdc734687",
+      "kind": "protocol",
+      "topicPages": {
+        "mietzuschuss": [],
+        "basisstufe": [],
+        "ampelversuch": [
+          53
+        ],
+        "referendum": [
+          27,
+          28,
+          29,
+          30,
+          31,
+          32
+        ],
+        "schulplanung": [
+          5,
+          41,
+          44,
+          45
+        ]
+      },
+      "published": "2026-03-03",
+      "keywordScreened": true,
+      "readPages": [
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33
+      ],
+      "readingNote": "Finanzreglement: Vernehmlassung, Rückweisung, Alternativschwellen und Beschluss."
+    },
+    {
+      "id": "6959149",
+      "title": "Protokoll der Sitzung des Generalrates vom 2. März 2026",
+      "url": "https://www.duedingen.ch/_doc/6959149",
+      "publicationUrl": "https://www.duedingen.ch/_rte/publikation/614038",
+      "pages": 20,
+      "sha256": "d1a31e5f3bc0a796bae0d8d6af3fdcb50c09b21f5e57bcf0811452313613e5dc",
+      "kind": "protocol",
+      "topicPages": {
+        "mietzuschuss": [],
+        "basisstufe": [],
+        "ampelversuch": [],
+        "referendum": [],
+        "schulplanung": [
+          4
+        ]
+      },
+      "published": "2026-03-24",
+      "keywordScreened": true,
+      "readPages": [],
+      "readingNote": "Stichwortsuche zur Vorauswahl; keine vollständige Inhaltsprüfung."
+    },
+    {
+      "id": "7090243",
+      "title": "Protokoll der Sitzung des Generalrates vom 20. April 2026",
+      "url": "https://www.duedingen.ch/_doc/7090243",
+      "publicationUrl": "https://www.duedingen.ch/_rte/publikation/624721",
+      "pages": 48,
+      "sha256": "18660c3cf9a748db6c415006f83680d826bc575b858c1cdd12a602e000ab2a34",
+      "kind": "protocol",
+      "topicPages": {
+        "mietzuschuss": [],
+        "basisstufe": [],
+        "ampelversuch": [
+          4,
+          44
+        ],
+        "referendum": [],
+        "schulplanung": [
+          3,
+          26,
+          27,
+          28,
+          29,
+          31,
+          32,
+          33,
+          34,
+          35,
+          46
+        ]
+      },
+      "published": "2026-06-30",
+      "keywordScreened": true,
+      "readPages": [
+        4,
+        28,
+        29,
+        30,
+        31,
+        44
+      ],
+      "readingNote": "Wolfacker-Rückweisung und Projektierungskredit; Vertagung der Ampelmotion."
+    },
+    {
+      "id": "7090249",
+      "title": "Protokoll der Sitzung des Generalrates vom 18. Mai 2026",
+      "url": "https://www.duedingen.ch/_doc/7090249",
+      "publicationUrl": "https://www.duedingen.ch/_rte/publikation/624724",
+      "pages": 15,
+      "sha256": "29d3fb12a64067e01952a880a750dc58a98116407f1fd1f8d46b3971e97990b1",
+      "kind": "protocol",
+      "topicPages": {
+        "mietzuschuss": [],
+        "basisstufe": [],
+        "ampelversuch": [],
+        "referendum": [],
+        "schulplanung": []
+      },
+      "published": "2026-06-30",
+      "keywordScreened": true,
+      "readPages": [],
+      "readingNote": "Stichwortsuche zur Vorauswahl; keine vollständige Inhaltsprüfung."
+    },
+    {
+      "id": "7272157",
+      "title": "Protokoll der Sitzung des Generalrates vom 29. Juni 2026",
+      "url": "https://www.duedingen.ch/_doc/7272157",
+      "publicationUrl": "https://www.duedingen.ch/_rte/publikation/636052",
+      "pages": 26,
+      "sha256": "d269f6577295396ab30e24975c2f23d9680521a83cbf7e47b7843efcf9b9d91a",
+      "kind": "protocol",
+      "topicPages": {
+        "mietzuschuss": [],
+        "basisstufe": [],
+        "ampelversuch": [
+          19,
+          20,
+          21,
+          22,
+          23
+        ],
+        "referendum": [],
+        "schulplanung": []
+      },
+      "published": "2026-10-06",
+      "keywordScreened": true,
+      "readPages": [
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "readingNote": "Ampelmotion: Einreichung, Begründung, sämtliche Fraktionswortmeldungen und Beschluss."
+    },
+    {
+      "id": "3007240",
+      "title": "210322_GnR_Botschaft_T05.1_u._5.4_Parlamentarische_Vorstoesse.pdf",
+      "url": "https://www.duedingen.ch/_doc/3007240",
+      "publicationUrl": "https://www.duedingen.ch/_rte/publikation/313240",
+      "pages": 1,
+      "sha256": "7daf7a8c0a77ff7795249ac3f991c0ab9b70b0ddf76065829c72068f3748f899",
+      "kind": "message",
+      "topicPages": {
+        "mietzuschuss": [],
+        "basisstufe": [],
+        "ampelversuch": [],
+        "referendum": [],
+        "schulplanung": []
+      },
+      "published": "2021-03-04",
+      "keywordScreened": true,
+      "readPages": [],
+      "readingNote": "Stichwortsuche zur Vorauswahl; keine vollständige Inhaltsprüfung."
+    },
+    {
+      "id": "3007243",
+      "title": "210322_GnR_Botschaft_T05.1a_Parlamentarische_Vorstoesse.pdf",
+      "url": "https://www.duedingen.ch/_doc/3007243",
+      "publicationUrl": "https://www.duedingen.ch/_rte/publikation/313240",
+      "pages": 9,
+      "sha256": "c64a11571d40e6f7512b361a1f1ee3e98fcd5582e181a8d7ac244fe59250d251",
+      "kind": "message",
+      "topicPages": {
+        "mietzuschuss": [],
+        "basisstufe": [],
+        "ampelversuch": [],
+        "referendum": [],
+        "schulplanung": []
+      },
+      "published": "2021-03-04",
+      "keywordScreened": true,
+      "readPages": [],
+      "readingNote": "Stichwortsuche zur Vorauswahl; keine vollständige Inhaltsprüfung."
+    },
+    {
+      "id": "3042709",
+      "title": "210426_GnR_Botschaft_T06.2_Parlamentarische_Vorstosse.pdf",
+      "url": "https://www.duedingen.ch/_doc/3042709",
+      "publicationUrl": "https://www.duedingen.ch/_rte/publikation/317653",
+      "pages": 1,
+      "sha256": "e7ab30202076832fb129f981ea61f7af198278cae5fcb8608bdbe1819945b17b",
+      "kind": "message",
+      "topicPages": {
+        "mietzuschuss": [],
+        "basisstufe": [],
+        "ampelversuch": [],
+        "referendum": [],
+        "schulplanung": []
+      },
+      "published": "2021-04-08",
+      "keywordScreened": true,
+      "readPages": [],
+      "readingNote": "Stichwortsuche zur Vorauswahl; keine vollständige Inhaltsprüfung."
+    },
+    {
+      "id": "3281953",
+      "title": "211004_GnR_Botschaft_T06.3_Parlamentarische_Vorstosse.pdf",
+      "url": "https://www.duedingen.ch/_doc/3281953",
+      "publicationUrl": "https://www.duedingen.ch/_rte/publikation/344701",
+      "pages": 1,
+      "sha256": "76f8429b1f77b706bce6578e48ff145be815582a9f82c40f4fde4100fb2c0667",
+      "kind": "message",
+      "topicPages": {
+        "mietzuschuss": [],
+        "basisstufe": [],
+        "ampelversuch": [],
+        "referendum": [],
+        "schulplanung": []
+      },
+      "published": "2021-09-16",
+      "keywordScreened": true,
+      "readPages": [],
+      "readingNote": "Stichwortsuche zur Vorauswahl; keine vollständige Inhaltsprüfung."
+    },
+    {
+      "id": "3408727",
+      "title": "211209_GnR_Botschaft_T07_Parlamentarische_Vorstosse.pdf",
+      "url": "https://www.duedingen.ch/_doc/3408727",
+      "publicationUrl": "https://www.duedingen.ch/_rte/publikation/354470",
+      "pages": 1,
+      "sha256": "4935f80f473f9a93d1f9b2cbf49653d5bd28ab81ffca29fa75a0cad2ab375020",
+      "kind": "message",
+      "topicPages": {
+        "mietzuschuss": [],
+        "basisstufe": [],
+        "ampelversuch": [],
+        "referendum": [],
+        "schulplanung": []
+      },
+      "published": "2021-11-18",
+      "keywordScreened": true,
+      "readPages": [],
+      "readingNote": "Stichwortsuche zur Vorauswahl; keine vollständige Inhaltsprüfung."
+    },
+    {
+      "id": "3569518",
+      "title": "220314_GnR_Botschaft_T03_Parlamentarische_Vorstosse.pdf",
+      "url": "https://www.duedingen.ch/_doc/3569518",
+      "publicationUrl": "https://www.duedingen.ch/_rte/publikation/370315",
+      "pages": 3,
+      "sha256": "41d958888561c0c7e14b26ad1d4e7e535d28caf2bfa40f86ce88ff1701e60456",
+      "kind": "message",
+      "topicPages": {
+        "mietzuschuss": [],
+        "basisstufe": [],
+        "ampelversuch": [],
+        "referendum": [],
+        "schulplanung": [
+          1
+        ]
+      },
+      "published": "2022-02-24",
+      "keywordScreened": true,
+      "readPages": [],
+      "readingNote": "Stichwortsuche zur Vorauswahl; keine vollständige Inhaltsprüfung."
+    },
+    {
+      "id": "3667582",
+      "title": "220509_GnR_Botschaft_T08_Parlamentarische_Vorstosse.pdf",
+      "url": "https://www.duedingen.ch/_doc/3667582",
+      "publicationUrl": "https://www.duedingen.ch/_rte/publikation/379780",
+      "pages": 1,
+      "sha256": "133bb38a18970c8026536eb5165fe27a13999830886d0f9164c613b931259aed",
+      "kind": "message",
+      "topicPages": {
+        "mietzuschuss": [],
+        "basisstufe": [],
+        "ampelversuch": [],
+        "referendum": [],
+        "schulplanung": []
+      },
+      "published": "2022-04-21",
+      "keywordScreened": true,
+      "readPages": [],
+      "readingNote": "Stichwortsuche zur Vorauswahl; keine vollständige Inhaltsprüfung."
+    },
+    {
+      "id": "3954466",
+      "title": "221003_GnR_Botschaft_T05_Parlamentarische_Vorstosse.pdf",
+      "url": "https://www.duedingen.ch/_doc/3954466",
+      "publicationUrl": "https://www.duedingen.ch/_rte/publikation/402517",
+      "pages": 4,
+      "sha256": "e11e297b04d73792ae1e956997f99593cc34b2fbf62e75370c3931f2873b97ac",
+      "kind": "message",
+      "topicPages": {
+        "mietzuschuss": [],
+        "basisstufe": [],
+        "ampelversuch": [],
+        "referendum": [],
+        "schulplanung": [
+          1
+        ]
+      },
+      "published": "2022-09-15",
+      "keywordScreened": true,
+      "readPages": [],
+      "readingNote": "Stichwortsuche zur Vorauswahl; keine vollständige Inhaltsprüfung."
+    },
+    {
+      "id": "4099822",
+      "title": "221205_GnR_Botschaft_T07_Parlamentarische_Vorstosse.pdf",
+      "url": "https://www.duedingen.ch/_doc/4099822",
+      "publicationUrl": "https://www.duedingen.ch/_rte/publikation/413296",
+      "pages": 4,
+      "sha256": "f89a9bad8ccccbf5f8dfa04296530364f5153f4accbae8c5958a71f4fa5d8a10",
+      "kind": "message",
+      "topicPages": {
+        "mietzuschuss": [],
+        "basisstufe": [],
+        "ampelversuch": [],
+        "referendum": [],
+        "schulplanung": []
+      },
+      "published": "2022-11-17",
+      "keywordScreened": true,
+      "readPages": [],
+      "readingNote": "Stichwortsuche zur Vorauswahl; keine vollständige Inhaltsprüfung."
+    },
+    {
+      "id": "4277236",
+      "title": "230306_GnR_Botschaft_T06.2_Parlamentarische_Vorstosse.pdf",
+      "url": "https://www.duedingen.ch/_doc/4277236",
+      "publicationUrl": "https://www.duedingen.ch/_rte/publikation/426874",
+      "pages": 1,
+      "sha256": "052e56d7c4037744bc649784598f405dc590c5000998f356b9fee909235a3461",
+      "kind": "message",
+      "topicPages": {
+        "mietzuschuss": [],
+        "basisstufe": [],
+        "ampelversuch": [],
+        "referendum": [],
+        "schulplanung": []
+      },
+      "published": "2023-02-15",
+      "keywordScreened": true,
+      "readPages": [],
+      "readingNote": "Stichwortsuche zur Vorauswahl; keine vollständige Inhaltsprüfung."
+    },
+    {
+      "id": "4412335",
+      "title": "230508_GnR_Botschaft_T07_Parlamentarische_Vorstosse.pdf",
+      "url": "https://www.duedingen.ch/_doc/4412335",
+      "publicationUrl": "https://www.duedingen.ch/_rte/publikation/437293",
+      "pages": 1,
+      "sha256": "4f2508800a0e369ecb1becff03a1388d6ac8b13dd368836e0ba9aae6bb5dd44c",
+      "kind": "message",
+      "topicPages": {
+        "mietzuschuss": [],
+        "basisstufe": [],
+        "ampelversuch": [],
+        "referendum": [],
+        "schulplanung": []
+      },
+      "published": "2023-04-20",
+      "keywordScreened": true,
+      "readPages": [],
+      "readingNote": "Stichwortsuche zur Vorauswahl; keine vollständige Inhaltsprüfung."
+    },
+    {
+      "id": "4540406",
+      "title": "230703_GnR_Botschaft_T07_Parlamentarische_Vorstosse.pdf",
+      "url": "https://www.duedingen.ch/_doc/4540406",
+      "publicationUrl": "https://www.duedingen.ch/_rte/publikation/445133",
+      "pages": 1,
+      "sha256": "f9b869ec6488198f0740179419a9945c119d8ebd51a6ae26d47d32540d4fac9d",
+      "kind": "message",
+      "topicPages": {
+        "mietzuschuss": [],
+        "basisstufe": [],
+        "ampelversuch": [],
+        "referendum": [],
+        "schulplanung": []
+      },
+      "published": "2023-06-15",
+      "keywordScreened": true,
+      "readPages": [],
+      "readingNote": "Stichwortsuche zur Vorauswahl; keine vollständige Inhaltsprüfung."
+    },
+    {
+      "id": "4707853",
+      "title": "231002_GnR_Botschaft_T12.1_Parlamentarische_Vorstösse.pdf",
+      "url": "https://www.duedingen.ch/_doc/4707853",
+      "publicationUrl": "https://www.duedingen.ch/_rte/publikation/456526",
+      "pages": 2,
+      "sha256": "ffdd986239c4b65545cda7ccede1a65bb96d5b0305a14f7c5c1d6bcf24e76a9a",
+      "kind": "message",
+      "topicPages": {
+        "mietzuschuss": [],
+        "basisstufe": [],
+        "ampelversuch": [],
+        "referendum": [],
+        "schulplanung": []
+      },
+      "published": "2023-09-14",
+      "keywordScreened": true,
+      "readPages": [],
+      "readingNote": "Stichwortsuche zur Vorauswahl; keine vollständige Inhaltsprüfung."
+    },
+    {
+      "id": "4707856",
+      "title": "231002_GnR_Botschaft_T12.2_Parlamentarische_Vorstösse.pdf",
+      "url": "https://www.duedingen.ch/_doc/4707856",
+      "publicationUrl": "https://www.duedingen.ch/_rte/publikation/456526",
+      "pages": 1,
+      "sha256": "8de781d5ec644941d0995ccd4115a38671a6740a1f43b7cee2449f4c89a388f8",
+      "kind": "message",
+      "topicPages": {
+        "mietzuschuss": [],
+        "basisstufe": [],
+        "ampelversuch": [],
+        "referendum": [],
+        "schulplanung": []
+      },
+      "published": "2023-09-14",
+      "keywordScreened": true,
+      "readPages": [],
+      "readingNote": "Stichwortsuche zur Vorauswahl; keine vollständige Inhaltsprüfung."
+    },
+    {
+      "id": "4861534",
+      "title": "231211 GnR Botschaft T07.2 Parlamentarische Vorstösse",
+      "url": "https://www.duedingen.ch/_doc/4861534",
+      "publicationUrl": "https://www.duedingen.ch/_rte/publikation/466180",
+      "pages": 1,
+      "sha256": "99541bf09f645f2c942cf8150a2afeb28a7014f87df0769de0ec5e27f3a12c9f",
+      "kind": "message",
+      "topicPages": {
+        "mietzuschuss": [],
+        "basisstufe": [],
+        "ampelversuch": [],
+        "referendum": [],
+        "schulplanung": []
+      },
+      "published": "2023-11-23",
+      "keywordScreened": true,
+      "readPages": [],
+      "readingNote": "Stichwortsuche zur Vorauswahl; keine vollständige Inhaltsprüfung."
+    },
+    {
+      "id": "4991338",
+      "title": "240304 GnR Botschaft T05 Parlamentarische Vorstösse",
+      "url": "https://www.duedingen.ch/_doc/4991338",
+      "publicationUrl": "https://www.duedingen.ch/_rte/publikation/478165",
+      "pages": 1,
+      "sha256": "1fac2a97ccdae422027d66494dc22f847e64667a272f112fd1b9c69f6346fefe",
+      "kind": "message",
+      "topicPages": {
+        "mietzuschuss": [],
+        "basisstufe": [],
+        "ampelversuch": [],
+        "referendum": [],
+        "schulplanung": []
+      },
+      "published": "2024-02-15",
+      "keywordScreened": true,
+      "readPages": [],
+      "readingNote": "Stichwortsuche zur Vorauswahl; keine vollständige Inhaltsprüfung."
+    },
+    {
+      "id": "5067109",
+      "title": "240506 GnR Botschaft T04.2 & T04.3 Parlamentarische Vorstösse",
+      "url": "https://www.duedingen.ch/_doc/5067109",
+      "publicationUrl": "https://www.duedingen.ch/_rte/publikation/486826",
+      "pages": 2,
+      "sha256": "312d428a0152a8837ae2b9282c1acca4cb659b568f81b54bc2a27ed96bca781e",
+      "kind": "message",
+      "topicPages": {
+        "mietzuschuss": [],
+        "basisstufe": [],
+        "ampelversuch": [],
+        "referendum": [],
+        "schulplanung": []
+      },
+      "published": "2024-04-18",
+      "keywordScreened": true,
+      "readPages": [],
+      "readingNote": "Stichwortsuche zur Vorauswahl; keine vollständige Inhaltsprüfung."
+    },
+    {
+      "id": "5155165",
+      "title": "240624 GnR Botschaft T05 Parlamentarische Vorstösse",
+      "url": "https://www.duedingen.ch/_doc/5155165",
+      "publicationUrl": "https://www.duedingen.ch/_rte/publikation/494155",
+      "pages": 1,
+      "sha256": "142ec712590f3f0eed270e632a828022420dce4c147ffca8ab7be5383715c402",
+      "kind": "message",
+      "topicPages": {
+        "mietzuschuss": [],
+        "basisstufe": [],
+        "ampelversuch": [],
+        "referendum": [],
+        "schulplanung": []
+      },
+      "published": "2024-06-06",
+      "keywordScreened": true,
+      "readPages": [],
+      "readingNote": "Stichwortsuche zur Vorauswahl; keine vollständige Inhaltsprüfung."
+    },
+    {
+      "id": "5419225",
+      "title": "241209 GnR Botschaft T0 Traktandenliste",
+      "url": "https://www.duedingen.ch/_doc/5419225",
+      "publicationUrl": "https://www.duedingen.ch/_rte/publikation/522883",
+      "pages": 1,
+      "sha256": "80472835e4f1566692e94b65533146976e9f2c2084825350648d1c98664c36ce",
+      "kind": "message",
+      "topicPages": {
+        "mietzuschuss": [],
+        "basisstufe": [],
+        "ampelversuch": [],
+        "referendum": [
+          1
+        ],
+        "schulplanung": [
+          1
+        ]
+      },
+      "published": "2024-11-21",
+      "keywordScreened": true,
+      "readPages": [
+        1
+      ],
+      "readingNote": "Einladung/Traktandenliste: Sitzungsdatum, Geschäft und Beilagenkontext abgeglichen."
+    },
+    {
+      "id": "5419237",
+      "title": "241209 GnR Botschaft T04 Neubauprojekt Primarschulhaus mit ASB Wolfacker; Genehmigung Projekt",
+      "url": "https://www.duedingen.ch/_doc/5419237",
+      "publicationUrl": "https://www.duedingen.ch/_rte/publikation/522883",
+      "pages": 3,
+      "sha256": "1050d474fcf64e8879f2bbc4c8f194743c3473484aacefe472d1d2bfbda28019",
+      "kind": "message",
+      "topicPages": {
+        "mietzuschuss": [],
+        "basisstufe": [],
+        "ampelversuch": [],
+        "referendum": [],
+        "schulplanung": [
+          1,
+          2,
+          3
+        ]
+      },
+      "published": "2024-11-21",
+      "keywordScreened": true,
+      "readPages": [
+        1,
+        2,
+        3
+      ],
+      "readingNote": "Schulprojekt 2024, Raumprogramm, Kreditgegenstand und nächste Planungsschritte."
+    },
+    {
+      "id": "5419249",
+      "title": "241209 GnR Botschaft T05 Architektur-Projektwettbewerb Neubau Schulhaus mit ASB Wolfacker; Genehmigung Projektierungskredit",
+      "url": "https://www.duedingen.ch/_doc/5419249",
+      "publicationUrl": "https://www.duedingen.ch/_rte/publikation/522883",
+      "pages": 2,
+      "sha256": "be51cc003a5847f3f46449b649fc6f8ea343781c0c474866acbe85d123a12af6",
+      "kind": "message",
+      "topicPages": {
+        "mietzuschuss": [],
+        "basisstufe": [],
+        "ampelversuch": [],
+        "referendum": [],
+        "schulplanung": [
+          1,
+          2
+        ]
+      },
+      "published": "2024-11-21",
+      "keywordScreened": true,
+      "readPages": [
+        1,
+        2
+      ],
+      "readingNote": "Wettbewerbskredit 2024 getrennt vom späteren Projektierungskredit."
+    },
+    {
+      "id": "5419261",
+      "title": "241209 GnR Botschaft T08 Parlamentarische Vorstösse",
+      "url": "https://www.duedingen.ch/_doc/5419261",
+      "publicationUrl": "https://www.duedingen.ch/_rte/publikation/522883",
+      "pages": 3,
+      "sha256": "9c3d2a2de73f54fa01fbb634c823c68aaf386561d5f8c10756a761748d8224f9",
+      "kind": "message",
+      "topicPages": {
+        "mietzuschuss": [],
+        "basisstufe": [],
+        "ampelversuch": [],
+        "referendum": [
+          1,
+          2
+        ],
+        "schulplanung": []
+      },
+      "published": "2024-11-21",
+      "keywordScreened": true,
+      "readPages": [],
+      "readingNote": "Stichwortsuche zur Vorauswahl; keine vollständige Inhaltsprüfung."
+    },
+    {
+      "id": "5419264",
+      "title": "241209 GnR Botschaft T08a Motion Volksrechte stärken - Hürden für Referenden senken",
+      "url": "https://www.duedingen.ch/_doc/5419264",
+      "publicationUrl": "https://www.duedingen.ch/_rte/publikation/522883",
+      "pages": 2,
+      "sha256": "79299801e868ecc395da74f92891d9884580bc7e2dbeb4a2051ed6e74cb72da4",
+      "kind": "message",
+      "topicPages": {
+        "mietzuschuss": [],
+        "basisstufe": [],
+        "ampelversuch": [],
+        "referendum": [
+          1
+        ],
+        "schulplanung": []
+      },
+      "published": "2024-11-21",
+      "keywordScreened": true,
+      "readPages": [
+        1,
+        2
+      ],
+      "readingNote": "Originale Volksrechtemotion: FDP-Fraktionsauftrag, Streichung oder Senkung auf 250’000."
+    },
+    {
+      "id": "5506837",
+      "title": "250224 GnR Botschaft T0 Traktandenliste",
+      "url": "https://www.duedingen.ch/_doc/5506837",
+      "publicationUrl": "https://www.duedingen.ch/_rte/publikation/534820",
+      "pages": 1,
+      "sha256": "e47eb63255cc7f80cf105ddde59ea20d7e5d8d2fe8a96eff638ded1c14c1fa14",
+      "kind": "message",
+      "topicPages": {
+        "mietzuschuss": [
+          1
+        ],
+        "basisstufe": [],
+        "ampelversuch": [],
+        "referendum": [],
+        "schulplanung": []
+      },
+      "published": "2025-02-06",
+      "keywordScreened": true,
+      "readPages": [
+        1
+      ],
+      "readingNote": "Einladung/Traktandenliste: Sitzungsdatum, Geschäft und Beilagenkontext abgeglichen."
+    },
+    {
+      "id": "5506870",
+      "title": "250224 GnR Botschaft T05 Parlamentarische Vorstösse",
+      "url": "https://www.duedingen.ch/_doc/5506870",
+      "publicationUrl": "https://www.duedingen.ch/_rte/publikation/534820",
+      "pages": 4,
+      "sha256": "b8aa3f7db29e648f6554ed52ec38b76bf017d23c2e93dcef9c64569d678a5bce",
+      "kind": "message",
+      "topicPages": {
+        "mietzuschuss": [
+          1,
+          2
+        ],
+        "basisstufe": [],
+        "ampelversuch": [],
+        "referendum": [],
+        "schulplanung": []
+      },
+      "published": "2025-02-06",
+      "keywordScreened": true,
+      "readPages": [
+        1,
+        2
+      ],
+      "readingNote": "Mietzinsmotion und Stellungnahme der Exekutive; weitere Seiten betreffen ein anderes Geschäft."
+    },
+    {
+      "id": "5506873",
+      "title": "250224 GnR Botschaft T05a Motion Mietzinsverbilligung für Empfänger u. Empfängerinnen von KK-Prämienverbilligungen",
+      "url": "https://www.duedingen.ch/_doc/5506873",
+      "publicationUrl": "https://www.duedingen.ch/_rte/publikation/534820",
+      "pages": 4,
+      "sha256": "716c2a621d20d8399e0b414f681e8fb9f98a6cb9f34fc772e8270ac60d934712",
+      "kind": "message",
+      "topicPages": {
+        "mietzuschuss": [
+          1
+        ],
+        "basisstufe": [],
+        "ampelversuch": [],
+        "referendum": [],
+        "schulplanung": []
+      },
+      "published": "2025-02-06",
+      "keywordScreened": true,
+      "readPages": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "readingNote": "Originale Mietzinsmotion: Antrag und SP-Urheberschaft; Unterschriften nicht als fremder Parteibeschluss verwendet."
+    },
+    {
+      "id": "5652163",
+      "title": "250512 GnR Botschaft T0 Traktandenliste",
+      "url": "https://www.duedingen.ch/_doc/5652163",
+      "publicationUrl": "https://www.duedingen.ch/_rte/publikation/553303",
+      "pages": 1,
+      "sha256": "75945621789906bc42293b1311aaa3cb1129b1a39411baa2ba9aec0fa494ffc2",
+      "kind": "message",
+      "topicPages": {
+        "mietzuschuss": [],
+        "basisstufe": [
+          1
+        ],
+        "ampelversuch": [],
+        "referendum": [],
+        "schulplanung": []
+      },
+      "published": "2025-04-24",
+      "keywordScreened": true,
+      "readPages": [
+        1
+      ],
+      "readingNote": "Einladung/Traktandenliste: Sitzungsdatum, Geschäft und Beilagenkontext abgeglichen."
+    },
+    {
+      "id": "5652190",
+      "title": "250512 GnR Botschaft T06 Einführung der Basisstufe per Schuljahr 2027-28 an der PS Düdingen; Genehmigung Verpflichtungskredit",
+      "url": "https://www.duedingen.ch/_doc/5652190",
+      "publicationUrl": "https://www.duedingen.ch/_rte/publikation/553303",
+      "pages": 3,
+      "sha256": "92bc905ebebf082a1a37904d608f8aaf834c383f588b1484605d634d59d2eead",
+      "kind": "message",
+      "topicPages": {
+        "mietzuschuss": [],
+        "basisstufe": [
+          1,
+          2,
+          3
+        ],
+        "ampelversuch": [],
+        "referendum": [],
+        "schulplanung": []
+      },
+      "published": "2025-04-24",
+      "keywordScreened": true,
+      "readPages": [
+        1,
+        2,
+        3
+      ],
+      "readingNote": "Basisstufe: Einführung 2027/28, vier Klassen, maximal 260’000 jährlich und 30’000 einmalig."
+    },
+    {
+      "id": "5652193",
+      "title": "250512 GnR Botschaft T06a Basisstufe - Informationen für den Generalrat vom April 2025",
+      "url": "https://www.duedingen.ch/_doc/5652193",
+      "publicationUrl": "https://www.duedingen.ch/_rte/publikation/553303",
+      "pages": 24,
+      "sha256": "b456b482cec557a4af5d20d156c5267258f14d0f41d9f31c96dcff8b39c4a8e3",
+      "kind": "message",
+      "topicPages": {
+        "mietzuschuss": [],
+        "basisstufe": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24
+        ],
+        "ampelversuch": [],
+        "referendum": [],
+        "schulplanung": []
+      },
+      "published": "2025-04-24",
+      "keywordScreened": true,
+      "readPages": [],
+      "readingNote": "Stichwortsuche zur Vorauswahl; keine vollständige Inhaltsprüfung."
+    },
+    {
+      "id": "5652196",
+      "title": "250512 GnR Botschaft T06b Hinweise betreffend Einführung und Führen einer Basisstufe",
+      "url": "https://www.duedingen.ch/_doc/5652196",
+      "publicationUrl": "https://www.duedingen.ch/_rte/publikation/553303",
+      "pages": 12,
+      "sha256": "3fccb9323adeeadf53fd538b93b498633ef29a38db5cfcc0112623898a0b5557",
+      "kind": "message",
+      "topicPages": {
+        "mietzuschuss": [],
+        "basisstufe": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "ampelversuch": [],
+        "referendum": [],
+        "schulplanung": []
+      },
+      "published": "2025-04-24",
+      "keywordScreened": true,
+      "readPages": [],
+      "readingNote": "Stichwortsuche zur Vorauswahl; keine vollständige Inhaltsprüfung."
+    },
+    {
+      "id": "5652208",
+      "title": "250512 GnR Botschaft T07.2 und 7.3 Parlamentarische Vorstösse",
+      "url": "https://www.duedingen.ch/_doc/5652208",
+      "publicationUrl": "https://www.duedingen.ch/_rte/publikation/553303",
+      "pages": 1,
+      "sha256": "bc9e0356638633f1601e6b1eb4d91df4cba8ea7ee8cd5c012cff30885b8db4f1",
+      "kind": "message",
+      "topicPages": {
+        "mietzuschuss": [],
+        "basisstufe": [],
+        "ampelversuch": [],
+        "referendum": [],
+        "schulplanung": []
+      },
+      "published": "2025-04-24",
+      "keywordScreened": true,
+      "readPages": [],
+      "readingNote": "Stichwortsuche zur Vorauswahl; keine vollständige Inhaltsprüfung."
+    },
+    {
+      "id": "5806375",
+      "title": "250630 GnR Botschaft T05 Parlamentarische Vorstösse",
+      "url": "https://www.duedingen.ch/_doc/5806375",
+      "publicationUrl": "https://www.duedingen.ch/_rte/publikation/563206",
+      "pages": 1,
+      "sha256": "6afe5c0c8f289636bdcda7dd43373b3a661655d4355b6d8c3cb175d693a7b095",
+      "kind": "message",
+      "topicPages": {
+        "mietzuschuss": [],
+        "basisstufe": [],
+        "ampelversuch": [],
+        "referendum": [],
+        "schulplanung": []
+      },
+      "published": "2025-06-12",
+      "keywordScreened": true,
+      "readPages": [],
+      "readingNote": "Stichwortsuche zur Vorauswahl; keine vollständige Inhaltsprüfung."
+    },
+    {
+      "id": "6372533",
+      "title": "251215 GnR Botschaft T0 Traktandenliste",
+      "url": "https://www.duedingen.ch/_doc/6372533",
+      "publicationUrl": "https://www.duedingen.ch/_rte/publikation/593297",
+      "pages": 1,
+      "sha256": "7144d6d17555909b9e3b709f67078c622e369a21033cefca48ac58d9ec867f57",
+      "kind": "message",
+      "topicPages": {
+        "mietzuschuss": [],
+        "basisstufe": [],
+        "ampelversuch": [],
+        "referendum": [],
+        "schulplanung": []
+      },
+      "published": "2025-11-27",
+      "keywordScreened": true,
+      "readPages": [
+        1
+      ],
+      "readingNote": "Einladung/Traktandenliste: Sitzungsdatum, Geschäft und Beilagenkontext abgeglichen."
+    },
+    {
+      "id": "6372593",
+      "title": "251215 GnR Botschaft T06 Teilrevision Finanzreglement Genehmigung",
+      "url": "https://www.duedingen.ch/_doc/6372593",
+      "publicationUrl": "https://www.duedingen.ch/_rte/publikation/593297",
+      "pages": 2,
+      "sha256": "1815de449c249f40163de4b9ef07b9c0a7e79a88b5e034139ee0c5bf459fb79a",
+      "kind": "message",
+      "topicPages": {
+        "mietzuschuss": [],
+        "basisstufe": [],
+        "ampelversuch": [],
+        "referendum": [
+          1,
+          2
+        ],
+        "schulplanung": []
+      },
+      "published": "2025-11-27",
+      "keywordScreened": true,
+      "readPages": [
+        1,
+        2
+      ],
+      "readingNote": "Finanzreglement: ausdrücklich dokumentierte Vernehmlassungen SP, FDP und gemeinsame Fraktion."
+    },
+    {
+      "id": "6372596",
+      "title": "251215 GnR Botschaft T06a Motion Volksrechte stärken - Hürden für Referenden senken",
+      "url": "https://www.duedingen.ch/_doc/6372596",
+      "publicationUrl": "https://www.duedingen.ch/_rte/publikation/593297",
+      "pages": 2,
+      "sha256": "8db5ae86f9a58e4da73a315fc3852605d4638a0630df297b0b7a65bc225d4b8c",
+      "kind": "message",
+      "topicPages": {
+        "mietzuschuss": [],
+        "basisstufe": [],
+        "ampelversuch": [],
+        "referendum": [
+          1
+        ],
+        "schulplanung": []
+      },
+      "published": "2025-11-27",
+      "keywordScreened": true,
+      "readPages": [],
+      "readingNote": "Stichwortsuche zur Vorauswahl; keine vollständige Inhaltsprüfung."
+    },
+    {
+      "id": "6372599",
+      "title": "251215 GnR Botschaft T06b Entwurf Finanzreglement der Gemeinde Düdingen",
+      "url": "https://www.duedingen.ch/_doc/6372599",
+      "publicationUrl": "https://www.duedingen.ch/_rte/publikation/593297",
+      "pages": 4,
+      "sha256": "75ceca3d37045012e12391619e372ac74660482afc321c20b623c8cc38127c3d",
+      "kind": "message",
+      "topicPages": {
+        "mietzuschuss": [],
+        "basisstufe": [],
+        "ampelversuch": [],
+        "referendum": [
+          4
+        ],
+        "schulplanung": []
+      },
+      "published": "2025-11-27",
+      "keywordScreened": true,
+      "readPages": [],
+      "readingNote": "Stichwortsuche zur Vorauswahl; keine vollständige Inhaltsprüfung."
+    },
+    {
+      "id": "6372611",
+      "title": "251215 GnR Botschaft T09 Parlamentarische Vorstösse",
+      "url": "https://www.duedingen.ch/_doc/6372611",
+      "publicationUrl": "https://www.duedingen.ch/_rte/publikation/593297",
+      "pages": 1,
+      "sha256": "24833192e43fc8493bff21704ca3db80df1a24eaadb889b6ef72f79e7f59ce75",
+      "kind": "message",
+      "topicPages": {
+        "mietzuschuss": [],
+        "basisstufe": [],
+        "ampelversuch": [],
+        "referendum": [],
+        "schulplanung": []
+      },
+      "published": "2025-11-27",
+      "keywordScreened": true,
+      "readPages": [],
+      "readingNote": "Stichwortsuche zur Vorauswahl; keine vollständige Inhaltsprüfung."
+    },
+    {
+      "id": "6725090",
+      "title": "260302 GnR Botschaft T04 Parlamentarische Vorstösse",
+      "url": "https://www.duedingen.ch/_doc/6725090",
+      "publicationUrl": "https://www.duedingen.ch/_rte/publikation/606998",
+      "pages": 1,
+      "sha256": "c22873491341e677438b0851043d8fb8465578df3c05d56325b3d10a87df805b",
+      "kind": "message",
+      "topicPages": {
+        "mietzuschuss": [],
+        "basisstufe": [],
+        "ampelversuch": [],
+        "referendum": [],
+        "schulplanung": []
+      },
+      "published": "2026-02-12",
+      "keywordScreened": true,
+      "readPages": [],
+      "readingNote": "Stichwortsuche zur Vorauswahl; keine vollständige Inhaltsprüfung."
+    },
+    {
+      "id": "6910816",
+      "title": "260420 GnR Botschaft T0 Traktandenliste",
+      "url": "https://www.duedingen.ch/_doc/6910816",
+      "publicationUrl": "https://www.duedingen.ch/_rte/publikation/615628",
+      "pages": 1,
+      "sha256": "0f19882ae56d60ed12a75d84c1141e620c91d6954f1f6e1a6880214856d2260f",
+      "kind": "message",
+      "topicPages": {
+        "mietzuschuss": [],
+        "basisstufe": [],
+        "ampelversuch": [
+          1
+        ],
+        "referendum": [],
+        "schulplanung": [
+          1
+        ]
+      },
+      "published": "2026-04-02",
+      "keywordScreened": true,
+      "readPages": [
+        1
+      ],
+      "readingNote": "Einladung/Traktandenliste: Sitzungsdatum, Geschäft und Beilagenkontext abgeglichen."
+    },
+    {
+      "id": "6910852",
+      "title": "260420 GnR Botschaft T06 Neubau Primarschulhaus Wolfacker mit ASB und Einfachsporthalle; Beschluss zum Projektierungskredit",
+      "url": "https://www.duedingen.ch/_doc/6910852",
+      "publicationUrl": "https://www.duedingen.ch/_rte/publikation/615628",
+      "pages": 2,
+      "sha256": "6a13a665c8f9477f6e6f62e84dfe3781eb717126f5ef2b4b45bdd10819d8d451",
+      "kind": "message",
+      "topicPages": {
+        "mietzuschuss": [],
+        "basisstufe": [],
+        "ampelversuch": [],
+        "referendum": [],
+        "schulplanung": [
+          1,
+          2
+        ]
+      },
+      "published": "2026-04-02",
+      "keywordScreened": true,
+      "readPages": [
+        1,
+        2
+      ],
+      "readingNote": "Projektierungskredit 2026 und Einfachsporthalle; keine Parteiposition der Exekutive zugeordnet."
+    },
+    {
+      "id": "6910912",
+      "title": "260420 GnR Botschaft T11 Parlamentarische Vorstösse",
+      "url": "https://www.duedingen.ch/_doc/6910912",
+      "publicationUrl": "https://www.duedingen.ch/_rte/publikation/615628",
+      "pages": 3,
+      "sha256": "7a3f5fae3735c7c86fad3978fe7b7ed3fe478b079166a9bba0b1822bccc9f860",
+      "kind": "message",
+      "topicPages": {
+        "mietzuschuss": [],
+        "basisstufe": [],
+        "ampelversuch": [
+          1,
+          2
+        ],
+        "referendum": [],
+        "schulplanung": []
+      },
+      "published": "2026-04-02",
+      "keywordScreened": true,
+      "readPages": [
+        1,
+        2,
+        3
+      ],
+      "readingNote": "Ampelbotschaft April; Ausgangsfassung vor Vertagung."
+    },
+    {
+      "id": "6910915",
+      "title": "260420 GnR Botschaft T11a Motion Reduktion des Staus zwischen Bahnhof und Bahnhofzentrum - Ampeln beim Bahnhofzentrum",
+      "url": "https://www.duedingen.ch/_doc/6910915",
+      "publicationUrl": "https://www.duedingen.ch/_rte/publikation/615628",
+      "pages": 5,
+      "sha256": "ca57c3cb2d766c9c9df48eab0f51737a30f040dc1fd666149bcd0bb5f4b8673a",
+      "kind": "message",
+      "topicPages": {
+        "mietzuschuss": [],
+        "basisstufe": [],
+        "ampelversuch": [
+          1,
+          2
+        ],
+        "referendum": [],
+        "schulplanung": []
+      },
+      "published": "2026-04-02",
+      "keywordScreened": true,
+      "readPages": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "readingNote": "Dasselbe Ampelbegehren als Beilage für April; kein unabhängiger zweiter Parteibeleg."
+    },
+    {
+      "id": "7052674",
+      "title": "260629 GnR Botschaft T0 Traktandenliste",
+      "url": "https://www.duedingen.ch/_doc/7052674",
+      "publicationUrl": "https://www.duedingen.ch/_rte/publikation/626116",
+      "pages": 1,
+      "sha256": "4a82b24a0468e81169ccde8d748e2012c08b863a1262baf555b9d53bff8c4b05",
+      "kind": "message",
+      "topicPages": {
+        "mietzuschuss": [],
+        "basisstufe": [],
+        "ampelversuch": [
+          1
+        ],
+        "referendum": [],
+        "schulplanung": []
+      },
+      "published": "2026-06-11",
+      "keywordScreened": true,
+      "readPages": [
+        1
+      ],
+      "readingNote": "Einladung/Traktandenliste: Sitzungsdatum, Geschäft und Beilagenkontext abgeglichen."
+    },
+    {
+      "id": "7052701",
+      "title": "260629 GnR Botschaft T05 Parlamentarische Vorstösse",
+      "url": "https://www.duedingen.ch/_doc/7052701",
+      "publicationUrl": "https://www.duedingen.ch/_rte/publikation/626116",
+      "pages": 3,
+      "sha256": "4e00aedc86e879e2488df11ff836cdaa98637c2c0a69b3a0bcb298d6879bfb53",
+      "kind": "message",
+      "topicPages": {
+        "mietzuschuss": [],
+        "basisstufe": [],
+        "ampelversuch": [
+          1,
+          2
+        ],
+        "referendum": [],
+        "schulplanung": []
+      },
+      "published": "2026-06-11",
+      "keywordScreened": true,
+      "readPages": [
+        1,
+        2,
+        3
+      ],
+      "readingNote": "Ampelbotschaft Juni: Begehren, Vertagung auf Antrag FDP, ablehnende Haltung des Gemeinderats."
+    },
+    {
+      "id": "7052704",
+      "title": "260629 GnR Botschaft T05a Motion Reduktion des Staus zwischen Bahnhof und Bahnhofzentrum - Ampeln beim Bahnhofzentrum",
+      "url": "https://www.duedingen.ch/_doc/7052704",
+      "publicationUrl": "https://www.duedingen.ch/_rte/publikation/626116",
+      "pages": 5,
+      "sha256": "ca57c3cb2d766c9c9df48eab0f51737a30f040dc1fd666149bcd0bb5f4b8673a",
+      "kind": "message",
+      "topicPages": {
+        "mietzuschuss": [],
+        "basisstufe": [],
+        "ampelversuch": [
+          1,
+          2
+        ],
+        "referendum": [],
+        "schulplanung": []
+      },
+      "published": "2026-06-11",
+      "keywordScreened": true,
+      "readPages": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "readingNote": "Originalmotion vollständig: Begehren auf Seite 1, ausdrücklicher FDP-Fraktionsauftrag auf Seite 4. Seiten 1 und 4 zusätzlich visuell geprüft."
+    },
+    {
+      "id": "7228912",
+      "title": "261005 GnR Botschaft T07 Parlamentarische Vorstösse",
+      "url": "https://www.duedingen.ch/_doc/7228912",
+      "publicationUrl": "https://www.duedingen.ch/_rte/publikation/640108",
+      "pages": 3,
+      "sha256": "af556c2d5aab21f90bf465f8cf94284f6c5a593fe0da97394b893a8941c73d0d",
+      "kind": "message",
+      "topicPages": {
+        "mietzuschuss": [],
+        "basisstufe": [],
+        "ampelversuch": [],
+        "referendum": [],
+        "schulplanung": []
+      },
+      "published": "2026-09-17",
+      "keywordScreened": true,
+      "readPages": [],
+      "readingNote": "Stichwortsuche zur Vorauswahl; keine vollständige Inhaltsprüfung."
+    }
+  ],
+  "corrections": [
+    {
+      "question": "ampelversuch",
+      "party": "fdp",
+      "before": null,
+      "after": 100,
+      "basis": "https://www.duedingen.ch/_doc/7052704#page=4",
+      "note": "Expliziter Fraktionsauftrag im Originalanhang in Version .3 übersehen; keine Änderung der Rechenmethode."
+    }
+  ]
+}

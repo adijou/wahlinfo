@@ -9,7 +9,7 @@ Web-App zur politischen Standortbestimmung, umgesetzt in der freigegebenen Gesta
 - Startseite, fünf Fragen mit Antwortskala und Überspringen, Antwortübersicht, Änderungen und Zurücksetzen.
 - Vergleich aller sechs amtlichen Listen für die Generalratswahl am **25. Oktober 2026**.
 - Je Frage: eigene Antwort, belegte Position, Nähe, Herleitung, Evidenzgrad und Originalquelle mit Seitenangabe.
-- Quellenansicht mit Such- und Jahresfilter; Verzeichnis von 28 Protokollen, Publikationszeitraum 2021–2026.
+- Quellenansicht mit Such- und Jahresfilter; Verzeichnis von 28 Protokollen sowie ein Rechercheverzeichnis mit 46 zusätzlich erschlossenen Botschaften, Vorstössen, Einladungen und Beilagen; Publikationszeitraum 2021–2026.
 - Rating je Liste auf ihren belegten Antworten, feste Bewertungsstufen, Gewichtungen, Mindestumfang, Gleichstände und mögliche Spannen bei Datenlücken.
 - Teilen über die Gerätefunktion bzw. Kopieren oder Textdownload. Keine Einzelantworten im Export.
 - Lokaler Inhaltseditor unter `/editor.html`: Fragen, Parteien, Positionen, Belege, Gewichte, Antworttexte und Parameter; JSON-Import und -Export.
@@ -67,9 +67,11 @@ Der Editor arbeitet vollständig lokal. Er hat keinen Serverzugriff; Besucher k�
 
 Die sechs Listen sind anhand des [amtlichen Kandidierendenverzeichnisses vom 21.09.2026](https://www.duedingen.ch/_doc/7241566) abgeglichen: Die Mitte, SP, FDP, Freie Wähler Düdingen, SVP sowie Mitte Links/Grüne/glp. Der [amtliche Oktober-Mitteilungsblatt, Seite 3](https://www.duedingen.ch/_doc/7263406), bestätigt den Termin. Die frühere Junge Liste ist keine eigene aktuelle Liste; ihre Positionen werden keiner anderen Partei übertragen.
 
-28 Protokolle sind erfasst, **nicht vollständig ausgewertet**. Sechs ausgewählte Sitzungen von Dezember 2024 bis Juni 2026 bilden die aktuelle Fragenbasis. 25 von 30 Listen-Frage-Feldern sind auswertbar: 15 eigene Positionen und 10 Zuordnungen aus fünf gemeinsamen Fraktionspositionen. Alle verwendeten Kodierungen haben mittlere Evidenz: eindeutige Fraktionsaussagen oder ausdrücklich zugeordnete Anträge/Vernehmlassungen, keine namentlichen Abstimmungsnachweise. Aus Gesamtresultaten werden keine Parteistimmen errechnet.
+28 Protokolle und 46 ausgewählte Botschaften, Originalvorstösse, Einladungen und Beilagen (1’031 PDF-Seiten) sind erschlossen und nach den fünf Themen durchsucht, **nicht vollständig ausgewertet**. Die einschlägigen Beratungen in sechs Sitzungen von Dezember 2024 bis Juni 2026 wurden mit den Originalunterlagen abgeglichen. Das [Rechercheverzeichnis](public/data/source-review.json) unterscheidet Suchtreffer von vertieft gelesenen Seiten. 26 von 30 Listen-Frage-Feldern sind auswertbar: 16 eigene Positionen und 10 Zuordnungen aus fünf gemeinsamen Fraktionspositionen. Alle verwendeten Kodierungen haben mittlere Evidenz: eindeutige Fraktionsaussagen oder ausdrücklich zugeordnete Anträge/Vernehmlassungen, keine namentlichen Abstimmungsnachweise. Aus Gesamtresultaten werden keine Parteistimmen errechnet.
 
-FWD und Mitte Links/Grüne/glp erhalten dasselbe ausdrücklich gekennzeichnete **gemeinsame Fraktionsprofil**. Das Rating trennt diese beiden Listen nicht. Eigene Positionen sind bei Mitte und SP für fünf, bei SVP für drei und bei FDP für zwei Fragen belegt. Die fünf fehlenden Felder bleiben offen; Einzelmeinungen und allgemeine Programme werden nicht zu konkreten Beschlüssen umgedeutet. Eine Lücke sperrt nicht mehr die gesamte Auswertung.
+FWD und Mitte Links/Grüne/glp erhalten dasselbe ausdrücklich gekennzeichnete **gemeinsame Fraktionsprofil**. Das Rating trennt diese beiden Listen nicht. Eigene Positionen sind bei Mitte und SP für fünf, bei SVP für drei und bei FDP für drei Fragen belegt. Die vier fehlenden Felder bleiben offen; Einzelmeinungen und allgemeine Programme werden nicht zu konkreten Beschlüssen umgedeutet. Eine Lücke sperrt nicht mehr die gesamte Auswertung.
+
+**Korrektur in Version 2026-10-06.4:** FDP beim Ampelversuch von offen auf Dafür (100) gesetzt. Die [Originalmotion, PDF-Seite 4](https://www.duedingen.ch/_doc/7052704#page=4), nennt ausdrücklich den Fraktionsauftrag. Dieser Anhang war zuvor übersehen worden. Alle anderen Werte bleiben nach erneuter Prüfung bestehen; die Belege und Herleitungen wurden ergänzt.
 
 Vor einer fachlichen Freigabe fehlen:
 

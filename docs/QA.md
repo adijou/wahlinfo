@@ -1,6 +1,14 @@
 # Prüfprotokoll
 
-## Rating-Update · Datenversion 2026-10-06.3
+## Quellen-Nachprüfung · Datenversion 2026-10-06.4
+
+26 automatische Tests erfolgreich, einschliesslich der unabhängigen Nachrechnung aller 7’776 Antwort-/Überspringen-Kombinationen. Die neue Regression prüft, dass die ausdrücklich im Namen der FDP-Fraktion eingereichte Ampelmotion in beide Richtungen in das Rating eingeht: Zustimmung erhöht, Ablehnung senkt die Nähe. Die FDP hat nun drei belegte Fragen. Das Rechercheverzeichnis wird auf konsistente Version, eindeutige Dokumente, Prüfsummen und gültige gelesene Seiten sowie die ersten Quellenfundstellen aller Positionen geprüft.
+
+Datenprüfung, statischer Build und Syntaxprüfung erfolgreich. Im lokalen Chromium-Browser kontrolliert: FDP/Ampelversuch zeigt «Dafür»; der Originalmotionslink führt zu PDF-Seite 4; Protokoll und Botschaft sind separat verlinkt. Der neue Abschnitt «Unterlagen zu diesem Geschäft» enthält die passenden Originale. Die Methodenseite zeigt 26/30 Felder, vier verbleibende Lücken, die dokumentierte Korrektur und Datenversion .4. Keine Browserwarnungen oder -fehler. Quellenansicht visuell geprüft; lokale Aufnahme unter `output/ampel-position-korrigiert.png`.
+
+Die fachliche Nachprüfung, gelesene Seiten und Grenzen stehen in `DATENPRUEFUNG.md` und `public/data/source-review.json`. Automatische Tests überprüfen die Datenverwendung; die inhaltliche Zuordnung beruht auf der dokumentierten Quellenlektüre. Eine unabhängige menschliche Gegenprüfung bleibt offen. Diese Aktualisierung wurde nicht direkt zu Netlify bereitgestellt.
+
+## Historisch: Rating-Update · Datenversion 2026-10-06.3
 
 24 automatische Tests erfolgreich. Darin werden alle 7’776 Kombinationen aus fünf Antworten und Überspringen über die fünf Fragen geprüft: unabhängige Nachrechnung, Grenzen 0–100, Gleichheit der gemeinsamen Fraktionsprofile, Mindestumfang je Liste und ein Rating für alle sechs Listen bei vollständiger Beantwortung. Zusätzlich geprüft: feste Stufen und Rundungsgrenzen, Dezimalgewichte, neutrale Antworten ohne künstlichen Gewinner, unterschiedliche Belegabdeckung, Spannen einschliesslich übersprungener Fragen, Export mit Herkunft und Grenzen sowie Ablehnung widersprüchlicher gemeinsamer Profile im Editor.
 
