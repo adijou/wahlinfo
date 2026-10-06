@@ -1,0 +1,11 @@
+node_modules/
+dist/
+tmp/
+research/raw/
+research/text/
+research/*.html
+research/*.json
+.env
+.env.*
+!.env.example
+.DS_Store

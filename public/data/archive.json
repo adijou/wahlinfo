@@ -1,0 +1,286 @@
+{
+  "updated": "2026-10-06",
+  "note": "Das Datum ist das Publikationsdatum im Register. Erfassung bedeutet keine vollständige Inhaltsprüfung. Ein Ende 2020 abgehaltenes Protokoll wurde 2021 publiziert.",
+  "documents": [
+    {
+      "id": "archiv-3027617",
+      "title": "Protokoll der Sitzung des Generalrates vom 7. Dezember 2020",
+      "date": "2021-03-23",
+      "url": "https://www.duedingen.ch/_doc/3027617",
+      "publicationUrl": "https://www.duedingen.ch/_rte/publikation/307054",
+      "pages": 26,
+      "sha256": "4c8d0ba2b12ac42656cdb1d18a16e39c7f5eaaa8488a33f0d925a37786772fbb",
+      "review": "Erfasst; noch nicht vollständig inhaltlich ausgewertet"
+    },
+    {
+      "id": "archiv-3088625",
+      "title": "Protokoll der Sitzung des Generalrates vom 22. März 2021",
+      "date": "2021-04-27",
+      "url": "https://www.duedingen.ch/_doc/3088625",
+      "publicationUrl": "https://www.duedingen.ch/_rte/publikation/321947",
+      "pages": 23,
+      "sha256": "15794531d2f2faa8c6e08aba46a7a8a51310b4c86db70c823984df37095cc19a",
+      "review": "Erfasst; noch nicht vollständig inhaltlich ausgewertet"
+    },
+    {
+      "id": "archiv-3310766",
+      "title": "Protokoll der Sitzung des Generalrates vom 26. April 2021",
+      "date": "2021-10-05",
+      "url": "https://www.duedingen.ch/_doc/3310766",
+      "publicationUrl": "https://www.duedingen.ch/_rte/publikation/327122",
+      "pages": 34,
+      "sha256": "d9888c69ff3ecfa677e53c6e7711654704692730a2e5cbbfc9e7e2cd733e3361",
+      "review": "Erfasst; noch nicht vollständig inhaltlich ausgewertet"
+    },
+    {
+      "id": "archiv-3310769",
+      "title": "Protokoll der Sitzung des Generalrates vom 17. Mai 2021",
+      "date": "2021-10-06",
+      "url": "https://www.duedingen.ch/_doc/3310769",
+      "publicationUrl": "https://www.duedingen.ch/_rte/publikation/329825",
+      "pages": 25,
+      "sha256": "1c1371afbf9377dd4de93aa4af0a124292f8044e757d280ac9a1248e1f9b1ea7",
+      "review": "Erfasst; noch nicht vollständig inhaltlich ausgewertet"
+    },
+    {
+      "id": "archiv-3427366",
+      "title": "Protokoll der Sitzung des Generalrates vom 4. Oktober 2021",
+      "date": "2021-12-10",
+      "url": "https://www.duedingen.ch/_doc/3427366",
+      "publicationUrl": "https://www.duedingen.ch/_rte/publikation/350692",
+      "pages": 27,
+      "sha256": "7b15a1ed9f7efa96684c52699b29733516d8b8e542d673db75bed5975b0a3d7e",
+      "review": "Erfasst; noch nicht vollständig inhaltlich ausgewertet"
+    },
+    {
+      "id": "archiv-3600392",
+      "title": "Protokoll der Sitzung des Generalrates vom 9. Dezember 2021",
+      "date": "2022-03-15",
+      "url": "https://www.duedingen.ch/_doc/3600392",
+      "publicationUrl": "https://www.duedingen.ch/_rte/publikation/363307",
+      "pages": 29,
+      "sha256": "77c23ba7b437988fad504db6c947733cff0fac11c075a5e977e5067c94321c02",
+      "review": "Erfasst; noch nicht vollständig inhaltlich ausgewertet"
+    },
+    {
+      "id": "archiv-3702698",
+      "title": "Protokoll der Sitzung des Generalrates vom 14. März 2022",
+      "date": "2022-05-10",
+      "url": "https://www.duedingen.ch/_doc/3702698",
+      "publicationUrl": "https://www.duedingen.ch/_rte/publikation/377501",
+      "pages": 23,
+      "sha256": "a8f06ef9a9368bd3675377cc9382f112dbaa7778787cb032623188b511e1d27e",
+      "review": "Erfasst; noch nicht vollständig inhaltlich ausgewertet"
+    },
+    {
+      "id": "archiv-4008905",
+      "title": "Protokoll der Sitzung des Generalrates vom 9. Mai 2022",
+      "date": "2022-10-06",
+      "url": "https://www.duedingen.ch/_doc/4008905",
+      "publicationUrl": "https://www.duedingen.ch/_rte/publikation/385873",
+      "pages": 51,
+      "sha256": "1549a27535a748571b0793a42b1db969070784afa677cf8eae45cb5b3c876937",
+      "review": "Erfasst; noch nicht vollständig inhaltlich ausgewertet"
+    },
+    {
+      "id": "archiv-4164833",
+      "title": "Protokoll der Sitzung des Generalrates vom 3. Oktober 2022",
+      "date": "2022-12-06",
+      "url": "https://www.duedingen.ch/_doc/4164833",
+      "publicationUrl": "https://www.duedingen.ch/_rte/publikation/410612",
+      "pages": 40,
+      "sha256": "a9e332b806f7efc4ea07ea37dd69af093f5f11487782a6ffdba862e060d2c536",
+      "review": "Erfasst; noch nicht vollständig inhaltlich ausgewertet"
+    },
+    {
+      "id": "archiv-4317308",
+      "title": "Protokoll der Sitzung des Generalrates vom 5. Dezember 2022",
+      "date": "2023-03-07",
+      "url": "https://www.duedingen.ch/_doc/4317308",
+      "publicationUrl": "https://www.duedingen.ch/_rte/publikation/421772",
+      "pages": 44,
+      "sha256": "7ec914f70e9090a4aa91ccf2b54378acaf6373466d548eb38e1c7a3f91d7bc68",
+      "review": "Erfasst; noch nicht vollständig inhaltlich ausgewertet"
+    },
+    {
+      "id": "archiv-4448657",
+      "title": "Protokoll der Sitzung des Generalrates vom 6. März 2023",
+      "date": "2023-05-09",
+      "url": "https://www.duedingen.ch/_doc/4448657",
+      "publicationUrl": "https://www.duedingen.ch/_rte/publikation/432742",
+      "pages": 23,
+      "sha256": "c2487ddc8112a22e1971c37c213e15bf70f0a06242149d5dac6a919de3f93232",
+      "review": "Erfasst; noch nicht vollständig inhaltlich ausgewertet"
+    },
+    {
+      "id": "archiv-4570105",
+      "title": "Protokoll der Sitzung des Generalrates vom 8. Mai 2023",
+      "date": "2023-07-04",
+      "url": "https://www.duedingen.ch/_doc/4570105",
+      "publicationUrl": "https://www.duedingen.ch/_rte/publikation/443131",
+      "pages": 31,
+      "sha256": "b026f4553bd1799504d8528d074881aa3b0cee267d8d1ff018c1d74262a931d1",
+      "review": "Erfasst; noch nicht vollständig inhaltlich ausgewertet"
+    },
+    {
+      "id": "archiv-5068195",
+      "title": "Protokoll der Sitzung des Generalrates vom 3. Juli 2023",
+      "date": "2023-10-03",
+      "url": "https://www.duedingen.ch/_doc/5068195",
+      "publicationUrl": "https://www.duedingen.ch/_rte/publikation/450620",
+      "pages": 32,
+      "sha256": "b91dc72f37a71623e71857fa5ddd19cb7583f87ad5270282bc409d6f33e3a0e7",
+      "review": "Erfasst; noch nicht vollständig inhaltlich ausgewertet"
+    },
+    {
+      "id": "archiv-4892614",
+      "title": "Protokoll der Sitzung des Generalrates vom 2. Oktober 2023",
+      "date": "2023-12-12",
+      "url": "https://www.duedingen.ch/_doc/4892614",
+      "publicationUrl": "https://www.duedingen.ch/_rte/publikation/463684",
+      "pages": 46,
+      "sha256": "9c6e12b91c2f2b755692a3101fd84b7eb2825f7312c6cbe6eeadb74502700de7",
+      "review": "Erfasst; noch nicht vollständig inhaltlich ausgewertet"
+    },
+    {
+      "id": "archiv-5004979",
+      "title": "Protokoll der Sitzung des Generalrates vom 11. Dezember 2023",
+      "date": "2024-03-05",
+      "url": "https://www.duedingen.ch/_doc/5004979",
+      "publicationUrl": "https://www.duedingen.ch/_rte/publikation/472834",
+      "pages": 40,
+      "sha256": "cf7df48784312929c21bb450e41948bdd87cbc2d45c1e0d77254c55ab8035c30",
+      "review": "Erfasst; noch nicht vollständig inhaltlich ausgewertet"
+    },
+    {
+      "id": "archiv-5098819",
+      "title": "Protokoll der Sitzung des Generalrates vom 4. März 2024",
+      "date": "2024-05-07",
+      "url": "https://www.duedingen.ch/_doc/5098819",
+      "publicationUrl": "https://www.duedingen.ch/_rte/publikation/483805",
+      "pages": 24,
+      "sha256": "a2fde980762bd091e5d3f129c5df3a9c3445169020ed30da2cef903ce8c79aa4",
+      "review": "Erfasst; noch nicht vollständig inhaltlich ausgewertet"
+    },
+    {
+      "id": "archiv-5176852",
+      "title": "Protokoll der Sitzung des Generalrates vom 6. Mai 2024",
+      "date": "2024-06-25",
+      "url": "https://www.duedingen.ch/_doc/5176852",
+      "publicationUrl": "https://www.duedingen.ch/_rte/publikation/492409",
+      "pages": 30,
+      "sha256": "baf02f5fa61765411d143e6f5a84e915f621423cb4f3427c8f2b347436e46401",
+      "review": "Erfasst; noch nicht vollständig inhaltlich ausgewertet"
+    },
+    {
+      "id": "archiv-5309377",
+      "title": "Protokoll der Sitzung des Generalrates vom 24. Juni 2024",
+      "date": "2024-10-01",
+      "url": "https://www.duedingen.ch/_doc/5309377",
+      "publicationUrl": "https://www.duedingen.ch/_rte/publikation/499930",
+      "pages": 18,
+      "sha256": "df2703174d377ecfb34b32aa22a1cb883269cd31fb6d0cce71c8d9967da153e5",
+      "review": "Erfasst; noch nicht vollständig inhaltlich ausgewertet"
+    },
+    {
+      "id": "archiv-6933547",
+      "title": "Protokoll der Sitzung des Generalrates vom 30. September 2024",
+      "date": "2024-12-10",
+      "url": "https://www.duedingen.ch/_doc/6933547",
+      "publicationUrl": "https://www.duedingen.ch/_rte/publikation/518641",
+      "pages": 42,
+      "sha256": "1cd739c2753a0d53343b4d0a840d39ede0c212aac43faea2bfd3c3489facd5c8",
+      "review": "Erfasst; noch nicht vollständig inhaltlich ausgewertet"
+    },
+    {
+      "id": "archiv-6933559",
+      "title": "Protokoll der Sitzung des Generalrates vom 9. Dezember 2024",
+      "date": "2025-02-25",
+      "url": "https://www.duedingen.ch/_doc/6933559",
+      "publicationUrl": "https://www.duedingen.ch/_rte/publikation/530806",
+      "pages": 38,
+      "sha256": "de2ee8c7484144e0c158aeda8b1e4db214df9175c6b286c34f46c022ce9c4db4",
+      "review": "Erfasst; noch nicht vollständig inhaltlich ausgewertet"
+    },
+    {
+      "id": "archiv-6933562",
+      "title": "Protokoll der Sitzung des Generalrates vom 24. Februar 2025",
+      "date": "2025-05-13",
+      "url": "https://www.duedingen.ch/_doc/6933562",
+      "publicationUrl": "https://www.duedingen.ch/_rte/publikation/547582",
+      "pages": 28,
+      "sha256": "83a8c00f033351878c8234a4f2e57229ece515a5c4d4912ed93ef535fd7421e7",
+      "review": "Ausgewählte Geschäfte im Detail ausgewertet"
+    },
+    {
+      "id": "archiv-6933574",
+      "title": "Protokoll der Sitzung des Generalrates vom 12. Mai 2025",
+      "date": "2025-07-01",
+      "url": "https://www.duedingen.ch/_doc/6933574",
+      "publicationUrl": "https://www.duedingen.ch/_rte/publikation/560314",
+      "pages": 40,
+      "sha256": "689e12e4b080cdaa7fb06fd1a0b55ae4e6dec6308897e22595edcd33c2450fb0",
+      "review": "Ausgewählte Geschäfte im Detail ausgewertet"
+    },
+    {
+      "id": "archiv-6933577",
+      "title": "Protokoll der Sitzung des Generalrates vom 30. Juni 2025",
+      "date": "2025-12-16",
+      "url": "https://www.duedingen.ch/_doc/6933577",
+      "publicationUrl": "https://www.duedingen.ch/_rte/publikation/573013",
+      "pages": 23,
+      "sha256": "7fe2aded1521d80c3b8ce74bf46f6c1339035da5c45202134dfb77d2c252ab69",
+      "review": "Erfasst; noch nicht vollständig inhaltlich ausgewertet"
+    },
+    {
+      "id": "archiv-6933583",
+      "title": "Protokoll der Sitzung des Generalrates vom 15. Dezember 2025",
+      "date": "2026-03-03",
+      "url": "https://www.duedingen.ch/_doc/6933583",
+      "publicationUrl": "https://www.duedingen.ch/_rte/publikation/603626",
+      "pages": 53,
+      "sha256": "2513dfe79fc17b7a172762a83c4ae1698e8aa4442a6c542bfe1cecbcdc734687",
+      "review": "Ausgewählte Geschäfte im Detail ausgewertet"
+    },
+    {
+      "id": "archiv-6959149",
+      "title": "Protokoll der Sitzung des Generalrates vom 2. März 2026",
+      "date": "2026-03-24",
+      "url": "https://www.duedingen.ch/_doc/6959149",
+      "publicationUrl": "https://www.duedingen.ch/_rte/publikation/614038",
+      "pages": 20,
+      "sha256": "d1a31e5f3bc0a796bae0d8d6af3fdcb50c09b21f5e57bcf0811452313613e5dc",
+      "review": "Erfasst; noch nicht vollständig inhaltlich ausgewertet"
+    },
+    {
+      "id": "archiv-7090243",
+      "title": "Protokoll der Sitzung des Generalrates vom 20. April 2026",
+      "date": "2026-06-30",
+      "url": "https://www.duedingen.ch/_doc/7090243",
+      "publicationUrl": "https://www.duedingen.ch/_rte/publikation/624721",
+      "pages": 48,
+      "sha256": "18660c3cf9a748db6c415006f83680d826bc575b858c1cdd12a602e000ab2a34",
+      "review": "Ausgewählte Geschäfte im Detail ausgewertet"
+    },
+    {
+      "id": "archiv-7090249",
+      "title": "Protokoll der Sitzung des Generalrates vom 18. Mai 2026",
+      "date": "2026-06-30",
+      "url": "https://www.duedingen.ch/_doc/7090249",
+      "publicationUrl": "https://www.duedingen.ch/_rte/publikation/624724",
+      "pages": 15,
+      "sha256": "29d3fb12a64067e01952a880a750dc58a98116407f1fd1f8d46b3971e97990b1",
+      "review": "Erfasst; noch nicht vollständig inhaltlich ausgewertet"
+    },
+    {
+      "id": "archiv-7272157",
+      "title": "Protokoll der Sitzung des Generalrates vom 29. Juni 2026",
+      "date": "2026-10-06",
+      "url": "https://www.duedingen.ch/_doc/7272157",
+      "publicationUrl": "https://www.duedingen.ch/_rte/publikation/636052",
+      "pages": 26,
+      "sha256": "d269f6577295396ab30e24975c2f23d9680521a83cbf7e47b7843efcf9b9d91a",
+      "review": "Ausgewählte Geschäfte im Detail ausgewertet"
+    }
+  ]
+}

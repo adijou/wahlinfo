@@ -1,0 +1,655 @@
+{
+  "schemaVersion": 1,
+  "version": "2026-10-06.2",
+  "updated": "2026-10-06",
+  "title": "Düdingen im Blick",
+  "release": "research-preview",
+  "operator": {
+    "name": "",
+    "contact": ""
+  },
+  "election": {
+    "date": "2026-10-25",
+    "verified": true,
+    "listsVerified": true,
+    "note": "Termin im amtlichen Mitteilungsblatt Oktober 2026, Seite 3, bestätigt. Die sechs Listen wurden mit den bereinigten Wahlvorschlägen vom 21. September 2026 abgeglichen.",
+    "source": "wahl-2026",
+    "dateSource": "wahltermin-2026"
+  },
+  "method": {
+    "minQuestions": 4,
+    "minTopics": 3
+  },
+  "answerLabels": [
+    "Stimme voll zu",
+    "Stimme eher zu",
+    "Teils / teils",
+    "Stimme eher nicht zu",
+    "Stimme überhaupt nicht zu"
+  ],
+  "parties": [
+    {
+      "id": "mitte",
+      "name": "Die Mitte",
+      "comparable": true,
+      "note": "Liste 1 der Generalratswahl vom 25. Oktober 2026. Verglichen werden dokumentierte frühere Positionen, keine Wahlversprechen.",
+      "listNumber": 1,
+      "sources": [
+        "wahl-2026"
+      ]
+    },
+    {
+      "id": "fdp",
+      "name": "FDP. Die Liberalen",
+      "comparable": true,
+      "note": "Liste 3 der Generalratswahl vom 25. Oktober 2026. Verglichen werden dokumentierte frühere Positionen, keine Wahlversprechen.",
+      "listNumber": 3,
+      "sources": [
+        "wahl-2026"
+      ]
+    },
+    {
+      "id": "fwd",
+      "name": "Freie Wähler Düdingen",
+      "comparable": true,
+      "note": "Liste 4 der Generalratswahl vom 25. Oktober 2026. Verglichen werden dokumentierte frühere Positionen, keine Wahlversprechen.",
+      "listNumber": 4,
+      "sources": [
+        "wahl-2026"
+      ]
+    },
+    {
+      "id": "gemeinsam",
+      "name": "Mitte Links, Grüne, glp",
+      "comparable": true,
+      "note": "Liste 7 der Generalratswahl vom 25. Oktober 2026. Verglichen werden dokumentierte frühere Positionen, keine Wahlversprechen. Historische Liste 2021: Gemeinsam weiter (ML-CSP, GLP, GP).",
+      "listNumber": 7,
+      "sources": [
+        "wahl-2026"
+      ]
+    },
+    {
+      "id": "sp",
+      "name": "SP Düdingen",
+      "comparable": true,
+      "note": "Liste 2 der Generalratswahl vom 25. Oktober 2026. Verglichen werden dokumentierte frühere Positionen, keine Wahlversprechen.",
+      "listNumber": 2,
+      "sources": [
+        "wahl-2026"
+      ]
+    },
+    {
+      "id": "svp",
+      "name": "SVP Düdingen",
+      "comparable": true,
+      "note": "Liste 5 der Generalratswahl vom 25. Oktober 2026. Verglichen werden dokumentierte frühere Positionen, keine Wahlversprechen.",
+      "listNumber": 5,
+      "sources": [
+        "wahl-2026"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "p-6933562",
+      "title": "Generalratsprotokoll vom 24. Februar 2025",
+      "date": "2025-02-24",
+      "url": "https://www.duedingen.ch/_doc/6933562",
+      "type": "Generalratsprotokoll",
+      "publisher": "Gemeinde Düdingen",
+      "retrieved": "2026-10-06"
+    },
+    {
+      "id": "p-6933574",
+      "title": "Generalratsprotokoll vom 12. Mai 2025",
+      "date": "2025-05-12",
+      "url": "https://www.duedingen.ch/_doc/6933574",
+      "type": "Generalratsprotokoll",
+      "publisher": "Gemeinde Düdingen",
+      "retrieved": "2026-10-06"
+    },
+    {
+      "id": "p-6933583",
+      "title": "Generalratsprotokoll vom 15. Dezember 2025",
+      "date": "2025-12-15",
+      "url": "https://www.duedingen.ch/_doc/6933583",
+      "type": "Generalratsprotokoll",
+      "publisher": "Gemeinde Düdingen",
+      "retrieved": "2026-10-06"
+    },
+    {
+      "id": "p-7090243",
+      "title": "Generalratsprotokoll vom 20. April 2026",
+      "date": "2026-04-20",
+      "url": "https://www.duedingen.ch/_doc/7090243",
+      "type": "Generalratsprotokoll",
+      "publisher": "Gemeinde Düdingen",
+      "retrieved": "2026-10-06"
+    },
+    {
+      "id": "p-7272157",
+      "title": "Generalratsprotokoll vom 29. Juni 2026",
+      "date": "2026-06-29",
+      "url": "https://www.duedingen.ch/_doc/7272157",
+      "type": "Generalratsprotokoll",
+      "publisher": "Gemeinde Düdingen",
+      "retrieved": "2026-10-06"
+    },
+    {
+      "id": "listen-2021",
+      "title": "Mitteilungsblatt April 2021: Wahllisten und Sitzverteilung",
+      "date": "2021-04-01",
+      "url": "https://www.duedingen.ch/_docn/3040054/Mitteilungsblatt_April_2021.pdf",
+      "type": "Amtliches Mitteilungsblatt",
+      "publisher": "Gemeinde Düdingen",
+      "retrieved": "2026-10-06"
+    },
+    {
+      "id": "wahl-2026",
+      "title": "Bereinigte Wahlvorschläge: Generalrat am 25. Oktober 2026",
+      "date": "2026-09-21",
+      "url": "https://www.duedingen.ch/_doc/7241566",
+      "type": "Amtliches Kandidierendenverzeichnis",
+      "publisher": "Gemeinde Düdingen",
+      "retrieved": "2026-10-06"
+    },
+    {
+      "id": "wahltermin-2026",
+      "title": "Mitteilungsblatt Oktober 2026: Generalratswahlen (Seite 3)",
+      "date": "2026-10-01",
+      "url": "https://www.duedingen.ch/_doc/7263406",
+      "type": "Amtliches Mitteilungsblatt",
+      "publisher": "Gemeinde Düdingen",
+      "retrieved": "2026-10-06"
+    }
+  ],
+  "questions": [
+    {
+      "id": "mietzuschuss",
+      "topic": "Wohnen",
+      "text": "Düdingen soll Mietzuschüsse von bis zu 300 Franken pro Monat einführen.",
+      "context": "Anspruch hätten Menschen mit Krankenkassen-Prämienverbilligung und mindestens fünf Jahren Wohnsitz in Düdingen. Die Motion von Februar 2025 sah eine Überprüfung nach fünf Jahren vor. Als Finanzierung wurde beispielsweise ein Fonds aus der Liegenschaftssteuer genannt.",
+      "business": "Geschäft 147, Ziffer 5.1 · Motion Mietzinsverbilligung",
+      "active": true,
+      "weight": 1,
+      "sources": [
+        "p-6933562"
+      ],
+      "positions": {
+        "mitte": {
+          "value": 0,
+          "evidence": "medium",
+          "status": "checked",
+          "scope": "party",
+          "sources": [
+            "p-6933562"
+          ],
+          "locator": "S. 572; PDF-S. 16; Fraktionswortmeldung Manuel Aebischer",
+          "pdfPage": 16,
+          "reason": "Manuel Aebischer kündigte eine einstimmige Ablehnung der Mitte-Fraktion an. Genannt wurden unter anderem Zuständigkeit, Gleichbehandlung und Finanzierung."
+        },
+        "fdp": {
+          "value": null,
+          "evidence": "none",
+          "status": "checked",
+          "scope": "unknown",
+          "sources": [],
+          "locator": "",
+          "pdfPage": null,
+          "reason": "Im ausgewerteten Geschäft fehlt eine eindeutig zuordenbare Fraktionsposition."
+        },
+        "fwd": {
+          "value": null,
+          "evidence": "none",
+          "status": "checked",
+          "scope": "joint-faction",
+          "sources": [
+            "p-6933562"
+          ],
+          "locator": "S. 573; PDF-S. 17",
+          "pdfPage": 17,
+          "reason": "Nur die gemeinsame Fraktion FWD/glp/ML-CSP/Grüne ist dokumentiert. Daraus wird kein eigener Parteiwert abgeleitet. Nathalie Schneuwly kündigte für die gemeinsame Fraktion eine grossmehrheitliche Ablehnung an."
+        },
+        "gemeinsam": {
+          "value": null,
+          "evidence": "none",
+          "status": "checked",
+          "scope": "joint-faction",
+          "sources": [
+            "p-6933562"
+          ],
+          "locator": "S. 573; PDF-S. 17",
+          "pdfPage": 17,
+          "reason": "Nur die gemeinsame Fraktion FWD/glp/ML-CSP/Grüne ist dokumentiert. Daraus wird kein eigener Parteiwert abgeleitet. Nathalie Schneuwly kündigte für die gemeinsame Fraktion eine grossmehrheitliche Ablehnung an."
+        },
+        "sp": {
+          "value": 100,
+          "evidence": "medium",
+          "status": "checked",
+          "scope": "party",
+          "sources": [
+            "p-6933562"
+          ],
+          "locator": "S. 570–572; PDF-S. 14–16; gemeinsame Motion und Einleitung Sandy Weder",
+          "pdfPage": 14,
+          "reason": "Die acht SP-Mitglieder reichten die Motion gemeinsam ein; Sandy Weder begründete sie ausdrücklich für die SP."
+        },
+        "svp": {
+          "value": null,
+          "evidence": "none",
+          "status": "checked",
+          "scope": "unknown",
+          "sources": [],
+          "locator": "",
+          "pdfPage": null,
+          "reason": "Im ausgewerteten Geschäft fehlt eine eindeutig zuordenbare Fraktionsposition."
+        }
+      }
+    },
+    {
+      "id": "basisstufe",
+      "topic": "Bildung",
+      "text": "Düdingen soll ab 2027/28 vier Basisstufenklassen einführen.",
+      "context": "In der Basisstufe lernen Kinder aus Kindergarten und den ersten zwei Primarschuljahren gemeinsam. Das Geschäft sah vier Klassen, zusätzliche Lehrpersonen und jährlich höchstens 260’000 Franken sowie einmalig 30’000 Franken vor. Andere Klassen bleiben im bisherigen Modell.",
+      "business": "Geschäft 155 · Einführung der Basisstufe",
+      "active": true,
+      "weight": 1,
+      "sources": [
+        "p-6933574"
+      ],
+      "positions": {
+        "mitte": {
+          "value": 100,
+          "evidence": "medium",
+          "status": "checked",
+          "scope": "party",
+          "sources": [
+            "p-6933574"
+          ],
+          "locator": "S. 609–610; PDF-S. 25–26; Fraktionswortmeldung Antonietta Burri",
+          "pdfPage": 25,
+          "reason": "Antonietta Burri kündigte die einstimmige Zustimmung der Mitte zum Verpflichtungskredit an."
+        },
+        "fdp": {
+          "value": 100,
+          "evidence": "medium",
+          "status": "checked",
+          "scope": "party",
+          "sources": [
+            "p-6933574"
+          ],
+          "locator": "S. 611; PDF-S. 27; Fraktionswortmeldung David Bossart",
+          "pdfPage": 27,
+          "reason": "David Bossart kündigte eine mehrheitliche Zustimmung der FDP an; die Fraktion verlangte Begleitung und Auswertung und verwies auf wiederkehrende Kosten."
+        },
+        "fwd": {
+          "value": null,
+          "evidence": "none",
+          "status": "checked",
+          "scope": "joint-faction",
+          "sources": [
+            "p-6933574"
+          ],
+          "locator": "S. 613; PDF-S. 29",
+          "pdfPage": 29,
+          "reason": "Nur die gemeinsame Fraktion FWD/glp/ML-CSP/Grüne ist dokumentiert. Daraus wird kein eigener Parteiwert abgeleitet. Die gemeinsame Fraktion unterstützte die Einführung in ihrer Wortmeldung."
+        },
+        "gemeinsam": {
+          "value": null,
+          "evidence": "none",
+          "status": "checked",
+          "scope": "joint-faction",
+          "sources": [
+            "p-6933574"
+          ],
+          "locator": "S. 613; PDF-S. 29",
+          "pdfPage": 29,
+          "reason": "Nur die gemeinsame Fraktion FWD/glp/ML-CSP/Grüne ist dokumentiert. Daraus wird kein eigener Parteiwert abgeleitet. Die gemeinsame Fraktion unterstützte die Einführung in ihrer Wortmeldung."
+        },
+        "sp": {
+          "value": 100,
+          "evidence": "medium",
+          "status": "checked",
+          "scope": "party",
+          "sources": [
+            "p-6933574"
+          ],
+          "locator": "S. 612–613; PDF-S. 28–29; Fraktionswortmeldung Katharina Dällenbach",
+          "pdfPage": 28,
+          "reason": "Katharina Dällenbach hielt ausdrücklich fest, dass die SP das Geschäft geschlossen unterstützt."
+        },
+        "svp": {
+          "value": 0,
+          "evidence": "medium",
+          "status": "checked",
+          "scope": "party",
+          "sources": [
+            "p-6933574"
+          ],
+          "locator": "S. 611; PDF-S. 27; Fraktionswortmeldung Jürg Mosimann",
+          "pdfPage": 27,
+          "reason": "Jürg Mosimann verlangte für die SVP, auf die vorgelegte Einführung zu verzichten und zuerst finanzielle, personelle und räumliche Grundlagen zu schaffen. Dies ist keine generelle Ablehnung des pädagogischen Modells."
+        }
+      }
+    },
+    {
+      "id": "ampelversuch",
+      "topic": "Verkehr",
+      "text": "Zwischen Bahnhof und Bahnhofzentrum soll eine Fussgängerampel für mindestens sechs Monate getestet werden.",
+      "context": "Düdingen sollte diesen Versuch beim Kanton beantragen. Die Motion wurde im Juni 2026 beraten; der Versuch war vor der Umsetzung von VALTRALOC vorgesehen. Zur Debatte standen ein rascher Test, zusätzlicher Aufwand und die Abstimmung mit dem beschlossenen Verkehrsprojekt.",
+      "business": "Geschäft 5, Ziffer 5.1 · Motion Ampeln beim Bahnhofzentrum",
+      "active": true,
+      "weight": 1,
+      "sources": [
+        "p-7272157"
+      ],
+      "positions": {
+        "mitte": {
+          "value": 0,
+          "evidence": "medium",
+          "status": "checked",
+          "scope": "party",
+          "sources": [
+            "p-7272157"
+          ],
+          "locator": "S. 36–37; PDF-S. 21–22; Fraktionswortmeldung Kuno Werro",
+          "pdfPage": 21,
+          "reason": "Kuno Werro kündigte eine mehrheitliche Ablehnung durch die Mitte an. Zuerst solle VALTRALOC umgesetzt und danach der Anpassungsbedarf geprüft werden."
+        },
+        "fdp": {
+          "value": null,
+          "evidence": "none",
+          "status": "checked",
+          "scope": "individual",
+          "sources": [
+            "p-7272157"
+          ],
+          "locator": "S. 34–35 und 38; PDF-S. 19–20 und 23",
+          "pdfPage": 19,
+          "reason": "Herbert Stadler (FDP) reichte die Motion ein und begründete sie. Der Text weist diese inhaltliche Position jedoch nicht ausdrücklich als Beschluss der ganzen FDP-Fraktion aus. Der Verschiebungsantrag der Fraktion belegt keine Zustimmung zum Inhalt."
+        },
+        "fwd": {
+          "value": null,
+          "evidence": "none",
+          "status": "checked",
+          "scope": "joint-faction",
+          "sources": [
+            "p-7272157"
+          ],
+          "locator": "S. 37; PDF-S. 22",
+          "pdfPage": 22,
+          "reason": "Nur die gemeinsame Fraktion FWD/glp/ML-CSP/Grüne ist dokumentiert. Daraus wird kein eigener Parteiwert abgeleitet. Die gemeinsame Fraktion lehnte den Versuch in der vorgelegten Form ab."
+        },
+        "gemeinsam": {
+          "value": null,
+          "evidence": "none",
+          "status": "checked",
+          "scope": "joint-faction",
+          "sources": [
+            "p-7272157"
+          ],
+          "locator": "S. 37; PDF-S. 22",
+          "pdfPage": 22,
+          "reason": "Nur die gemeinsame Fraktion FWD/glp/ML-CSP/Grüne ist dokumentiert. Daraus wird kein eigener Parteiwert abgeleitet. Die gemeinsame Fraktion lehnte den Versuch in der vorgelegten Form ab."
+        },
+        "sp": {
+          "value": 0,
+          "evidence": "medium",
+          "status": "checked",
+          "scope": "party",
+          "sources": [
+            "p-7272157"
+          ],
+          "locator": "S. 36; PDF-S. 21; Fraktionswortmeldung Anton Haymoz",
+          "pdfPage": 21,
+          "reason": "Anton Haymoz erklärte die Ablehnung durch die SP. Die Fraktion verwies auf VALTRALOC und die Kosten einer aussagekräftigen Versuchsauswertung."
+        },
+        "svp": {
+          "value": 100,
+          "evidence": "medium",
+          "status": "checked",
+          "scope": "party",
+          "sources": [
+            "p-7272157"
+          ],
+          "locator": "S. 37–38; PDF-S. 22–23; Fraktionswortmeldung Adrian Brügger",
+          "pdfPage": 22,
+          "reason": "Adrian Brügger kündigte eine einstimmige Zustimmung der SVP-Fraktion zum Ampelversuch an."
+        }
+      }
+    },
+    {
+      "id": "referendum",
+      "topic": "Mitbestimmung",
+      "text": "Bei neuen Gemeindeausgaben soll ein Referendum bereits bei einem Nettobetrag über 250’000 Franken möglich sein.",
+      "context": "Im Dezember 2025 wurde die bisherige Grenze von 5 Millionen Franken diskutiert. Ein Referendum ermöglicht eine Volksabstimmung, wenn genügend gültige Unterschriften gesammelt werden. Es löst nicht automatisch eine Abstimmung aus. Gefragt ist hier der konkrete Schwellenwert von 250’000 Franken.",
+      "business": "Geschäft 174 · Teilrevision Finanzreglement, Artikel 13",
+      "active": true,
+      "weight": 1,
+      "sources": [
+        "p-6933583"
+      ],
+      "positions": {
+        "mitte": {
+          "value": 0,
+          "evidence": "medium",
+          "status": "checked",
+          "scope": "party",
+          "sources": [
+            "p-6933583"
+          ],
+          "locator": "S. 678–679; PDF-S. 31–32; Änderungsantrag der Mitte-Fraktion",
+          "pdfPage": 31,
+          "reason": "Nicolas Bapst bezeichnete 250’000 Franken ausdrücklich als zu tief. Die Mitte-Fraktion beantragte eine Grenze von 3 Millionen Franken."
+        },
+        "fdp": {
+          "value": 100,
+          "evidence": "medium",
+          "status": "checked",
+          "scope": "party",
+          "sources": [
+            "p-6933583"
+          ],
+          "locator": "S. 674 und 677; PDF-S. 27 und 30; dokumentierte Vernehmlassung der FDP",
+          "pdfPage": 27,
+          "reason": "Die im Protokoll zusammengefasste Vernehmlassung nennt ausdrücklich den Vorschlag der FDP, die Schwelle auf 250’000 Franken zu senken. Die spätere Wortmeldung des Motionärs befürwortete als Kompromiss auch eine Million."
+        },
+        "fwd": {
+          "value": null,
+          "evidence": "none",
+          "status": "checked",
+          "scope": "joint-faction",
+          "sources": [
+            "p-6933583"
+          ],
+          "locator": "S. 674; PDF-S. 27",
+          "pdfPage": 27,
+          "reason": "Nur die gemeinsame Fraktion FWD/glp/ML-CSP/Grüne ist dokumentiert. Daraus wird kein eigener Parteiwert abgeleitet. In der Vernehmlassung sprach sich die Mehrheit für 5 Millionen oder allenfalls 2 bis 2,5 Millionen Franken aus. Einzelne Mitglieder befürworteten eine Million."
+        },
+        "gemeinsam": {
+          "value": null,
+          "evidence": "none",
+          "status": "checked",
+          "scope": "joint-faction",
+          "sources": [
+            "p-6933583"
+          ],
+          "locator": "S. 674; PDF-S. 27",
+          "pdfPage": 27,
+          "reason": "Nur die gemeinsame Fraktion FWD/glp/ML-CSP/Grüne ist dokumentiert. Daraus wird kein eigener Parteiwert abgeleitet. In der Vernehmlassung sprach sich die Mehrheit für 5 Millionen oder allenfalls 2 bis 2,5 Millionen Franken aus. Einzelne Mitglieder befürworteten eine Million."
+        },
+        "sp": {
+          "value": 0,
+          "evidence": "medium",
+          "status": "checked",
+          "scope": "party",
+          "sources": [
+            "p-6933583"
+          ],
+          "locator": "S. 674; PDF-S. 27; dokumentierte Vernehmlassung der SP",
+          "pdfPage": 27,
+          "reason": "Die dokumentierte Vernehmlassung der SP schlug 2,5 Millionen Franken vor und somit nicht die hier abgefragten 250’000 Franken. Der konkrete Schwellenwert ist eine redaktionelle Ja/Nein-Kodierung dieses Vorschlags."
+        },
+        "svp": {
+          "value": null,
+          "evidence": "none",
+          "status": "checked",
+          "scope": "unknown",
+          "sources": [],
+          "locator": "",
+          "pdfPage": null,
+          "reason": "Im ausgewerteten Geschäft fehlt eine eindeutig zuordenbare Fraktionsposition."
+        }
+      }
+    },
+    {
+      "id": "schulplanung",
+      "topic": "Bildung",
+      "text": "Die Schulhausplanung Wolfacker soll warten, bis eine Gesamtstrategie für die Sporthallen vorliegt.",
+      "context": "Im April 2026 ging es um den Projektierungskredit für ein Schulhaus mit ausserschulischer Betreuung und Einfachsporthalle. Die SVP verlangte eine Rückweisung wegen der noch offenen Sporthallenstrategie. Der Bedarf an zusätzlichen Schulräumen war dabei unbestritten.",
+      "business": "Geschäft 188 · Rückweisungsantrag zum Projektierungskredit Wolfacker",
+      "active": true,
+      "weight": 1,
+      "sources": [
+        "p-7090243"
+      ],
+      "positions": {
+        "mitte": {
+          "value": 0,
+          "evidence": "medium",
+          "status": "checked",
+          "scope": "party",
+          "sources": [
+            "p-7090243"
+          ],
+          "locator": "S. 749; PDF-S. 29; Fraktionswortmeldung Patrick Bächler",
+          "pdfPage": 29,
+          "reason": "Patrick Bächler unterstützte für die Mitte die sofortige Weiterplanung inklusive Einfachsporthalle und kündigte Zustimmung zum Projektierungskredit an."
+        },
+        "fdp": {
+          "value": null,
+          "evidence": "none",
+          "status": "checked",
+          "scope": "unknown",
+          "sources": [
+            "p-7090243"
+          ],
+          "locator": "S. 750; PDF-S. 30",
+          "pdfPage": 30,
+          "reason": "David Bossart äusserte Vorbehalte der FDP zum Umfang des Neubaus, aber keine eindeutige Position der Fraktion zur Rückweisung wegen der Sporthallenstrategie."
+        },
+        "fwd": {
+          "value": null,
+          "evidence": "none",
+          "status": "checked",
+          "scope": "joint-faction",
+          "sources": [
+            "p-7090243"
+          ],
+          "locator": "S. 750–751; PDF-S. 30–31",
+          "pdfPage": 30,
+          "reason": "Nur die gemeinsame Fraktion FWD/glp/ML-CSP/Grüne ist dokumentiert. Daraus wird kein eigener Parteiwert abgeleitet. Benedikt Fasel lehnte für die gemeinsame Fraktion die Rückweisung ab und kündigte einstimmige Zustimmung zum Kredit an."
+        },
+        "gemeinsam": {
+          "value": null,
+          "evidence": "none",
+          "status": "checked",
+          "scope": "joint-faction",
+          "sources": [
+            "p-7090243"
+          ],
+          "locator": "S. 750–751; PDF-S. 30–31",
+          "pdfPage": 30,
+          "reason": "Nur die gemeinsame Fraktion FWD/glp/ML-CSP/Grüne ist dokumentiert. Daraus wird kein eigener Parteiwert abgeleitet. Benedikt Fasel lehnte für die gemeinsame Fraktion die Rückweisung ab und kündigte einstimmige Zustimmung zum Kredit an."
+        },
+        "sp": {
+          "value": null,
+          "evidence": "none",
+          "status": "checked",
+          "scope": "individual",
+          "sources": [
+            "p-7090243"
+          ],
+          "locator": "S. 749–750; PDF-S. 29–30",
+          "pdfPage": 29,
+          "reason": "Eliane Aebischer sprach sich gegen die Rückweisung aus. Ihre Aussage über die gesamte SP-Fraktion bezieht sich ausdrücklich auf zusätzliche Hallen; eine verbindliche Fraktionsposition zur konkreten Rückweisung wird daraus nicht abgeleitet."
+        },
+        "svp": {
+          "value": 100,
+          "evidence": "medium",
+          "status": "checked",
+          "scope": "party",
+          "sources": [
+            "p-7090243"
+          ],
+          "locator": "S. 748–749; PDF-S. 28–29; Rückweisungsantrag SVP",
+          "pdfPage": 28,
+          "reason": "Marco Zbinden beantragte namens der SVP-Fraktion die Rückweisung. Die Sporthallenstrategie solle zuerst die mögliche kantonale Sonderschule berücksichtigen."
+        }
+      }
+    }
+  ],
+  "historicalProfiles": [
+    {
+      "id": "jld",
+      "name": "Junge Liste Düdingen",
+      "note": "In der amtlichen Liste für den 25. Oktober 2026 keine eigene Wahlliste. Frühere Positionen werden keiner anderen Partei übertragen.",
+      "positions": {
+        "mietzuschuss": {
+          "value": 0,
+          "evidence": "medium",
+          "status": "checked",
+          "scope": "party",
+          "sources": [
+            "p-6933562"
+          ],
+          "locator": "S. 572–573; PDF-S. 16–17; Fraktionswortmeldung Sven Krattinger",
+          "pdfPage": 16,
+          "reason": "Sven Krattinger kündigte eine grossmehrheitliche Ablehnung der JLD an. Die Fraktion unterstützte stattdessen den separaten Prüfauftrag zu bezahlbarem Wohnraum. Die persönliche Gegenposition von Sandro Tissi wird nicht der JLD zugerechnet."
+        },
+        "basisstufe": {
+          "value": 100,
+          "evidence": "medium",
+          "status": "checked",
+          "scope": "party",
+          "sources": [
+            "p-6933574"
+          ],
+          "locator": "S. 610–611; PDF-S. 26–27; Fraktionswortmeldung Carole Fasel",
+          "pdfPage": 26,
+          "reason": "Carole Fasel sprach sich im Namen der Jungen Liste ausdrücklich für die Einführung aus."
+        },
+        "ampelversuch": {
+          "value": null,
+          "evidence": "none",
+          "status": "checked",
+          "scope": "unknown",
+          "sources": [],
+          "locator": "",
+          "pdfPage": null,
+          "reason": "Im ausgewerteten Geschäft fehlt eine eindeutig zuordenbare Fraktionsposition."
+        },
+        "referendum": {
+          "value": null,
+          "evidence": "none",
+          "status": "checked",
+          "scope": "unknown",
+          "sources": [],
+          "locator": "",
+          "pdfPage": null,
+          "reason": "Im ausgewerteten Geschäft fehlt eine eindeutig zuordenbare Fraktionsposition."
+        },
+        "schulplanung": {
+          "value": null,
+          "evidence": "none",
+          "status": "checked",
+          "scope": "unknown",
+          "sources": [],
+          "locator": "",
+          "pdfPage": null,
+          "reason": "Im ausgewerteten Geschäft fehlt eine eindeutig zuordenbare Fraktionsposition."
+        }
+      }
+    }
+  ]
+}
