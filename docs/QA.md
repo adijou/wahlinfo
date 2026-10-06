@@ -1,5 +1,15 @@
 # Prüfprotokoll
 
+## Persönlicher Editor und Verantwortlichkeit · 07.10.2026
+
+Der Editor liegt in `local-editor/` und wird ausschliesslich über den lokalen Server mit `--editor` an `127.0.0.1:4174` ausgeliefert. Öffentliche Builds enthalten weder die HTML-Seite noch das Editor-Skript. Der Build ersetzt seine Ausgabe vollständig, damit auch bei einem erneuten lokalen Build keine alten Editor-Dateien zurückbleiben. Die Quelldateien sind weiterhin Teil des öffentlichen Repositories; geschützt wird hier die Trennung der ausgelieferten Website, nicht der Quellcode.
+
+28 automatische Tests erfolgreich. Zwei zusätzliche Prüfungen kontrollieren den Ausschluss des Editors, das Entfernen alter Ausgabedateien und den Erhalt der lokalen Redaktion. Statischer Build und Syntaxprüfung erfolgreich. HTTP-Prüfung der gebauten Website: `/editor.html`, `/editor.js` und `/local-editor/editor.html` liefern 404; die beiden Editor-Dateien am persönlichen lokalen Server liefern 200. Das mitgelieferte Favicon liefert ebenfalls 200.
+
+Browserprüfung: öffentliche Projektseite und Seitenfuss nennen Adrian Schwaller mit dem gewünschten LinkedIn-Link sowie digitalbell.ch mit Original-Favicon. Kein öffentlicher Editor-Link; keine nachgeladenen Drittanbieter-Bilder. Der persönliche Editor lädt erfolgreich und bestätigt sechs auswertbare Listen bei der Datenprüfung. Lokale Aufnahme: `output/projekt-verantwortlichkeit.png`.
+
+Favicon-Original: `https://digitalbell.ch/favicon-32x32.png`, im HTML der Website als Icon ausgewiesen, abgerufen am 07.10.2026. Unverändert lokal gespeichert; SHA-256 `3b9ec90f885cfbd238facbed15f788d9760df77e756377ce8d8d138a4bff2156`. Die fachlichen Positionen, Berechnung und der Quellenstand 2026-10-06.4 bleiben unverändert; lediglich die Verantwortlichkeit wurde in den Metadaten ergänzt.
+
 ## Quellen-Nachprüfung · Datenversion 2026-10-06.4
 
 26 automatische Tests erfolgreich, einschliesslich der unabhängigen Nachrechnung aller 7’776 Antwort-/Überspringen-Kombinationen. Die neue Regression prüft, dass die ausdrücklich im Namen der FDP-Fraktion eingereichte Ampelmotion in beide Richtungen in das Rating eingeht: Zustimmung erhöht, Ablehnung senkt die Nähe. Die FDP hat nun drei belegte Fragen. Das Rechercheverzeichnis wird auf konsistente Version, eindeutige Dokumente, Prüfsummen und gültige gelesene Seiten sowie die ersten Quellenfundstellen aller Positionen geprüft.

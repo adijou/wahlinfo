@@ -6,6 +6,7 @@
   "description": "Quellenbasierte politische Standortbestimmung für Düdingen",
   "scripts": {
     "dev": "node scripts/serve.mjs",
+    "editor": "node scripts/serve.mjs --editor",
     "build": "node scripts/build.mjs",
     "test": "node --test tests/*.test.mjs",
     "check:data": "node scripts/check-data.mjs"

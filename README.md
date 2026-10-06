@@ -12,7 +12,7 @@ Web-App zur politischen Standortbestimmung, umgesetzt in der freigegebenen Gesta
 - Quellenansicht mit Such- und Jahresfilter; Verzeichnis von 28 Protokollen sowie ein Rechercheverzeichnis mit 46 zusätzlich erschlossenen Botschaften, Vorstössen, Einladungen und Beilagen; Publikationszeitraum 2021–2026.
 - Rating je Liste auf ihren belegten Antworten, feste Bewertungsstufen, Gewichtungen, Mindestumfang, Gleichstände und mögliche Spannen bei Datenlücken.
 - Teilen über die Gerätefunktion bzw. Kopieren oder Textdownload. Keine Einzelantworten im Export.
-- Lokaler Inhaltseditor unter `/editor.html`: Fragen, Parteien, Positionen, Belege, Gewichte, Antworttexte und Parameter; JSON-Import und -Export.
+- Persönlicher Inhaltseditor ausserhalb der öffentlichen Website unter `local-editor/`: Fragen, Parteien, Positionen, Belege, Gewichte, Antworttexte und Parameter; JSON-Import und -Export.
 - Datenschutz- und Projektseiten, Fehlerseite, Tastaturbedienung, responsive Ansichten, Netlify-Konfiguration und automatische Tests.
 
 ## Lokal ansehen
@@ -53,13 +53,13 @@ Bei einem fehlerhaften Update den betreffenden GitHub-Commit rückgängig machen
 
 ## Daten pflegen
 
-1. In der App unten **Inhalte pflegen** öffnen.
+1. **Inhalte-pflegen.cmd** im Projektordner doppelklicken (Windows), alternativ `npm run editor` ausführen. Danach `http://127.0.0.1:4174/editor.html` öffnen. Das Fenster bleibt während der Bearbeitung offen.
 2. Felder anpassen. Neue Fragen zunächst inaktiv lassen, bis unterschiedliche Positionen ausreichend belegt sind.
 3. Mit **Daten prüfen** Quellenkennungen, Fundstellen, Gewichte und Zuordnungen kontrollieren.
 4. **Geprüfte Datei herunterladen** wählen; `public/data/politics.json` im Repository damit ersetzen.
 5. Datenversion aktualisieren, Änderung mit Quelle im Commit beschreiben, Tests und Build ausführen.
 
-Der Editor arbeitet vollständig lokal. Er hat keinen Serverzugriff; Besucher können damit die veröffentlichte Website nicht verändern. Ein Login ist deshalb nicht erforderlich. Nicht exportierte Änderungen gehen beim Schliessen verloren. **Entwurf sichern** ermöglicht einen Zwischenstand; fehlerhafte Entwürfe müssen vor dem Import bzw. Build korrigiert werden.
+Der Editor wird ausschliesslich vom lokalen Server mit `--editor` ausgeliefert, gebunden an `127.0.0.1`. Er befindet sich nicht in `public/` oder `dist/` und ist auf der öffentlichen Website auch über die direkte Adresse `/editor.html` nicht verfügbar. Ein öffentlicher Loginbereich wird nicht betrieben. Der Quellcode bleibt im öffentlichen GitHub-Repository lesbar; die Trennung betrifft die ausgelieferte Website, keine Geheimhaltung des Programmcodes. Der Editor hat keinen Schreibzugriff auf die veröffentlichte Website. Nicht exportierte Änderungen gehen beim Schliessen verloren. **Entwurf sichern** ermöglicht einen Zwischenstand; fehlerhafte Entwürfe müssen vor dem Import bzw. Build korrigiert werden.
 
 `scripts/prepare-data.py` dokumentiert die ursprüngliche redaktionelle Seed-Erstellung. Nach manuellen Änderungen nicht erneut ausführen: Es würde die JSON-Datei mit diesem ursprünglichen Stand überschreiben. Es ist kein Bestandteil des Builds. Die optionale Recherche benötigt Python und `pypdf`; Endnutzer und Netlify benötigen beides nicht.
 
@@ -77,7 +77,7 @@ Vor einer fachlichen Freigabe fehlen:
 
 - Weiterführende systematische Auswertung, besonders für die offenen Felder bei FDP und SVP. Nicht vorhandene Belege dürfen nicht ergänzt oder aus allgemeinen Parteiprogrammen abgeleitet werden.
 - Redaktionelle Gegenprüfung der Fragen, Interpretationen und historischen Zuordnung.
-- Benennung der verantwortlichen Person und des Korrekturkontakts sowie Ergänzung der Angaben zum konkreten Hostingbetrieb.
+- Ergänzung der Angaben zum konkreten Hostingbetrieb und dessen Aufbewahrung von Verbindungsdaten. Adrian Schwaller ist als Verantwortlicher mit seinem LinkedIn-Profil als Kontakt eingetragen.
 - Abschluss der Prüfung in weiteren Browsern und mit Screenreader, falls eine entsprechende Barrierefreiheitszusage gemacht werden soll.
 
 `release: "published"` wird vom Validator nur akzeptiert, wenn Verantwortlichkeit, bestätigte Wahldaten, dokumentierte Gegenprüfung (`review.reviewer`, `review.date`) und der Mindestumfang an Belegen für jede berücksichtigte Liste vorliegt. Eine technische Prüfung ersetzt keine fachliche Freigabe. Nach dieser Freigabe kann auch die Suchmaschinen-Sperre in `public/index.html` entfernt werden.
@@ -91,6 +91,8 @@ Gerundete Prozente: 80–100 sehr gut, 60–79 gut, 40–59 teilweise, 20–39 w
 Gemeinsame Fraktionen stehen in `jointGroups` mit Kennung, Name und Listenkennungen. Zugehörige Positionen tragen `scope: "joint-faction"` und `jointGroup`. Der Validator verlangt identische Werte und Belege für die beteiligten Listen. Die App benennt diese Herkunft im Rating, in den Details und im Export.
 
 Siehe [Quellen- und Kodierungsprüfung](docs/DATENPRUEFUNG.md), [Prüfprotokoll](docs/QA.md) und [Gestaltung](DESIGN.md).
+
+Verantwortlich: [Adrian Schwaller](https://ch.linkedin.com/in/adrian-schwaller-9ab92769). Erarbeitet mit der Unterstützung von [digitalbell.ch](https://digitalbell.ch); das Original-Favicon wird lokal mitgeliefert.
 
 Die Seite ruft nur eigene statische Dateien ab. Politische Antworten verbleiben im Arbeitsspeicher des aktuellen Browserdokuments. Keine Cookies, kein Local Storage, kein Tracking, keine extern geladenen Schriften oder Bilder.
 
