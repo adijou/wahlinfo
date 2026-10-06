@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "version": "2026-10-06.2",
+  "version": "2026-10-06.3",
   "updated": "2026-10-06",
   "title": "Düdingen im Blick",
   "release": "research-preview",
@@ -17,8 +17,8 @@
     "dateSource": "wahltermin-2026"
   },
   "method": {
-    "minQuestions": 4,
-    "minTopics": 3
+    "minQuestions": 2,
+    "minTopics": 2
   },
   "answerLabels": [
     "Stimme voll zu",
@@ -161,6 +161,24 @@
       "type": "Amtliches Mitteilungsblatt",
       "publisher": "Gemeinde Düdingen",
       "retrieved": "2026-10-06"
+    },
+    {
+      "id": "p-6933559",
+      "title": "Generalratsprotokoll vom 9. Dezember 2024",
+      "date": "2024-12-09",
+      "url": "https://www.duedingen.ch/_doc/6933559",
+      "type": "Generalratsprotokoll",
+      "publisher": "Gemeinde Düdingen",
+      "retrieved": "2026-10-06"
+    },
+    {
+      "id": "fdp-programm-2026",
+      "title": "FDP Düdingen: Themen der Generalratswahl vom 25. Oktober 2026",
+      "date": "2026-09-02",
+      "url": "https://www.fdp-sense.ch/sektionen/duedingen",
+      "type": "Lokale Parteiwebsite (ergänzender Hinweis, kein Wert)",
+      "publisher": "FDP Düdingen",
+      "retrieved": "2026-10-06"
     }
   ],
   "questions": [
@@ -168,7 +186,7 @@
       "id": "mietzuschuss",
       "topic": "Wohnen",
       "text": "Düdingen soll Mietzuschüsse von bis zu 300 Franken pro Monat einführen.",
-      "context": "Anspruch hätten Menschen mit Krankenkassen-Prämienverbilligung und mindestens fünf Jahren Wohnsitz in Düdingen. Die Motion von Februar 2025 sah eine Überprüfung nach fünf Jahren vor. Als Finanzierung wurde beispielsweise ein Fonds aus der Liegenschaftssteuer genannt.",
+      "context": "Anspruch hätten Menschen mit Krankenkassen-Prämienverbilligung und mindestens fünf Jahren Wohnsitz in Düdingen. Die im Februar 2025 behandelte Motion sah eine Überprüfung nach fünf Jahren vor. Als Finanzierung wurde beispielsweise ein Fonds aus der Liegenschaftssteuer genannt.",
       "business": "Geschäft 147, Ziffer 5.1 · Motion Mietzinsverbilligung",
       "active": true,
       "weight": 1,
@@ -199,8 +217,8 @@
           "reason": "Im ausgewerteten Geschäft fehlt eine eindeutig zuordenbare Fraktionsposition."
         },
         "fwd": {
-          "value": null,
-          "evidence": "none",
+          "value": 0,
+          "evidence": "medium",
           "status": "checked",
           "scope": "joint-faction",
           "sources": [
@@ -208,11 +226,12 @@
           ],
           "locator": "S. 573; PDF-S. 17",
           "pdfPage": 17,
-          "reason": "Nur die gemeinsame Fraktion FWD/glp/ML-CSP/Grüne ist dokumentiert. Daraus wird kein eigener Parteiwert abgeleitet. Nathalie Schneuwly kündigte für die gemeinsame Fraktion eine grossmehrheitliche Ablehnung an."
+          "reason": "Nathalie Schneuwly kündigte für die gemeinsame Fraktion eine grossmehrheitliche Ablehnung an. Dieser Wert beschreibt die gemeinsame Fraktion, keine separat belegte Haltung der einzelnen Liste.",
+          "jointGroup": "fwd-mitte-links"
         },
         "gemeinsam": {
-          "value": null,
-          "evidence": "none",
+          "value": 0,
+          "evidence": "medium",
           "status": "checked",
           "scope": "joint-faction",
           "sources": [
@@ -220,7 +239,8 @@
           ],
           "locator": "S. 573; PDF-S. 17",
           "pdfPage": 17,
-          "reason": "Nur die gemeinsame Fraktion FWD/glp/ML-CSP/Grüne ist dokumentiert. Daraus wird kein eigener Parteiwert abgeleitet. Nathalie Schneuwly kündigte für die gemeinsame Fraktion eine grossmehrheitliche Ablehnung an."
+          "reason": "Nathalie Schneuwly kündigte für die gemeinsame Fraktion eine grossmehrheitliche Ablehnung an. Dieser Wert beschreibt die gemeinsame Fraktion, keine separat belegte Haltung der einzelnen Liste.",
+          "jointGroup": "fwd-mitte-links"
         },
         "sp": {
           "value": 100,
@@ -244,7 +264,8 @@
           "pdfPage": null,
           "reason": "Im ausgewerteten Geschäft fehlt eine eindeutig zuordenbare Fraktionsposition."
         }
-      }
+      },
+      "shortLabel": "Mietzuschüsse"
     },
     {
       "id": "basisstufe",
@@ -283,8 +304,8 @@
           "reason": "David Bossart kündigte eine mehrheitliche Zustimmung der FDP an; die Fraktion verlangte Begleitung und Auswertung und verwies auf wiederkehrende Kosten."
         },
         "fwd": {
-          "value": null,
-          "evidence": "none",
+          "value": 100,
+          "evidence": "medium",
           "status": "checked",
           "scope": "joint-faction",
           "sources": [
@@ -292,11 +313,12 @@
           ],
           "locator": "S. 613; PDF-S. 29",
           "pdfPage": 29,
-          "reason": "Nur die gemeinsame Fraktion FWD/glp/ML-CSP/Grüne ist dokumentiert. Daraus wird kein eigener Parteiwert abgeleitet. Die gemeinsame Fraktion unterstützte die Einführung in ihrer Wortmeldung."
+          "reason": "Die gemeinsame Fraktion unterstützte die Einführung in ihrer Wortmeldung. Dieser Wert beschreibt die gemeinsame Fraktion, keine separat belegte Haltung der einzelnen Liste.",
+          "jointGroup": "fwd-mitte-links"
         },
         "gemeinsam": {
-          "value": null,
-          "evidence": "none",
+          "value": 100,
+          "evidence": "medium",
           "status": "checked",
           "scope": "joint-faction",
           "sources": [
@@ -304,7 +326,8 @@
           ],
           "locator": "S. 613; PDF-S. 29",
           "pdfPage": 29,
-          "reason": "Nur die gemeinsame Fraktion FWD/glp/ML-CSP/Grüne ist dokumentiert. Daraus wird kein eigener Parteiwert abgeleitet. Die gemeinsame Fraktion unterstützte die Einführung in ihrer Wortmeldung."
+          "reason": "Die gemeinsame Fraktion unterstützte die Einführung in ihrer Wortmeldung. Dieser Wert beschreibt die gemeinsame Fraktion, keine separat belegte Haltung der einzelnen Liste.",
+          "jointGroup": "fwd-mitte-links"
         },
         "sp": {
           "value": 100,
@@ -330,7 +353,8 @@
           "pdfPage": 27,
           "reason": "Jürg Mosimann verlangte für die SVP, auf die vorgelegte Einführung zu verzichten und zuerst finanzielle, personelle und räumliche Grundlagen zu schaffen. Dies ist keine generelle Ablehnung des pädagogischen Modells."
         }
-      }
+      },
+      "shortLabel": "Basisstufe"
     },
     {
       "id": "ampelversuch",
@@ -358,19 +382,20 @@
         },
         "fdp": {
           "value": null,
-          "evidence": "none",
+          "evidence": "low",
           "status": "checked",
           "scope": "individual",
           "sources": [
-            "p-7272157"
+            "p-7272157",
+            "fdp-programm-2026"
           ],
           "locator": "S. 34–35 und 38; PDF-S. 19–20 und 23",
           "pdfPage": 19,
-          "reason": "Herbert Stadler (FDP) reichte die Motion ein und begründete sie. Der Text weist diese inhaltliche Position jedoch nicht ausdrücklich als Beschluss der ganzen FDP-Fraktion aus. Der Verschiebungsantrag der Fraktion belegt keine Zustimmung zum Inhalt."
+          "reason": "Herbert Stadler (FDP) reichte die Motion ein und begründete sie. Der Text weist diese inhaltliche Position jedoch nicht ausdrücklich als Beschluss der ganzen FDP-Fraktion aus. Der Verschiebungsantrag der Fraktion belegt keine Zustimmung zum Inhalt. Ergänzend fordert die lokale Parteiwebsite vom 2. September 2026, die Fussgängerampel weiterzuverfolgen. Sie legt sich jedoch nicht ausdrücklich auf den hier abgefragten sechsmonatigen Versuch vor VALTRALOC fest. Deshalb bleibt der konkrete Wert offen."
         },
         "fwd": {
-          "value": null,
-          "evidence": "none",
+          "value": 0,
+          "evidence": "medium",
           "status": "checked",
           "scope": "joint-faction",
           "sources": [
@@ -378,11 +403,12 @@
           ],
           "locator": "S. 37; PDF-S. 22",
           "pdfPage": 22,
-          "reason": "Nur die gemeinsame Fraktion FWD/glp/ML-CSP/Grüne ist dokumentiert. Daraus wird kein eigener Parteiwert abgeleitet. Die gemeinsame Fraktion lehnte den Versuch in der vorgelegten Form ab."
+          "reason": "Die gemeinsame Fraktion lehnte den Versuch in der vorgelegten Form ab. Dieser Wert beschreibt die gemeinsame Fraktion, keine separat belegte Haltung der einzelnen Liste.",
+          "jointGroup": "fwd-mitte-links"
         },
         "gemeinsam": {
-          "value": null,
-          "evidence": "none",
+          "value": 0,
+          "evidence": "medium",
           "status": "checked",
           "scope": "joint-faction",
           "sources": [
@@ -390,7 +416,8 @@
           ],
           "locator": "S. 37; PDF-S. 22",
           "pdfPage": 22,
-          "reason": "Nur die gemeinsame Fraktion FWD/glp/ML-CSP/Grüne ist dokumentiert. Daraus wird kein eigener Parteiwert abgeleitet. Die gemeinsame Fraktion lehnte den Versuch in der vorgelegten Form ab."
+          "reason": "Die gemeinsame Fraktion lehnte den Versuch in der vorgelegten Form ab. Dieser Wert beschreibt die gemeinsame Fraktion, keine separat belegte Haltung der einzelnen Liste.",
+          "jointGroup": "fwd-mitte-links"
         },
         "sp": {
           "value": 0,
@@ -416,7 +443,8 @@
           "pdfPage": 22,
           "reason": "Adrian Brügger kündigte eine einstimmige Zustimmung der SVP-Fraktion zum Ampelversuch an."
         }
-      }
+      },
+      "shortLabel": "Ampelversuch"
     },
     {
       "id": "referendum",
@@ -455,28 +483,32 @@
           "reason": "Die im Protokoll zusammengefasste Vernehmlassung nennt ausdrücklich den Vorschlag der FDP, die Schwelle auf 250’000 Franken zu senken. Die spätere Wortmeldung des Motionärs befürwortete als Kompromiss auch eine Million."
         },
         "fwd": {
-          "value": null,
-          "evidence": "none",
+          "value": 0,
+          "evidence": "medium",
           "status": "checked",
           "scope": "joint-faction",
           "sources": [
+            "p-6933559",
             "p-6933583"
           ],
-          "locator": "S. 674; PDF-S. 27",
-          "pdfPage": 27,
-          "reason": "Nur die gemeinsame Fraktion FWD/glp/ML-CSP/Grüne ist dokumentiert. Daraus wird kein eigener Parteiwert abgeleitet. In der Vernehmlassung sprach sich die Mehrheit für 5 Millionen oder allenfalls 2 bis 2,5 Millionen Franken aus. Einzelne Mitglieder befürworteten eine Million."
+          "locator": "09.12.2024: S. 551; PDF-S. 33; Fraktionswortmeldung Philippe Bossart. 15.12.2025: S. 674; PDF-S. 27; Vernehmlassung",
+          "pdfPage": 33,
+          "reason": "Philippe Bossart hielt 2024 ausdrücklich die Einigkeit der gemeinsamen Fraktion gegen eine Grenze von 250’000 Franken fest. 2025 lag der Mehrheitsvorschlag weiterhin bei höheren Grenzen. Der Wert gilt für das gemeinsame Fraktionsprofil, nicht als separater Beschluss der einzelnen Liste.",
+          "jointGroup": "fwd-mitte-links"
         },
         "gemeinsam": {
-          "value": null,
-          "evidence": "none",
+          "value": 0,
+          "evidence": "medium",
           "status": "checked",
           "scope": "joint-faction",
           "sources": [
+            "p-6933559",
             "p-6933583"
           ],
-          "locator": "S. 674; PDF-S. 27",
-          "pdfPage": 27,
-          "reason": "Nur die gemeinsame Fraktion FWD/glp/ML-CSP/Grüne ist dokumentiert. Daraus wird kein eigener Parteiwert abgeleitet. In der Vernehmlassung sprach sich die Mehrheit für 5 Millionen oder allenfalls 2 bis 2,5 Millionen Franken aus. Einzelne Mitglieder befürworteten eine Million."
+          "locator": "09.12.2024: S. 551; PDF-S. 33; Fraktionswortmeldung Philippe Bossart. 15.12.2025: S. 674; PDF-S. 27; Vernehmlassung",
+          "pdfPage": 33,
+          "reason": "Philippe Bossart hielt 2024 ausdrücklich die Einigkeit der gemeinsamen Fraktion gegen eine Grenze von 250’000 Franken fest. 2025 lag der Mehrheitsvorschlag weiterhin bei höheren Grenzen. Der Wert gilt für das gemeinsame Fraktionsprofil, nicht als separater Beschluss der einzelnen Liste.",
+          "jointGroup": "fwd-mitte-links"
         },
         "sp": {
           "value": 0,
@@ -500,18 +532,20 @@
           "pdfPage": null,
           "reason": "Im ausgewerteten Geschäft fehlt eine eindeutig zuordenbare Fraktionsposition."
         }
-      }
+      },
+      "shortLabel": "Referendum"
     },
     {
       "id": "schulplanung",
       "topic": "Bildung",
       "text": "Die Schulhausplanung Wolfacker soll warten, bis eine Gesamtstrategie für die Sporthallen vorliegt.",
-      "context": "Im April 2026 ging es um den Projektierungskredit für ein Schulhaus mit ausserschulischer Betreuung und Einfachsporthalle. Die SVP verlangte eine Rückweisung wegen der noch offenen Sporthallenstrategie. Der Bedarf an zusätzlichen Schulräumen war dabei unbestritten.",
-      "business": "Geschäft 188 · Rückweisungsantrag zum Projektierungskredit Wolfacker",
+      "context": "Die Frage, ob die Schulplanung für eine Sporthallenstrategie warten soll, wurde im Dezember 2024 und im April 2026 beraten. Zuletzt ging es um den Projektierungskredit für ein Schulhaus mit Betreuung und Einfachsporthalle. Zusätzliche Schulräume waren unbestritten; umstritten war die Reihenfolge der Planung.",
+      "business": "Schulplanung Wolfacker · Rückweisungsanträge 2024 (Geschäft 137) und 2026 (Geschäft 188)",
       "active": true,
       "weight": 1,
       "sources": [
-        "p-7090243"
+        "p-7090243",
+        "p-6933559"
       ],
       "positions": {
         "mitte": {
@@ -532,15 +566,16 @@
           "status": "checked",
           "scope": "unknown",
           "sources": [
-            "p-7090243"
+            "p-7090243",
+            "p-6933559"
           ],
           "locator": "S. 750; PDF-S. 30",
           "pdfPage": 30,
-          "reason": "David Bossart äusserte Vorbehalte der FDP zum Umfang des Neubaus, aber keine eindeutige Position der Fraktion zur Rückweisung wegen der Sporthallenstrategie."
+          "reason": "David Bossart äusserte Vorbehalte der FDP zum Umfang des Neubaus, aber keine eindeutige Position der Fraktion zur Rückweisung wegen der Sporthallenstrategie. Im Dezember 2024 galt Stimmfreigabe zum damaligen Projekt. Diese wird nicht als politische Mittelposition gewertet."
         },
         "fwd": {
-          "value": null,
-          "evidence": "none",
+          "value": 0,
+          "evidence": "medium",
           "status": "checked",
           "scope": "joint-faction",
           "sources": [
@@ -548,11 +583,12 @@
           ],
           "locator": "S. 750–751; PDF-S. 30–31",
           "pdfPage": 30,
-          "reason": "Nur die gemeinsame Fraktion FWD/glp/ML-CSP/Grüne ist dokumentiert. Daraus wird kein eigener Parteiwert abgeleitet. Benedikt Fasel lehnte für die gemeinsame Fraktion die Rückweisung ab und kündigte einstimmige Zustimmung zum Kredit an."
+          "reason": "Benedikt Fasel lehnte für die gemeinsame Fraktion die Rückweisung ab und kündigte einstimmige Zustimmung zum Kredit an. Dieser Wert beschreibt die gemeinsame Fraktion, keine separat belegte Haltung der einzelnen Liste.",
+          "jointGroup": "fwd-mitte-links"
         },
         "gemeinsam": {
-          "value": null,
-          "evidence": "none",
+          "value": 0,
+          "evidence": "medium",
           "status": "checked",
           "scope": "joint-faction",
           "sources": [
@@ -560,19 +596,20 @@
           ],
           "locator": "S. 750–751; PDF-S. 30–31",
           "pdfPage": 30,
-          "reason": "Nur die gemeinsame Fraktion FWD/glp/ML-CSP/Grüne ist dokumentiert. Daraus wird kein eigener Parteiwert abgeleitet. Benedikt Fasel lehnte für die gemeinsame Fraktion die Rückweisung ab und kündigte einstimmige Zustimmung zum Kredit an."
+          "reason": "Benedikt Fasel lehnte für die gemeinsame Fraktion die Rückweisung ab und kündigte einstimmige Zustimmung zum Kredit an. Dieser Wert beschreibt die gemeinsame Fraktion, keine separat belegte Haltung der einzelnen Liste.",
+          "jointGroup": "fwd-mitte-links"
         },
         "sp": {
-          "value": null,
-          "evidence": "none",
+          "value": 0,
+          "evidence": "medium",
           "status": "checked",
-          "scope": "individual",
+          "scope": "party",
           "sources": [
-            "p-7090243"
+            "p-6933559"
           ],
-          "locator": "S. 749–750; PDF-S. 29–30",
-          "pdfPage": 29,
-          "reason": "Eliane Aebischer sprach sich gegen die Rückweisung aus. Ihre Aussage über die gesamte SP-Fraktion bezieht sich ausdrücklich auf zusätzliche Hallen; eine verbindliche Fraktionsposition zur konkreten Rückweisung wird daraus nicht abgeleitet."
+          "locator": "S. 533–534; PDF-S. 15–16; Eliane Aebischer ausdrücklich im Namen der SP",
+          "pdfPage": 15,
+          "reason": "Bereits am 9. Dezember 2024 erklärte Eliane Aebischer ausdrücklich für die SP die Ablehnung der Rückweisung und die geschlossene Unterstützung der Weiterplanung. Die Sporthallenstrategie sollte den Schulneubau nicht verzögern. Das ist ein belegter früherer Fraktionsstandpunkt, kein Nachweis einer namentlichen Abstimmung 2026."
         },
         "svp": {
           "value": 100,
@@ -586,7 +623,8 @@
           "pdfPage": 28,
           "reason": "Marco Zbinden beantragte namens der SVP-Fraktion die Rückweisung. Die Sporthallenstrategie solle zuerst die mögliche kantonale Sonderschule berücksichtigen."
         }
-      }
+      },
+      "shortLabel": "Schulplanung"
     }
   ],
   "historicalProfiles": [
@@ -650,6 +688,16 @@
           "reason": "Im ausgewerteten Geschäft fehlt eine eindeutig zuordenbare Fraktionsposition."
         }
       }
+    }
+  ],
+  "jointGroups": [
+    {
+      "id": "fwd-mitte-links",
+      "name": "Gemeinsame Fraktion FWD / glp / Mitte Links / Grüne",
+      "members": [
+        "fwd",
+        "gemeinsam"
+      ]
     }
   ]
 }

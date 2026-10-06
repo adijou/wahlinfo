@@ -1,5 +1,19 @@
 # Prüfprotokoll
 
+## Rating-Update · Datenversion 2026-10-06.3
+
+24 automatische Tests erfolgreich. Darin werden alle 7’776 Kombinationen aus fünf Antworten und Überspringen über die fünf Fragen geprüft: unabhängige Nachrechnung, Grenzen 0–100, Gleichheit der gemeinsamen Fraktionsprofile, Mindestumfang je Liste und ein Rating für alle sechs Listen bei vollständiger Beantwortung. Zusätzlich geprüft: feste Stufen und Rundungsgrenzen, Dezimalgewichte, neutrale Antworten ohne künstlichen Gewinner, unterschiedliche Belegabdeckung, Spannen einschliesslich übersprungener Fragen, Export mit Herkunft und Grenzen sowie Ablehnung widersprüchlicher gemeinsamer Profile im Editor.
+
+Browserprüfung der aktualisierten Ergebnisansicht in Chromium: vollständiger Fragebogen; alle sechs Ratings sichtbar; «Warum dieses Rating?» mit passenden Quellen und gemeinsamen Fraktionshinweisen; Änderung einer Antwort; Überspringen der Referendumsfrage lässt fünf andere Ratings stehen, während nur die FDP wegen eines verbleibenden Belegs kein Rating erhält. Neuladen verwirft Antworten. Keine Warnungen oder Fehler im Browserprotokoll.
+
+Responsive Prüfung bei 320, 390, 768, 1280 und 1440 px: keine horizontale Überbreite; Rating und Belegabdeckung sichtbar; Originalquellen und Details bedienbar. Die kompakte Darstellung zeigt Erklärungen und Einzelwerte auf Anfrage. Die Desktopvorschau verwendet künstlich gewählte Testantworten, keine Antworten des Auftraggebers.
+
+Editor: gültiger Datensatz meldet «6 von 6 Listen»; abweichender Wert nur bei einer Hälfte der gemeinsamen Fraktion wird abgewiesen; nach Rückkorrektur wieder gültig. Keine Veröffentlichung durch den Editor.
+
+Build und Syntaxprüfung erfolgreich. Der nachfolgende Abschnitt dokumentiert den ursprünglichen Stand und seine damalige, inzwischen ersetzte Gesamtsperre. Methodische Grenzen des neuen Ratings stehen in `DATENPRUEFUNG.md` und direkt in der App.
+
+## Historisch: erste Rechercheversion · Datenversion 2026-10-06.2
+
 06.10.2026 · Gestaltung C «Klartext» · lokale Rechercheversion.
 
 ## Automatische Prüfungen

@@ -2,7 +2,7 @@
 
 Web-App zur politischen Standortbestimmung, umgesetzt in der freigegebenen Gestaltung **C – Klartext**. Statische Website für Netlify, ohne externe Laufzeitbibliotheken, Benutzerkonten oder Speicherung politischer Antworten.
 
-**Stand: funktionsfähige Rechercheversion, noch keine fachlich freigegebene Wahlhilfe.** Fünf Fragen zeigen 14 belegte Parteipositionen. Für eine faire Gesamtrangfolge fehlen getrennte Belege für alle Listen. Die App zeigt deshalb Vergleiche pro Frage und erklärt die Lücken. Sie erzeugt keine erfundenen Gesamtwerte.
+**Stand: Rechercheversion mit funktionierendem Rating für alle sechs Listen.** Fünf beantwortete Fragen ergeben je Liste einen Prozentwert und eine Stufe von «Sehr gut passend» bis «Gar nicht passend». Die Belegbasis, gemeinsame Fraktionsprofile und verbleibende Lücken sind direkt sichtbar. Die unabhängige redaktionelle Gegenprüfung ist offen.
 
 ## Enthalten
 
@@ -10,7 +10,7 @@ Web-App zur politischen Standortbestimmung, umgesetzt in der freigegebenen Gesta
 - Vergleich aller sechs amtlichen Listen für die Generalratswahl am **25. Oktober 2026**.
 - Je Frage: eigene Antwort, belegte Position, Nähe, Herleitung, Evidenzgrad und Originalquelle mit Seitenangabe.
 - Quellenansicht mit Such- und Jahresfilter; Verzeichnis von 28 Protokollen, Publikationszeitraum 2021–2026.
-- Transparentes Matching, Gewichtungen, Mindestumfang, Gleichstände und Sperre bei ungenügender gemeinsamer Grundlage.
+- Rating je Liste auf ihren belegten Antworten, feste Bewertungsstufen, Gewichtungen, Mindestumfang, Gleichstände und mögliche Spannen bei Datenlücken.
 - Teilen über die Gerätefunktion bzw. Kopieren oder Textdownload. Keine Einzelantworten im Export.
 - Lokaler Inhaltseditor unter `/editor.html`: Fragen, Parteien, Positionen, Belege, Gewichte, Antworttexte und Parameter; JSON-Import und -Export.
 - Datenschutz- und Projektseiten, Fehlerseite, Tastaturbedienung, responsive Ansichten, Netlify-Konfiguration und automatische Tests.
@@ -67,22 +67,26 @@ Der Editor arbeitet vollständig lokal. Er hat keinen Serverzugriff; Besucher k�
 
 Die sechs Listen sind anhand des [amtlichen Kandidierendenverzeichnisses vom 21.09.2026](https://www.duedingen.ch/_doc/7241566) abgeglichen: Die Mitte, SP, FDP, Freie Wähler Düdingen, SVP sowie Mitte Links/Grüne/glp. Der [amtliche Oktober-Mitteilungsblatt, Seite 3](https://www.duedingen.ch/_doc/7263406), bestätigt den Termin. Die frühere Junge Liste ist keine eigene aktuelle Liste; ihre Positionen werden keiner anderen Partei übertragen.
 
-28 Protokolle sind erfasst, **nicht vollständig ausgewertet**. Fünf ausgewählte Sitzungen von Februar 2025 bis Juni 2026 bilden die aktuelle Fragenbasis. Alle 14 verwendeten Parteikodierungen haben mittlere Evidenz: eindeutige Fraktionsaussagen oder ausdrücklich zugeordnete Anträge/Vernehmlassungen, keine namentlichen Abstimmungsnachweise. Aus Gesamtresultaten werden keine Parteistimmen errechnet.
+28 Protokolle sind erfasst, **nicht vollständig ausgewertet**. Sechs ausgewählte Sitzungen von Dezember 2024 bis Juni 2026 bilden die aktuelle Fragenbasis. 25 von 30 Listen-Frage-Feldern sind auswertbar: 15 eigene Positionen und 10 Zuordnungen aus fünf gemeinsamen Fraktionspositionen. Alle verwendeten Kodierungen haben mittlere Evidenz: eindeutige Fraktionsaussagen oder ausdrücklich zugeordnete Anträge/Vernehmlassungen, keine namentlichen Abstimmungsnachweise. Aus Gesamtresultaten werden keine Parteistimmen errechnet.
 
-FWD und Mitte Links/Grüne/glp bildeten eine gemeinsame Fraktion. Deren Aussagen sind in den Details lesbar, werden jedoch nicht als zwei separate Parteipositionen gezählt. Mit der aktuellen Datenlage gibt es daher **keine gemeinsam belegte Frage für alle sechs Listen**. Der Rechenweg funktioniert und ist getestet; die Rangfolge bleibt aus fachlichen Gründen gesperrt.
+FWD und Mitte Links/Grüne/glp erhalten dasselbe ausdrücklich gekennzeichnete **gemeinsame Fraktionsprofil**. Das Rating trennt diese beiden Listen nicht. Eigene Positionen sind bei Mitte und SP für fünf, bei SVP für drei und bei FDP für zwei Fragen belegt. Die fünf fehlenden Felder bleiben offen; Einzelmeinungen und allgemeine Programme werden nicht zu konkreten Beschlüssen umgedeutet. Eine Lücke sperrt nicht mehr die gesamte Auswertung.
 
 Vor einer fachlichen Freigabe fehlen:
 
-- Weiterführende systematische Auswertung und eine ausreichend breite, für alle Listen vergleichbare Belegbasis. Nicht vorhandene Belege dürfen nicht ergänzt oder aus allgemeinen Parteiprogrammen abgeleitet werden.
+- Weiterführende systematische Auswertung, besonders für die offenen Felder bei FDP und SVP. Nicht vorhandene Belege dürfen nicht ergänzt oder aus allgemeinen Parteiprogrammen abgeleitet werden.
 - Redaktionelle Gegenprüfung der Fragen, Interpretationen und historischen Zuordnung.
 - Benennung der verantwortlichen Person und des Korrekturkontakts sowie Ergänzung der Angaben zum konkreten Hostingbetrieb.
 - Abschluss der Prüfung in weiteren Browsern und mit Screenreader, falls eine entsprechende Barrierefreiheitszusage gemacht werden soll.
 
-`release: "published"` wird vom Validator nur akzeptiert, wenn Verantwortlichkeit, bestätigte Wahldaten, dokumentierte Gegenprüfung (`review.reviewer`, `review.date`) und eine ausreichende gemeinsame Vergleichsbasis vorliegen. Eine technische Prüfung ersetzt keine fachliche Freigabe. Nach dieser Freigabe kann auch die Suchmaschinen-Sperre in `public/index.html` entfernt werden.
+`release: "published"` wird vom Validator nur akzeptiert, wenn Verantwortlichkeit, bestätigte Wahldaten, dokumentierte Gegenprüfung (`review.reviewer`, `review.date`) und der Mindestumfang an Belegen für jede berücksichtigte Liste vorliegt. Eine technische Prüfung ersetzt keine fachliche Freigabe. Nach dieser Freigabe kann auch die Suchmaschinen-Sperre in `public/index.html` entfernt werden.
 
 ## Methodik und Prüfung
 
-Antworten: 100 / 75 / 50 / 25 / 0. Nähe: `100 − |Antwort − Parteiposition|`. Gesamtwert: gewichteter Mittelwert auf **denselben** belegten und beantworteten Fragen für alle Listen der festen Vergleichsgruppe. Mindestumfang: vier Fragen aus drei Bereichen. Alle Gewichte sind zunächst 1. Fehlende Angaben sind `null`, niemals 0; Einzelpersonen und gemeinsame Fraktionen sind von der Parteiberechnung ausgeschlossen.
+Antworten: 100 / 75 / 50 / 25 / 0. Nähe: `100 − |Antwort − Parteiposition|`. Passungswert: gewichteter Mittelwert der **je Liste** belegten beantworteten Fragen. Mindestumfang: zwei Fragen aus zwei Bereichen. Alle Gewichte sind zunächst 1. Fehlende Angaben sind `null`, niemals 0 oder 50. Eine Spanne berechnet für alle beantworteten Fragen die extremen möglichen Werte bei unbekannten Positionen; sie ist kein statistisches Vertrauensintervall. Bei Lücken lautet das Rating «vorläufig». Unterschiedliche Fragen können die Sortierung beeinflussen.
+
+Gerundete Prozente: 80–100 sehr gut, 60–79 gut, 40–59 teilweise, 20–39 wenig, 0–19 gar nicht passend. Keine relative Streckung auf 0–100; lauter mittlere Antworten ergeben bei den aktuellen Ja/Nein-Positionen überall 50 %. Gleiche gerundete Werte teilen den Rang und stehen alphabetisch.
+
+Gemeinsame Fraktionen stehen in `jointGroups` mit Kennung, Name und Listenkennungen. Zugehörige Positionen tragen `scope: "joint-faction"` und `jointGroup`. Der Validator verlangt identische Werte und Belege für die beteiligten Listen. Die App benennt diese Herkunft im Rating, in den Details und im Export.
 
 Siehe [Quellen- und Kodierungsprüfung](docs/DATENPRUEFUNG.md), [Prüfprotokoll](docs/QA.md) und [Gestaltung](DESIGN.md).
 

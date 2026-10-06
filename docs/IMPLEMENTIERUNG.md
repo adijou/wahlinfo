@@ -16,7 +16,7 @@ Variante C umsetzen: klare Typografie, weiss/schwarz/kobaltblau und nachvollzieh
 
 ## Fertigstellung
 - Konsistenz mit DESIGN.md; funktionsfähige Navigation, Fragen, Ergebnisse, Quellenlinks, Export und Editor.
-- Reproduzierbares Matching mit gemeinsamer Datenbasis und klarer Anzeige unzureichender Evidenz.
+- Reproduzierbares Rating je Liste mit belegter Datenbasis, fünf festen Stufen, Gleichständen sowie Abdeckung und Spanne bei offenen Positionen. Gemeinsame Fraktionsprofile werden klar benannt.
 - Relevante Rechen- und Datentests bestanden; Browserprüfung der vier geforderten Grössen, Tastatur, Fehler und Überläufe.
 - Originalquellen, Datenlücken, Freigabestand und Betreiberangaben transparent dokumentiert.
 - GitHub-Ablage verifiziert; Netlify-Anleitung mit Rollback. Fachliche Lücken werden nicht als erfüllte Abnahme ausgegeben.
