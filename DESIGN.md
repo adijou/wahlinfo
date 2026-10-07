@@ -4,7 +4,7 @@ Freigegeben am 6. Oktober 2026: Variante C. Zielwahl laut Auftrag: Wiederholung 
 
 ## Gestaltung
 - Weiss #ffffff, Text #141414, Kobaltblau #244bc4, helle Fläche #eef2ff, Linien #d7dce5.
-- Markante, eng laufende Grotesk für Titel; gut lesbare serifenlose Textschrift. Lokale Schriften, keine externen Font-Anfragen.
+- Desktop: Titel, Fragen und Menü verwenden die normale Arial-/Helvetica-Standardschrift der Seite; keine schmalen Ersatzschriften oder künstlich verdichteten Buchstaben. Navigation normal, aktueller Eintrag hervorgehoben. Mobile behält die bisherige Typografie. Lokale Schriften, keine externen Font-Anfragen.
 - Desktop: schmale linke Navigation, grosszügige Hauptfläche; Split-Einstieg mit Quellenkette rechts. Mobile: kompakte Kopfzeile, einspaltig.
 - 8-Pixel-Abstandsrhythmus; Seitenabstand 24-64 Pixel. Textzeilen maximal 72 Zeichen.
 - Eckige Flächen, höchstens 3 Pixel Radius. Trennlinien statt dekorativer Kartenraster.

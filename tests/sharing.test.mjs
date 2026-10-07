@@ -14,6 +14,12 @@ test('default invitation is independent of private answers and contains only a p
  assert.equal(shareCardSvg(data,result),shareCardSvg(data,empty));
  const payload=sharePayload(data,result);
  assert.equal(payload.url,SHARE_URL);
+ assert.equal(payload.url,'https://duedingen-wahlen.ch/');
+ for(const personal of [false,true]){
+  const card=shareCardSvg(data,result,personal);
+  assert.ok(card.includes('duedingen-wahlen.ch'));
+  assert.ok(!card.includes('wahlinfo.netlify.app'));
+ }
  assert.equal(new URL(payload.url).search,'');assert.equal(new URL(payload.url).hash,'');
  assert.match(payload.text,/25\.10\.2026/);
  for(const party of data.parties)assert.ok(!payload.text.includes(party.name));
@@ -59,6 +65,9 @@ test('recipient preview has an absolute image URL and a real 1200 by 630 PNG',as
  const html=await readFile(new URL('../public/index.html',import.meta.url),'utf8');
  const imageUrl=html.match(/property="og:image" content="([^"]+)"/)[1];
  assert.equal(new URL(imageUrl).origin,new URL(SHARE_URL).origin);
+ assert.ok(html.includes(`rel="canonical" href="${SHARE_URL}"`));
+ assert.ok(html.includes(`property="og:url" content="${SHARE_URL}"`));
+ assert.ok(!html.includes('wahlinfo.netlify.app'));
  assert.ok(html.includes('name="twitter:card" content="summary_large_image"'));
  const png=await readFile(new URL('../public'+new URL(imageUrl).pathname,import.meta.url));
  assert.equal(png.subarray(0,8).toString('hex'),'89504e470d0a1a0a');

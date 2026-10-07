@@ -1,7 +1,7 @@
 import {esc} from './ui.js';
 
 // A public landing page, never the current result URL or locally entered answers.
-export const SHARE_URL='https://wahlinfo.netlify.app/';
+export const SHARE_URL='https://duedingen-wahlen.ch/';
 const blue='#244bc4', ink='#141414';
 const text=(x,y,size,value,fill=ink,weight=400)=>`<text x="${x}" y="${y}" font-family="Arial, Helvetica, sans-serif" font-size="${size}" font-weight="${weight}" fill="${fill}">${esc(value)}</text>`;
 const line=(y,color='#d7dce5')=>`<path d="M64 ${y}H1016" stroke="${color}"/>`;

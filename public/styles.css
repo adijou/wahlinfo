@@ -32,3 +32,14 @@ h1,h2,h3{font-weight:700;overflow-wrap:break-word}
 @media(max-width:1050px){.share-panel{padding:30px;gap:28px}.share-panel h2{font-size:38px}.share-lead{font-size:16px}.share-buttons{gap:8px}.share-panel .share-secondary{flex-basis:100%}.share-save{padding:8px 0}}
 @media(max-width:750px){.share-panel{grid-template-columns:minmax(0,1fr);padding:28px;gap:28px}.share-panel h2{font-size:43px}.share-figure{width:min(100%,340px);justify-self:center}.share-panel .share-secondary{flex-basis:auto}.result-shortcuts{justify-content:flex-start}}
 @media(max-width:400px){.share-panel{padding:22px;margin-top:32px}.share-panel h2{font-size:35px;letter-spacing:-1px}.share-panel .share-secondary{flex-basis:100%}.share-choice{font-size:14px}.share-lead{font-size:15px}}
+
+/* Use the readable body font on desktop, without condensed system-font fallbacks. */
+@media(min-width:651px){
+ :root{--heading:var(--body)}
+ h1,h2,h3,.wordmark{font-stretch:normal}
+ h1,h2,h3{letter-spacing:-.025em}
+ .hero h1{font-size:clamp(44px,4.3vw,64px)}
+ .question-main h1{font-size:clamp(30px,2.9vw,43px);line-height:1.2}
+ nav a{font-family:var(--body);font-size:18px;font-weight:400;line-height:1.4}
+ nav a.active{font-weight:700}
+}

@@ -53,6 +53,8 @@ Bei einem fehlerhaften Update den betreffenden GitHub-Commit rückgängig machen
 
 ## Teilen und Linkvorschau
 
+Öffentliche Adresse: **https://duedingen-wahlen.ch/**. Teilen, kopierte Einladungen, Kartenbeschriftung, Canonical-Adresse und Vorschaubilder verweisen auf diese Domain.
+
 Nach Frage fünf öffnet «Abschluss» direkt das Resultat. Antworten bleiben über die freiwillige Übersicht bearbeitbar; eine Änderung mit «Übernehmen» führt wieder zum Resultat. «Teilen» am Beginn des Resultats springt zum grossen Einladungsbereich am Ende.
 
 Die Voreinstellung enthält keine persönlichen Resultate. «Meine Resultate auf der Karte zeigen» ergänzt bewusst alle Listen mit Rating, Belegabdeckung, offenen Spannen und Kennzeichnung gemeinsamer Profile. Keine Einzelantworten und keine Antwortparameter im Link. Die Karte wird ausschliesslich lokal als SVG-Vorschau und PNG (1080 × 1350 px) erzeugt.

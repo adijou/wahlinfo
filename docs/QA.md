@@ -1,5 +1,13 @@
 # Prüfprotokoll
 
+## Eigene Domain und Desktop-Schrift · 07.10.2026
+
+Teilen-Link, Einladungs- und Ergebniskarte sowie Canonical-, Open-Graph- und Twitter-Adressen verwenden `https://duedingen-wahlen.ch/`. Die bestehenden Teilen-Tests prüfen zusätzlich die gewünschte Domain in Nachricht und beiden Karten und schliessen die alte Netlify-Adresse in den öffentlichen Metadaten aus. 33 Tests und Build erfolgreich.
+
+Die CSS-Stände der ersten GitHub-Fassung (`ee5834e`), vor dem Teilen-Update (`901f79d`) und danach (`8ba9214`) enthalten dieselbe bisherige Titel-/Menüschrift: Arial Narrow, Liberation Sans Narrow, Impact, sans-serif. Beim Teilen-Update wurden diese Regeln nicht geändert. Unterschiedlich vorhandene Systemschriften können deshalb Unterschiede zwischen Desktop und Mobilgerät erklären. Ab 651 px verwenden Titel und Desktop-Menü jetzt die normale Arial-/Helvetica-Schrift der Seite, ohne schmale Ersatzschrift und ohne Verdichtung. Starttitel und Fragen haben passende Grössen; Navigation normal, aktueller Eintrag hervorgehoben. Unterhalb dieses Breakpoints bleiben die bestehenden Regeln erhalten.
+
+Lokale Chromium-Prüfung: Startseite, Frage und Navigation auf Desktop mit berechneter Schrift Arial/Helvetica und normaler Breite; mobile Frage bei 390 px mit bisherigen Regeln. Beide Ansichten ohne horizontale Überbreite. Fünf-Fragen-Ablauf weiterhin direkt zum Resultat. Einladungskarte zeigt die neue Domain; bei in dieser Browsersitzung abgelehntem Zwischenablagezugriff enthält der markierbare Ersatztext den richtigen neuen Link. Keine Browserwarnungen oder -fehler. Desktopaufnahme: `output/schrift-desktop.jpg`. Keine direkte Netlify-Bereitstellung.
+
 ## Direkter Abschluss und Teilen · 07.10.2026
 
 Frage fünf führt mit «Abschluss» direkt zu den Resultaten. Auch Überspringen beendet den Durchlauf ohne Pflichtübersicht. «Antworten bearbeiten» bleibt erreichbar; «Übernehmen» aktualisiert das Resultat direkt. Im Browser mit künstlichen Antworten geprüft: Fehlermeldung bei leerer Auswahl, vollständiger Durchlauf, Überspringen, Bearbeiten und Verlust der Antworten beim Neuladen.
