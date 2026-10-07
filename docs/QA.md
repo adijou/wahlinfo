@@ -1,5 +1,15 @@
 # Prüfprotokoll
 
+## Direkter Abschluss und Teilen · 07.10.2026
+
+Frage fünf führt mit «Abschluss» direkt zu den Resultaten. Auch Überspringen beendet den Durchlauf ohne Pflichtübersicht. «Antworten bearbeiten» bleibt erreichbar; «Übernehmen» aktualisiert das Resultat direkt. Im Browser mit künstlichen Antworten geprüft: Fehlermeldung bei leerer Auswahl, vollständiger Durchlauf, Überspringen, Bearbeiten und Verlust der Antworten beim Neuladen.
+
+33 automatische Tests erfolgreich (28 bestehende und fünf neue Prüfungen). Die neuen Prüfungen sichern die private Voreinstellung, den öffentlichen Link ohne Antwortparameter, vollständige Listen samt Belegbasis und offenen Spannen, unveränderte Gleichstände, fehlende Ratings, HTML-/SVG-Escaping sowie Format und Abmessungen der Linkgrafik. Statischer Build und Syntaxprüfung erfolgreich. Die politischen Daten und die Berechnung bleiben unverändert.
+
+Browserprüfung in Chromium: sichtbarer Teilen-Bereich, Sprung vom Ergebnisanfang, Einladungs- und Ergebniskarte, explizites Zuschalten der persönlichen Ratings, deaktivierte Auswahl ohne berechenbares Rating, kopierter Text mit richtigem öffentlichem Link und lokal erzeugte PNG-Karte. Einladungskarte tatsächlich im Downloadordner geprüft (1080 × 1350 px); Linkgrafik 1200 × 630 px als echte PNG-Datei geprüft. Der Automationsbefehl zum Download-Warten lief in ein Timeout; die erzeugten Dateien wurden separat verifiziert. Desktop und schmale Ansicht (390 px Fensterbreite) ohne horizontale Überbreite; keine Browserwarnungen oder -fehler. Lokale Aufnahme: `output/teilen-ergebnis.jpg`.
+
+Die native Übergabe an WhatsApp, iOS/Android und andere Empfänger-Apps wurde nicht durch tatsächlichen Versand getestet. Datei-Teilen verwendet die Browser-Fähigkeitsprüfung, Text/Link und Bilddownload stehen separat bereit. Gespeicherte Linkvorschauen können nach der nächsten Netlify-Veröffentlichung noch einen älteren Stand zeigen. Keine direkte Netlify-Bereitstellung im Rahmen dieser Änderung.
+
 ## Persönlicher Editor und Verantwortlichkeit · 07.10.2026
 
 Der Editor liegt in `local-editor/` und wird ausschliesslich über den lokalen Server mit `--editor` an `127.0.0.1:4174` ausgeliefert. Öffentliche Builds enthalten weder die HTML-Seite noch das Editor-Skript. Der Build ersetzt seine Ausgabe vollständig, damit auch bei einem erneuten lokalen Build keine alten Editor-Dateien zurückbleiben. Die Quelldateien sind weiterhin Teil des öffentlichen Repositories; geschützt wird hier die Trennung der ausgelieferten Website, nicht der Quellcode.

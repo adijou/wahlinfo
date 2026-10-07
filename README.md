@@ -6,12 +6,12 @@ Web-App zur politischen Standortbestimmung, umgesetzt in der freigegebenen Gesta
 
 ## Enthalten
 
-- Startseite, fünf Fragen mit Antwortskala und Überspringen, Antwortübersicht, Änderungen und Zurücksetzen.
+- Startseite, fünf Fragen mit Antwortskala und Überspringen. «Abschluss» bei Frage fünf führt direkt zum Resultat; die Antwortübersicht bleibt über «Antworten bearbeiten» erreichbar.
 - Vergleich aller sechs amtlichen Listen für die Generalratswahl am **25. Oktober 2026**.
 - Je Frage: eigene Antwort, belegte Position, Nähe, Herleitung, Evidenzgrad und Originalquelle mit Seitenangabe.
 - Quellenansicht mit Such- und Jahresfilter; Verzeichnis von 28 Protokollen sowie ein Rechercheverzeichnis mit 46 zusätzlich erschlossenen Botschaften, Vorstössen, Einladungen und Beilagen; Publikationszeitraum 2021–2026.
 - Rating je Liste auf ihren belegten Antworten, feste Bewertungsstufen, Gewichtungen, Mindestumfang, Gleichstände und mögliche Spannen bei Datenlücken.
-- Teilen über die Gerätefunktion bzw. Kopieren oder Textdownload. Keine Einzelantworten im Export.
+- Prominenter Teilen-Bereich mit Einladung, Kartenvorschau, optionalen persönlichen Ratings, Gerätefunktion, Kopieren und PNG-Download. Eigene Einzelantworten bleiben privat. Linkvorschau mit eigener Grafik; ausführlicher Textdownload weiterhin verfügbar.
 - Persönlicher Inhaltseditor ausserhalb der öffentlichen Website unter `local-editor/`: Fragen, Parteien, Positionen, Belege, Gewichte, Antworttexte und Parameter; JSON-Import und -Export.
 - Datenschutz- und Projektseiten, Fehlerseite, Tastaturbedienung, responsive Ansichten, Netlify-Konfiguration und automatische Tests.
 
@@ -50,6 +50,18 @@ Die Einstellungen und Sicherheitsheader sind in `netlify.toml` vorbereitet. Alte
 Die aktuelle Fassung bleibt sichtbar eine Rechercheversion und enthält `noindex,nofollow`. Eine Veröffentlichung dieser Vorschau ist technisch möglich, erfüllt aber noch nicht die fachlichen Abnahmekriterien des Pflichtenhefts.
 
 Bei einem fehlerhaften Update den betreffenden GitHub-Commit rückgängig machen und den letzten geprüften Stand erneut bauen/veröffentlichen. Daten und Anwendung sollten immer gemeinsam auf einen passenden Stand zurückgesetzt werden.
+
+## Teilen und Linkvorschau
+
+Nach Frage fünf öffnet «Abschluss» direkt das Resultat. Antworten bleiben über die freiwillige Übersicht bearbeitbar; eine Änderung mit «Übernehmen» führt wieder zum Resultat. «Teilen» am Beginn des Resultats springt zum grossen Einladungsbereich am Ende.
+
+Die Voreinstellung enthält keine persönlichen Resultate. «Meine Resultate auf der Karte zeigen» ergänzt bewusst alle Listen mit Rating, Belegabdeckung, offenen Spannen und Kennzeichnung gemeinsamer Profile. Keine Einzelantworten und keine Antwortparameter im Link. Die Karte wird ausschliesslich lokal als SVG-Vorschau und PNG (1080 × 1350 px) erzeugt.
+
+«Jetzt teilen» nutzt das Geräte-Menü. Unterstützt der Browser das Teilen von Dateien, wird die Karte mitgegeben; andernfalls Text und Link. Die Empfänger-App entscheidet, welche Bestandteile sie übernimmt. «Text & Link kopieren» und «Karte speichern» stehen separat bereit. Ohne Zwischenablage-Zugriff erscheint markierbarer Text. Abbrechen löst keinen automatischen Download aus. Es werden keine Nachrichten automatisch versendet.
+
+Ein geteilter Link zeigt die allgemeine Einladung aus den Open-Graph-/Twitter-Metadaten und der lokalen Datei `public/assets/share-preview.png` (1200 × 630 px), keine persönlichen Ratings. Messenger müssen die neue Fassung nach dem Netlify-Build abrufen; bereits gespeicherte Vorschauen können noch den alten Stand zeigen. Auf realen Messenger-/Mobilgeräten wurde die Übernahme nicht geprüft.
+
+Bei einem Domainwechsel `SHARE_URL` in `public/share-card.js` sowie Canonical-, Open-Graph- und Twitter-URLs in `public/index.html` aktualisieren. Bei geänderten Wahldaten auch `socialPreviewSvg(data)` erneut als `public/assets/share-preview.svg` ausgeben und als PNG rasterisieren. Die statische Linkgrafik wird beim normalen Build nicht neu gerendert.
 
 ## Daten pflegen
 
